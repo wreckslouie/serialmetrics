@@ -127,6 +127,8 @@ body .full-width-button {
   width: 800px; }
 body #data-stack {
   margin: 30px 0; }
+  body #data-stack img {
+    width: 650px; }
 body #network-image {
   height: 400px;
   overflow: hidden; }

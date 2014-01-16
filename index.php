@@ -92,7 +92,7 @@
 	</a>
 
 	<div id="data-stack">
-		<img src="images/home_page/data-stack-v6_1.png">
+		<img src="images/home_page/data-stack-v6_5.png">
 	</div>
 
 	<div id="network-image">
