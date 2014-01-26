@@ -92,7 +92,7 @@
 	</a>
 
 	<div id="data-stack">
-		<img src="images/home_page/data-stack-v6_5.png">
+		<img src="images/home_page/data-stack-v6_7.png">
 	</div>
 
 	<div id="network-image">
@@ -100,7 +100,10 @@
 	</div>
 
 	<!-- Google Map Embed Code -->
-	<div id="map-canvas"/></div>
+	<iframe width="1680" height="400" frameborder="0" scrolling="no" marginheight="0" 
+	marginwidth="0" style="background-color:rgb(229,227,223);"
+	src="https://maps.google.com/maps/ms?msa=0&amp;msid=203123961827304078823.0004f07e9f20c4403cc04&amp;
+	ie=UTF8&amp;t=h&amp;ll=37.794322,-122.381859&amp;spn=0.023739,0.144196&amp;z=14&amp;output=embed"></iframe>
 
 	<footer>
 		<p>donec &bull; sapien &bull; erat &bull; lorem &bull; ipsum</p>

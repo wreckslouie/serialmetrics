@@ -126,11 +126,11 @@ body #modules-section div:nth-child(4), body #modules-section div:nth-child(5), 
 body .full-width-button {
   width: 800px; }
 body #data-stack {
-  margin: 30px 0; }
+  margin: 30px 0 -20px 0; }
   body #data-stack img {
-    width: 650px; }
+    width: 600px; }
 body #network-image {
-  height: 400px;
+  height: 500px;
   overflow: hidden; }
 body footer {
   padding: 40px; }
