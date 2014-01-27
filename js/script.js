@@ -1,8 +1,22 @@
 $(function(){
+	var sliding=false;
 	$('nav').hover(function(){
-		$('nav ul').slideDown(300);
+		if(sliding==false){
+			sliding=true;
+			$('nav ul').slideDown(300,function(){
+				sliding=false;
+			});
+		}
+		
 	},function(){
-		$('nav ul').slideUp(300);
+		if(sliding==false){
+			sliding=true;
+			$('nav ul').slideUp(300,function(){
+				sliding=false;
+			});
+		}
+
+		
 
 	});
 
