@@ -44,6 +44,9 @@
 
 </head>
 <body>
+	<div id="network-image">
+		<img src="images/home_page/network-flipped.png">
+	</div>
 
 	<nav>
 		<a>Serial Metrics</a>
@@ -101,10 +104,6 @@
 
 	<div id="data-stack">
 		<img src="images/home_page/data-stack-v6_7.png">
-	</div>
-
-	<div id="network-image">
-		<img src="images/home_page/network.png">
 	</div>
 
 	<!-- Google Map Embed Code -->
