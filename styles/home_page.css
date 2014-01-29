@@ -75,7 +75,7 @@ body {
   body h1, body h2 {
     text-transform: uppercase; }
   body h1 {
-    margin: 0px 0 0 0;
+    margin: 50px 0 0 0;
     font-size: 3.6em;
     font-weight: 100;
     letter-spacing: .05em; }
@@ -130,7 +130,7 @@ body #data-stack {
   body #data-stack img {
     width: 600px; }
 body #network-image {
-  height: 400px;
+  height: 300px;
   overflow: hidden; }
 body footer {
   padding: 40px; }
