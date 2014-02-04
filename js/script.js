@@ -15,9 +15,13 @@ $(function(){
 				sliding=false;
 			});
 		}
+	});
 
-		
-
+	$('#sixth-layer').hover(function(){
+		$('#data-stack').css('background-image','url("images/home_page/data-stack-sixth-lifted.png")');
+	});
+	$('#fifth-layer').hover(function(){
+		$('#data-stack').css('background-image','url("images/home_page/data-stack-fifth-lifted.png")');
 	});
 
 	

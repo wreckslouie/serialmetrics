@@ -126,10 +126,15 @@ body{
 	}
 
 	#data-stack{
-		margin: 30px 0 -20px 0;
-		img{
-			width: 600px;
-		}
+		margin: 0 auto;
+		padding-top:30px;
+		background-image: url('../images/home_page/data-stack.png');
+		width: 776px;
+		height: 779px;
+	}
+
+	#data-stack div{
+		height: 16.7%;
 	}
 
 	#network-image{

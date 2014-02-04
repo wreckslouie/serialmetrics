@@ -100,7 +100,12 @@
 	</a>
 
 	<div id="data-stack">
-		<img src="images/home_page/data-stack-v6_7.png">
+		<div id="sixth-layer"></div>
+		<div id="fifth-layer"></div>
+		<div id="fourth-layer"></div>
+		<div id="third-layer"></div>
+		<div id="second-layer"></div>
+		<div id="first-layer"></div>
 	</div>
 
 	<div id="network-image">
