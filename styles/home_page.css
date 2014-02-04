@@ -102,6 +102,26 @@ body {
         margin: 0 60px; }
       body #modules-section div img {
         margin: 0 0 5px 0; }
+  body #data-stack div {
+    position: relative; }
+  body #data-stack div:nth-child(1) {
+    background: url("../images/home_page/data_stack/sixth-layer.png") no-repeat;
+    z-index: 60; }
+  body #data-stack div:nth-child(2) {
+    background: url("../images/home_page/data_stack/fifth-layer.png") no-repeat;
+    z-index: 50; }
+  body #data-stack div:nth-child(3) {
+    background: url("../images/home_page/data_stack/fourth-layer.png") no-repeat;
+    z-index: 40; }
+  body #data-stack div:nth-child(4) {
+    background: url("../images/home_page/data_stack/third-layer.png") no-repeat;
+    z-index: 30; }
+  body #data-stack div:nth-child(5) {
+    background: url("../images/home_page/data_stack/second-layer.png") no-repeat;
+    z-index: 20; }
+  body #data-stack div:nth-child(6) {
+    background: url("../images/home_page/data_stack/first-layer.png") no-repeat;
+    z-index: 10; }
   body .full-width-button {
     display: inline-block;
     background-color: #414141;
@@ -129,13 +149,14 @@ body .full-width-button {
 body #data-stack {
   margin: 0 auto;
   padding-top: 30px;
-  background-image: url("../images/home_page/data-stack.png");
   width: 776px;
-  height: 779px; }
+  height: 679px; }
 body #data-stack div {
-  height: 16.7%; }
+  height: 160px;
+  margin-bottom: -70px;
+  vertical-align: baseline; }
 body #network-image {
-  height: 500px;
+  height: 400px;
   overflow: hidden; }
 body footer {
   padding: 40px; }

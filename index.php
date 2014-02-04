@@ -42,6 +42,29 @@
       google.maps.event.addDomListener(window, 'load', initialize);
     </script>
 
+    <!--Pre-load highlighted background images-->
+    <script type="text/javascript">
+
+	Layer1= new Image(776,159)
+	Layer1.src = "images/home_page/data_stack/first-layer-highlighted.png"
+
+	Layer2= new Image(776,159)
+	Layer2.src = "images/home_page/data_stack/second-layer-highlighted.png"
+
+	Layer3= new Image(776,159)
+	Layer3.src = "images/home_page/data_stack/third-layer-highlighted.png"
+
+	Layer4= new Image(776,159)
+	Layer4.src = "images/home_page/data_stack/fourth-layer-highlighted.png"
+
+	Layer5= new Image(776,159)
+	Layer5.src = "images/home_page/data_stack/fifth-layer-highlighted.png"
+
+	Layer6= new Image(776,159)
+	Layer6.src = "images/home_page/data_stack/sixth-layer-highlighted.png"
+
+	</script>
+
 </head>
 <body>
 
