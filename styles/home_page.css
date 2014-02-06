@@ -75,7 +75,7 @@ body {
   body h1, body h2 {
     text-transform: uppercase; }
   body h1 {
-    margin: 240px 0 0 0;
+    margin: 0px 0 0 0;
     font-size: 3.6em;
     font-weight: 100;
     letter-spacing: .05em; }
@@ -149,14 +149,14 @@ body .full-width-button {
 body #data-stack {
   margin: 0 auto;
   padding-top: 30px;
-  width: 776px;
+  width: 850px;
   height: 679px; }
 body #data-stack div {
   height: 160px;
   margin-bottom: -70px;
   vertical-align: baseline; }
 body #network-image {
-  height: 400px;
+  height: 300px;
   overflow: hidden; }
 body footer {
   padding: 40px; }
