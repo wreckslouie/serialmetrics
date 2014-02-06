@@ -67,6 +67,9 @@
 
 </head>
 <body>
+	<div id="network-image">
+		<img src="images/home_page/network.png">
+	</div>
 
 	<nav>
 		<a>Serial Metrics</a>
@@ -129,10 +132,6 @@
 		<div id="third-layer"></div>
 		<div id="second-layer"></div>
 		<div id="first-layer"></div>
-	</div>
-
-	<div id="network-image">
-		<img src="images/home_page/network.png">
 	</div>
 
 	<!-- Google Map Embed Code -->
