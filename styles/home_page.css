@@ -75,7 +75,7 @@ body {
   body h1, body h2 {
     text-transform: uppercase; }
   body h1 {
-    margin: 50px 0 0 0;
+    margin: 0px 0 0 0;
     font-size: 3.6em;
     font-weight: 100;
     letter-spacing: .05em; }
@@ -91,16 +91,37 @@ body {
   body #modules-section {
     max-width: 960px;
     width: 100%;
-    margin: 140px auto; }
+    margin: 50px auto; }
     body #modules-section div {
       display: inline-block;
       width: 250px;
       letter-spacing: .1em;
+      font-size: 0.9em;
       line-height: 1.7em; }
       body #modules-section div:nth-child(2), body #modules-section div:nth-child(5) {
         margin: 0 60px; }
       body #modules-section div img {
-        margin: 0 0 15px 0; }
+        margin: 0 0 5px 0; }
+  body #data-stack div {
+    position: relative; }
+  body #data-stack div:nth-child(1) {
+    background: url("../images/home_page/data_stack/sixth-layer.png") no-repeat;
+    z-index: 60; }
+  body #data-stack div:nth-child(2) {
+    background: url("../images/home_page/data_stack/fifth-layer.png") no-repeat;
+    z-index: 50; }
+  body #data-stack div:nth-child(3) {
+    background: url("../images/home_page/data_stack/fourth-layer.png") no-repeat;
+    z-index: 40; }
+  body #data-stack div:nth-child(4) {
+    background: url("../images/home_page/data_stack/third-layer.png") no-repeat;
+    z-index: 30; }
+  body #data-stack div:nth-child(5) {
+    background: url("../images/home_page/data_stack/second-layer.png") no-repeat;
+    z-index: 20; }
+  body #data-stack div:nth-child(6) {
+    background: url("../images/home_page/data_stack/first-layer.png") no-repeat;
+    z-index: 10; }
   body .full-width-button {
     display: inline-block;
     background-color: #414141;
@@ -122,13 +143,18 @@ body nav {
   top: 60px;
   left: 50px; }
 body #modules-section div:nth-child(4), body #modules-section div:nth-child(5), body #modules-section div:nth-child(6) {
-  margin-top: 90px; }
+  margin-top: 70px; }
 body .full-width-button {
   width: 800px; }
 body #data-stack {
-  margin: 30px 0 80px 0; }
-  body #data-stack img {
-    width: 600px; }
+  margin: 0 auto;
+  padding-top: 30px;
+  width: 850px;
+  height: 679px; }
+body #data-stack div {
+  height: 160px;
+  margin-bottom: -70px;
+  vertical-align: baseline; }
 body #network-image {
   height: 300px;
   overflow: hidden; }
