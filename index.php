@@ -2,7 +2,8 @@
 <html>
 <head>
 	<title>Serial Metrics</title>
-	<link rel="stylesheet" type="text/css" href="styles/home_page.css" >
+	<link rel="stylesheet" type="text/css" href="styles/home_page.css">
+	<link href='http://fonts.googleapis.com/css?family=Raleway:400,100' rel='stylesheet' type='text/css'>
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 	<script src="js/script.js"></script>
 
@@ -121,11 +122,28 @@
 		</div>
 	</div>
 
-	<a href="#" class="full-width-button">
-		Let's talk about metrics for your enterprise. Contact us >>
-	</a>
+	<div id="hadoop">
+		<img src="images/home_page/plug-icon.png">
+		<div class="divider"></div>
+		<h1>Hadoop Plugin</h1>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ut libero pellent, 
+		hendrerit arcu at, sceleri turpis. Integer nec odio et lectus posuere accumsan. Ut 
+		volut laoreet volutpat. Quisque vulputate, nisl ac placerat porttitor, sem metus 
+		blandit sem, ut gravida est ante eget urna. Mauris blandit semper risus, vitae 
+		sagittis massa sem.</p>
+	</div>
+
+	<form id="contact" name="contact" method="post">
+		<h1>Contact Us</h1>
+		<input type="text" id="name" name="name" placeholder="Name">
+		<input type="company" id="company" name="company" placeholder="Company">
+		<input type="email" id="email" name="email" placeholder="Email">
+		<input type="phone" id="phone" name="phone" placeholder="Phone">
+		<a href="#">Next >></a>
+	</form>
 
 	<div id="data-stack">
+		<h1>Process Model</h1>
 		<div id="sixth-layer"></div>
 		<div id="fifth-layer"></div>
 		<div id="fourth-layer"></div>

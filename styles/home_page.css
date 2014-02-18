@@ -55,6 +55,7 @@ body {
   text-align: center;
   background-color: #2e2f2e;
   font-family: "Raleway", sans-serif;
+  font-weight: 100;
   color: white; }
   body nav {
     position: absolute;
@@ -102,24 +103,55 @@ body {
         margin: 0 60px; }
       body #modules-section div img {
         margin: 0 0 5px 0; }
+  body #hadoop {
+    text-align: center; }
+    body #hadoop img {
+      margin: 0 auto; }
+    body #hadoop .divider {
+      border-top: 2px solid white; }
+    body #hadoop h1, body #hadoop p {
+      margin: 0 auto; }
+    body #hadoop h1 {
+      text-align: justify; }
+    body #hadoop p {
+      text-align: justify; }
+  body #contact {
+    width: 890px;
+    margin: 120px auto;
+    border: 2px solid white;
+    border-radius: 15px;
+    -moz-border-radius: 15px; }
+    body #contact h1 {
+      border-bottom: 1px solid white; }
+    body #contact input {
+      background-color: #2e2f2e;
+      border: 1px solid white;
+      border-radius: 5px;
+      -moz-border-radius: 5px; }
+    body #contact a {
+      display: block;
+      text-align: right;
+      text-transform: uppercase; }
+  body #data-stack h1 {
+    border-bottom: 1px solid white; }
   body #data-stack div {
     position: relative; }
-  body #data-stack div:nth-child(1) {
+  body #data-stack div:nth-child(2) {
     background: url("../images/home_page/data_stack/sixth-layer.png") no-repeat;
     z-index: 60; }
-  body #data-stack div:nth-child(2) {
+  body #data-stack div:nth-child(3) {
     background: url("../images/home_page/data_stack/fifth-layer.png") no-repeat;
     z-index: 50; }
-  body #data-stack div:nth-child(3) {
+  body #data-stack div:nth-child(4) {
     background: url("../images/home_page/data_stack/fourth-layer.png") no-repeat;
     z-index: 40; }
-  body #data-stack div:nth-child(4) {
+  body #data-stack div:nth-child(5) {
     background: url("../images/home_page/data_stack/third-layer.png") no-repeat;
     z-index: 30; }
-  body #data-stack div:nth-child(5) {
+  body #data-stack div:nth-child(6) {
     background: url("../images/home_page/data_stack/second-layer.png") no-repeat;
     z-index: 20; }
-  body #data-stack div:nth-child(6) {
+  body #data-stack div:nth-child(7) {
     background: url("../images/home_page/data_stack/first-layer.png") no-repeat;
     z-index: 10; }
   body .full-width-button {
@@ -144,13 +176,56 @@ body nav {
   left: 50px; }
 body #modules-section div:nth-child(4), body #modules-section div:nth-child(5), body #modules-section div:nth-child(6) {
   margin-top: 70px; }
+body #hadoop {
+  margin: 160px auto 80px;
+  width: 390px; }
+  body #hadoop .divider {
+    margin: 35px 0; }
+  body #hadoop h1, body #hadoop p {
+    width: 245px; }
+  body #hadoop h1 {
+    font-size: 1.45em;
+    letter-spacing: .2em; }
+  body #hadoop p {
+    margin-top: 35px;
+    margin-bottom: 35px;
+    letter-spacing: .03em;
+    line-height: 1.4em; }
+body #contact {
+  padding: 45px 60px; }
+  body #contact h1 {
+    width: 195px;
+    margin: 0 0 35px 45px;
+    padding-bottom: 10px;
+    font-size: 1.45em;
+    letter-spacing: .2em;
+    text-align: center; }
+  body #contact input {
+    width: 330px;
+    margin-bottom: 40px;
+    padding: 25px;
+    font-size: 1em;
+    color: white; }
+    body #contact input:nth-child(2), body #contact input:nth-child(4) {
+      margin-right: 80px; }
+  body #contact a {
+    font-size: 1.45em;
+    letter-spacing: .2em;
+    padding-right: 17px; }
 body .full-width-button {
   width: 800px; }
 body #data-stack {
   margin: 0 auto;
   padding-top: 30px;
   width: 850px;
-  height: 679px; }
+  height: 800px; }
+  body #data-stack h1 {
+    width: 250px;
+    margin: 0 0 45px 25px;
+    padding-bottom: 10px;
+    font-size: 1.45em;
+    letter-spacing: .2em;
+    text-align: center; }
 body #data-stack div {
   height: 160px;
   margin-bottom: -70px;
