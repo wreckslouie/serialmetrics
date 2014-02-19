@@ -5,15 +5,23 @@ $(function(){
 			sliding=true;
 			$('nav ul').slideDown(300,function(){
 				sliding=false;
+				$('nav ul').addClass('hover');
 			});
 		}
 		
 	},function(){
 		if(sliding==false){
+			$('nav ul').removeClass('hover');
 			sliding=true;
 			$('nav ul').slideUp(300,function(){
 				sliding=false;
 			});
+		}
+	});
+	$('nav ul').mouseleave(function(){
+		if($('nav ul').hasClass('hover')){
+			$('nav ul').slideUp(300);
+			$('nav ul').removeClass('hover');
 		}
 	});
 

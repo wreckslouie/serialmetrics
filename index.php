@@ -2,10 +2,8 @@
 <html>
 <head>
 	<title>Serial Metrics</title>
+	<?php include('includes/head_links.php'); ?>
 	<link rel="stylesheet" type="text/css" href="styles/home_page.css">
-	<link href='http://fonts.googleapis.com/css?family=Raleway:400,100' rel='stylesheet' type='text/css'>
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-	<script src="js/script.js"></script>
 
 	<!-- Scripts for Google Maps Integration -->
 	<script type="text/javascript"
@@ -72,15 +70,7 @@
 		<img src="images/home_page/network.png">
 	</div>
 
-	<nav>
-		<a>Serial Metrics</a>
-		<ul>
-			<li>Solutions</li>
-			<li>Methodology</li>
-			<li>Case Studies</li>
-			<li>Clients</li>
-		</ul>
-	</nav>
+	<?php include('includes/main_nav.php'); ?>
 
 	<h1>Serial Metrics</h1>
 	<h2>Machine Learning Solutions</h2>
@@ -155,10 +145,7 @@
 	<!-- Google Map Embed Code -->
 	<div id="map-canvas"></div>
 
-	<footer>
-		<p>donec &bull; sapien &bull; erat &bull; lorem &bull; ipsum</p>
-		<p>Serial Metrics | 1 Market Street, San Francisco | 555-555-5555</p>
-	</footer>
+	<?php include('includes/footer.php') ?>
 
 </body>
 </html>

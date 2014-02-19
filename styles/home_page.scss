@@ -1,38 +1,10 @@
 @import 'universal';
 
 body{
-
-
 	text-align:center;
 	background-color: $background-color;
-	font-family: $default-fonts;
 	font-weight:100;
 	color: $default-color;
-
-	nav{
-		position:absolute;
-		width: 120px;
-		font-size: .9em;
-		cursor:pointer;
-		line-height: 1.8em;
-
-		a{
-			background: url('../images/home_page/down-arrow.png') no-repeat 94% 40%;
-			text-align: left;
-			display: inline-block;
-			width: 100%;
-			
-		}
-
-		ul{
-			text-align: left;
-			display: none;
-
-			li:hover{
-				font-weight: bold;
-			}
-		}
-	}
 
 	h1,h2{
 		text-transform: uppercase;
@@ -193,11 +165,7 @@ body{
 //@media only screen and (min-width:1280px)
 
 body{
-	nav{
-		top:60px;
-		left: 50px;
 
-	}
 	#modules-section{
 		div{
 			&:nth-child(4),&:nth-child(5),&:nth-child(6){
@@ -291,23 +259,5 @@ body{
 	#network-image{
 		height: 300px;
 		overflow: hidden;
-	}
-
-	footer{
-		padding: 40px;
-
-		p{
-			margin: 40px 0;
-			font-size: .9em;
-		}
-
-		p:nth-child(1){
-			word-spacing:50px;
-		}
-
-		p:nth-child(2){
-			letter-spacing: .215em;
-			word-spacing: 7px;
-		}
 	}
 }

@@ -48,13 +48,12 @@ border-collapse: collapse;
 border-spacing: 0;
 }
 
-
 /*------ Universal Styles -------*/
 
 //Color palette
 $background-color: rgb(46,47,46);
 $default-color: white;
-$medium-gray: rgb(65,65,65);
+$medium-gray: rgb(70,76,87);
 $light-gray: rgb(95,95,95);
 
 //Typography
@@ -63,4 +62,107 @@ $default-fonts: 'Raleway',sans-serif;
 a, a:visited, a:hover{
 	color: white;
 	text-decoration: none;
+}
+
+.inside-page{
+	margin: 0 auto;
+
+	.main-content{
+		margin: 0 auto;
+	}
+
+	footer{
+		margin: 0 auto;
+	}
+}
+
+body{
+	font-family:$default-fonts;
+}
+
+nav{
+	position:absolute;
+	width: 120px;
+	font-size: .9em;
+	cursor:pointer;
+	line-height: 1.8em;
+
+	.drop-down{
+		background: url('../images/home_page/down-arrow.png') no-repeat 94% 40%;
+		text-align: left;
+		display: inline-block;
+		width: 100%;
+		
+	}
+
+	ul{
+		text-align: left;
+		display: none;
+
+		li:hover{
+			font-weight: bold;
+		}
+	}
+}
+
+
+/*----- Desktop Styles -----*/
+html{
+	background-color: $background-color;
+}
+.inside-page{
+	width:1280px;
+	padding: 85px 0;
+
+	.main-content{
+		width: 625px;
+	}
+
+	h1{
+		font-size: 2em;
+		margin: 25px 0 10px;
+	}
+
+	img{
+		padding: 25px 0;
+	}
+
+	p{
+		padding: 25px 0;
+		line-height: 2em;
+		text-align: justify;
+	}
+
+	footer{
+		width: 960px;
+
+		p{
+			text-align: center;
+			padding: 0;
+			margin: 30px 0;
+		}
+	}
+}
+
+nav{
+	top:60px;
+	left: 50px;
+}
+
+footer{
+	padding: 40px;
+
+	p{
+		margin: 40px 0;
+		font-size: .9em;
+	}
+
+	p:nth-child(1){
+		word-spacing:50px;
+	}
+
+	p:nth-child(2){
+		letter-spacing: .215em;
+		word-spacing: 7px;
+	}
 }
