@@ -2,17 +2,23 @@
 .inside-page{
 	background-color: white;
 	color: $medium-gray;
-}
-nav{
-	background-color: $medium-gray;
-	color: white;
-	font-family: $default-fonts;
-	border-radius: 8px;
-	-moz-border-radius: 8px;
-	a{
-		background-position: 94% 50%;
+
+	nav{
+		background-color: $medium-gray;
+		color: white;
+		font-family: $default-fonts;
+		border-radius: 8px;
+		-moz-border-radius: 8px;
+		a{
+			background-position: 94% 50%;
+		}
+	}
+
+	footer a{
+		color: $medium-gray;
 	}
 }
+
 
 /*------ Desktop Styles -----*/
 nav{

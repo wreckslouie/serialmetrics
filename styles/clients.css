@@ -112,8 +112,12 @@ footer {
   footer p {
     margin: 40px 0;
     font-size: .9em; }
-  footer p:nth-child(1) {
-    word-spacing: 50px; }
+  footer p:nth-child(1) a {
+    margin: 0px 40px; }
+    footer p:nth-child(1) a:nth-child(1) {
+      margin-left: 0px; }
+    footer p:nth-child(1) a:nth-last-child(1) {
+      margin-right: 0px; }
   footer p:nth-child(2) {
     letter-spacing: .215em;
     word-spacing: 7px; }
@@ -121,15 +125,16 @@ footer {
 .inside-page {
   background-color: white;
   color: #464c57; }
-
-nav {
-  background-color: #464c57;
-  color: white;
-  font-family: "Raleway", sans-serif;
-  border-radius: 8px;
-  -moz-border-radius: 8px; }
-  nav a {
-    background-position: 94% 50%; }
+  .inside-page nav {
+    background-color: #464c57;
+    color: white;
+    font-family: "Raleway", sans-serif;
+    border-radius: 8px;
+    -moz-border-radius: 8px; }
+    .inside-page nav a {
+      background-position: 94% 50%; }
+  .inside-page footer a {
+    color: #464c57; }
 
 /*------ Desktop Styles -----*/
 nav {
