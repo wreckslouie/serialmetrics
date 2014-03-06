@@ -21,8 +21,8 @@
 			solutions such as dynamic pricing, highly-targeted personalized recommendations, 
 			curated content, etc. With Serial Metrics, companies no longer need to address 
 			their data science issues with traditional in-house means to derive solutions 
-			from scratch; leveraging Serial Metrics&rdquo; suite of machine learning modules 
-			solves the most complex data science problems facing today&rdquo;s companies.
+			from scratch; leveraging Serial Metrics&rsquo; suite of machine learning modules 
+			solves the most complex data science problems facing today&rsquo;s companies.
 		</p>
 	</div>
 	<img src="images/client_page/sf_bay.jpg">
