@@ -3,75 +3,58 @@
 <head>
 	<title>Clients</title>
 	<?php include('includes/head_links.php'); ?>
-	<link rel="stylesheet" type="text/css" href="styles/company.css">
+	<link rel="stylesheet" type="text/css" href="styles/blog.css">
 </head>
 <body class="inside-page">
 	<?php include('includes/main_nav.php'); ?>
 	<div class="main-content">
 		<h1>Blog</h1>
-		<h2>Dec 1 2013</h2>
+		<h2>Simulations and the Role of Tacit vs. Explicit Knowledge Transfer</h2>
+		<h3>Amir Behbehani</h3>
 		<p>
-			Aliquam ac orci vel mi egestas molestie. Sed rhoncus, turpis ac bibendum 
-			condimentum, ante neque consequat sapien, posuere ornare quam massa at magna. 
-			Maecenas vitae vulputate ipsum. Proin quis velit non ante congue iaculis. Aenean 
-			vel lacus ac odio laoreet imperdiet ut quis tellus. Sed ut mattis odio, sed laoreet 
-			tortor. Nam fringilla viverra lorem a elementum. Donec ornare lectus non massa mollis, 
-			quis porta lectus gravida. Integer porta quam non lobortis elementum. Class aptent 
-			taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. 
-			Vestibulum et ornare ante. Sed ullamcorper rutrum sem nec ultricies. Suspendisse nec 
-			elementum elit, at dictum massa. Nam consectetur consectetur mattis.
+			The U.S. Bureau of Labor Statistics currently (as of Aug. 2011) ranks the unemployment rate at a seasonally adjusted 9.1% with some states as high as 15%.  Worse yet, the U.S. economy, measured by GDP, grew by 1.3% in Q2 2011.  What&rsquo;s the relationship? For the unemployment rate to keep from rising, GDP must grow by at least 2%, annually.  At current GDP growth rates, unemployment figures will continue increasing unless some game-changing, technological innovation suddenly spurs economic growth and therefore GDP.  So, what&rsquo;s the next big thing? Is it green? Is it hi-tech?  Is it a new social medium?  And, what&rsquo;s taking so long?  Are anti-growth, government policies somehow impeding innovation as some argue?  Yes, and no, but mostly no.  Remember, the economy is growing, albeit not fast enough to curb the unemployment rate, but it is growing. The problem is how the economy is growing, not if it growing. Companies are still hiring. But, whom are they hiring?
 		</p>
 		<p>
-			Aliquam ac orci vel mi egestas molestie. Sed rhoncus, turpis ac bibendum 
-			condimentum, ante neque consequat sapien, posuere ornare quam massa at 
-			magna. Maecenas vitae vulputate ipsum. Proin quis velit non ante congue 
-			iaculis. Aenean vel lacus ac odio laoreet imperdiet ut quis tellus. Sed 
-			ut mattis odio, sed laoreet tortor. Nam fringilla viverra lorem a elementum. 
-			Donec ornare lectus non massa mollis, quis porta lectus gravida. Integer 
-			porta quam non lobortis elementum. Class aptent taciti sociosqu ad litora 
-			torquent per conubia nostra, per inceptos himenaeos. Vestibulum et ornare ante. 
-			Sed ullamcorper rutrum sem nec ultricies. Suspendisse nec elementum elit, at 
-			dictum massa. Nam consectetur consectetur mattis.
-		</p>
-		<h2>Nov 13 2013</h2>
-		<p>
-			Donec ornare lectus non massa mollis, 
-			quis porta lectus gravida. Integer porta quam non lobortis elementum. Class aptent 
-			taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. 
-			Vestibulum et ornare ante. Sed ullamcorper rutrum sem nec ultricies. Suspendisse nec 
-			elementum elit, at dictum massa. Nam consectetur consectetur mattis.
+			To understand hiring practices, let&rsquo;s first define some terms.  In this article, I will refer to two types of knowledge workers: tacit workers and explicit workers.  Tacit knowledge, generally speaking, refers to a set of skills that are highly social, organizationally specific, and difficult to train.  Tacit workers understand people, products, organizational dynamics (beyond just the org-chart), and are highly emotionally attuned.  Explicit knowledge, by contrast, is domain specific, highly technical, easy to teach (although, not always easy to learn), and organizationally transferable.  Explicit workers are your statisticians, attorneys, accountants, and niche engineers.  In any organization, you need both tacit and explicit knowledge. Innovation requires harnessing explicit knowledge, transforming it into tacit knowledge, and selling it.  Pharmaceuticals, for example (and I am oversimplifying), hire bio-chemists with an explicit understanding of chemistry to develop a drug, which later becomes intellectual property that the pharmaceutical sells.  This is innovation.  Great, so what&rsquo;s the problem?
 		</p>
 		<p>
-			Aliquam ac orci vel mi egestas molestie. Sed rhoncus, turpis ac bibendum 
-			condimentum, ante neque consequat sapien, posuere ornare quam massa at 
-			magna. Maecenas vitae vulputate ipsum. Proin quis velit non ante congue 
-			iaculis. Aenean vel lacus ac odio laoreet imperdiet ut quis tellus. Sed 
-			ut mattis odio, sed laoreet tortor. Nam fringilla viverra lorem a elementum. 
-			Donec ornare lectus non massa mollis, quis porta lectus gravida. Integer 
-			porta quam non lobortis elementum. Class aptent taciti sociosqu ad litora 
-			torquent per conubia nostra, per inceptos himenaeos. Vestibulum et ornare ante. 
-			Sed ullamcorper rutrum sem nec ultricies. Suspendisse nec elementum elit, at 
-			dictum massa. Nam consectetur consectetur mattis.
-		</p>
-		<h2>Nov 1 2013</h2>
-		<p>
-			Donec ornare lectus non massa mollis, 
-			quis porta lectus gravida. Integer porta quam non lobortis elementum. Class aptent 
-			taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. 
-			Vestibulum et ornare ante. Sed ullamcorper rutrum sem nec ultricies. Suspendisse nec 
-			elementum elit, at dictum massa. Nam consectetur consectetur mattis.
+			Invaluable to any organization is the explicit knowledge required to innovate, and produce, but not sell, goods. Sales are reserved for the tacit knowledge workers.  So far, pretty basic. So what happened between 2000 and 2011 that so stifled the rate of technological innovation?  The answer: the Internet.  Faster, cheaper, communication media greatly accelerated the rate of innovation worldwide.  Suddenly workers around the world could develop your software applications, manage your payroll, manufacture your drugs, or read your X-rays, all at a fraction of the cost, pre-Internet.  Stated in economic jargon, supply increased, and so did demand (but not as much as supply), and the value (measured as price) for explicit knowledge greatly decreased in the United States.  Suddenly, software engineers, chemists, accountants, and other explicit knowledge workers were greatly devalued.  The U.S. core competency (or comparative advantage) shifted from advancing technological innovation to hiring and promoting physical presence.  Where the foreign workforce, by definition, cannot compete against Americans is on the basis of physical presence.  All workers that are currently in the United States, in at least physical presence, have the upper hand against their offshore counterparts.  Macro-economically speaking, it does not even matter if American &ldquo;innovators&rdquo; are more productive, or more innovative, than their offshore counterparts; the opportunity cost of being physically present is much too high to focus resources on technological innovation.
 		</p>
 		<p>
-			Aliquam ac orci vel mi egestas molestie. Sed rhoncus, turpis ac bibendum 
-			condimentum, ante neque consequat sapien, posuere ornare quam massa at 
-			magna. Maecenas vitae vulputate ipsum. Proin quis velit non ante congue 
-			iaculis. Aenean vel lacus ac odio laoreet imperdiet ut quis tellus. Sed 
-			ut mattis odio, sed laoreet tortor. Nam fringilla viverra lorem a elementum. 
-			Donec ornare lectus non massa mollis, quis porta lectus gravida. Integer 
-			porta quam non lobortis elementum. Class aptent taciti sociosqu ad litora 
-			torquent per conubia nostra, per inceptos himenaeos. Vestibulum et ornare ante. 
-			Sed ullamcorper rutrum sem nec ultricies. Suspendisse nec elementum elit, at 
-			dictum massa. Nam consectetur consectetur mattis.
+			By mid-decade 2000, American hiring managers decided if they were to employ headcount, the new hire would not only be physically present, but also be the best physical presence money could buy. No longer was looking good on paper a necessary and sufficient hiring criterion.  Hirees now needed to look good in person, communicate well (to the point of understanding the most nuanced parts of language - English, of course - down to inflection), network well, and, of course, &ldquo;understand the business&rdquo;, not necessarily &ldquo;business&rdquo;, but &ldquo;the business&rdquo;.   And, what form of knowledge workers were these highly social new hires? Tacit, of course.  Not only that, tacit workers are compensated, in the form of equity, commission, and salary, relative to education, much more handsomely than the explicit knowledge workers. It&rsquo;s as simple as supply and demand.  Compounding the tacit worker hiring bias: tacit workers hire from their network, quite often, other tacit workers.
+		</p>
+		<p>
+			But what about explicit knowledge?  Surely, companies still hire explicit knowledge workers? Well, yes. But, companies don&rsquo;t employ the explicit workers, and certainly not at the same rate as their tacit worker counterparts.  Quite often, the explicit workers are hired as consultants (1099), or even yet - contractors (w2). The difficultly here is the tacit workforce does not solely innovate.  Innovation requires input from the explicit workforce.  Worse still, the communication costs of strictly, outsourcing explicit knowledge workers can have severe, adverse, macro-economic consequences.
+		</p>
+		<p>
+			Take Financial Institutions: structurally hierarchical organizations, where management hire analysts to process vast amounts of data required to manage portfolios and optimize risk policies: data processing and statistical modeling are mostly performed by third party, contract W2 workers, who are absorbed into the system and treated as temporary employees. With few exceptions, corporate policy prevents hiring consultants on a Corp-to-Corp basis. The reasons for this, I think, are prejudicial and ironic for companies that espouse ethnic diversity at every corner! Many Indian programmers have circumvented the H1B Visa restrictions through the use of an LLC. Consequently, banks have updated vendor policy guidelines to greatly reduce, if not altogether eliminate, Corp-to-Corp &ldquo;hiring&rdquo; engagements.
+		</p>
+		<p>
+			Since many banks effectively have hiring freezes, the &ldquo;workaround&rdquo; is to hire temporary workers to process data and build analytical models. Temporary workers can only remain &ldquo;engaged&rdquo; for a maximum of 18 months due to government restrictions on contract employment, since the contractors are neither provided benefits nor an equity stake. Consequently, there is a &ldquo;revolving door&rdquo; of analysts entering and exiting these companies, resulting in a constant need to train temporary workers.
+		</p>
+		<p>
+			While many banks are able to attract academically talented individuals, transforming their talent into productive output is quite challenging. For example, I previously consulted for an analytics group that employed six doctoral graduates who had very strong explicit understanding of both statistics and economics, but proportionally lacked a solid understanding of the business, and consequently the data. The results were often imperfect models and erroneous data, to which both the temporary employees and less-than technical manager were oblivious. Further inefficient, is the need for management to spend hours of otherwise productive work-time to train temporary workers and then later retain their replacements. Consequently, the company is unable to fully realize economies of time, while economies of scale are fully realized with almost zero marginal benefit at this point. Technology companies are far more competitive along the lines of economies of time, if for no other reason due to the advent of object oriented programming. While the comparison might seem tenuous at best, many &ldquo;bankers&rdquo; are trained as computer scientists, mathematicians, or engineers and can - if not readily - eventually find employment at a technology company.  Like I always say, &ldquo;there&rsquo;s nothing inherently wrong with sub-prime mortgages, but if risk is mis-allocated (mispriced), there is a huge problem!&rdquo;
+		</p>
+		<p>
+			Aside from various scales of inefficiency, banks seem to attract an adverse selection of otherwise explicit knowledge workers. As the economy improves, labor supply decreases, and with restrictions on hiring intact, future bank hires will possess even less explicit knowledge than the current employee base, cēterīs paribus . Since the contract employees enjoy a limited tenure and lack equity, banks are also presented with a moral hazard. It is difficult to estimate the overall labor productivity (post five years) at these institutions, partially because the reported numbers are conflated as they have hired so many temporary workers. But, the trend cannot be positive given the disparity between tacit and explicit knowledge transfer and the inherent inefficiencies.
+		</p>
+		<p>
+			Of course, the Internet has had, and will continue to have, wondrous effects on the rate of technological innovation.  But, at its core, the Internet is simply a communication medium; ultimately the people communicating - or some fraction of them - are the actual innovators.  Up until this point, we have discussed the Internet&rsquo;s dampening influence on the U.S. rate of technological innovation.  Perhaps the latest impact of the Internet in terms of innovation is its effect on the capital requirements for innovation.  Pre-Internet, companies required huge sums of capital to produce innovative goods, generally acquired by loan or investment from banks or venture funds.  Now, with the advent of the Internet, starting a company, and creating a product or service offering has never been faster, cheaper, or more demographically inclusive.  Technology firms, for example, no longer need large capital requirements for land or capital equipment, and what labor is required is increasingly productive.  Coupled with poor incentives, limited job-growth potential, explicit knowledge workers are starting their own firms. And, they&rsquo;re doing it with just a laptop and an Internet connection!  But, what&rsquo;s more they are hiring tacit knowledge workers.  Meanwhile, the large, old-world, capital-intensive companies run by tacit workers hire (albeit on contract, or in some very limited capacity) explicit workers.  This is what I call the tacit flip.  Instead of the tacit workers hiring the explicit workers the opposite trend is in effect.
+		</p>
+		<p>
+			For the United State to again dominate the innovation landscape, mature organizations will need to hire explicit knowledge workers to develop new, competitive, intellectual property, and employ tacit knowledge workers to market innovations and establish profitable relationships.  Further, and perhaps more importantly, bridging the gap between tacit and explicit knowledge workers is required for both firms and employees to retain any modicum of competitive advantage.    You cannot have an entire economy of socialites sustaining 2%+, annual, GDP growth.  Similarly, you cannot have an entire economy of number crunching geeks running regressions for endless, self-indulgence.
+		</p>
+		<p>
+			So, how do we bridge the gap between tacit and explicit knowledge? To begin, companies need to harness tacit knowledge in a way that is first: documented, second: transferable, and third: monetizable.  One way to achieve this requires leveraging data for simulation purposes, and equip the tacit workforce with the ability to solve complex business problems generally reserved for the business intelligence departments.  Instead of marketing, or finance departments requiring data pulls and ad-hoc reports to &ldquo;answer&rdquo; immediate business questions, business intelligence departments should gather as much tacit knowledge from the existing workforce to design software simulations that &ldquo;mimic&rdquo; the underlying market dynamics that achieve revenues and incur loss.  Currently, firms use reporting dashboards to answer business metric questions, and employ analysts to generate ad-hoc reports to &ldquo;fill in the gaps&rdquo; where reporting dashboard are not capturing data.  But this means of analytics is neither scalable, nor particularly insightful.  And worse, there is a &ldquo;silo effect&rdquo; where tacit and explicit knowledge, both required to provide business intelligence, are maintained by separate corporate entities.  The explicit knowledge required to analyze data is reserved for business intelligence units, while the tacit knowledge required provide context to the analyses is specific to the tacit knowledge workers. Simulations retain and transfer tacit knowledge, while allowing tacit workers to solve complex problems generally reserved for explicit knowledge workers.
+		</p>
+		<p>
+			How can organizations more effectively communicate tacit knowledge through to the lowest levels of an organizational chart? I don&rsquo;t think reports and dashboards communicate tacit knowledge, really, at least not intrinsically.   You need to understand business context to correctly interpret business reports and analytical dashboards. Improved data visualization helps communicate information more efficiently, but again their effectiveness is limited to the overall business context. The problem remains - the workforce needs to understand the business.
+		</p>
+		<p>
+			Where simulations differ from models and reports is their ability to foster interactive learning. In fact, it&rsquo;s hard to imagine how you communicate tacit knowledge without some level of interaction, either human or otherwise. Expanding business analytics to include business simulations can ultimately facilitate the transfer and communication of tacit knowledge. Simulations enable your workforce to explore dynamic variables of a model, and answer &ldquo;what if&rdquo; questions, not simply &ldquo;what happened&rdquo; questions. Through this process management can optimize business policies and understand various n&rsquo;th order effects, while lower-level actors (the analysts) can interactively understand the data in such a way that complex calculations facilitate tacit knowledge transfer.
+		</p>
+		<p>
+			Still, several questions remain.  First, what is the optimal mix of tacit vs. explicit knowledge workers at an organization to ensure a profit-maximizing level of innovation?  Second, who will rise to the management ranks of organization based on current trajectories and organizational dynamics?  Third, to optimally innovate, what types of firms are best suited for tacit or explicit knowledge workers and does, somehow, the success of tacit or explicit workers depend on firm size or structure? The most obvious point to this end is that if any one part of the workforce has the exclusive responsibility for innovation then the U.S. workforce will struggle to remain competitive in years to come.  Among the most innovative firms are those hiring both explicit and tacit knowledge workers, each equipped with the requisite skills to introduce new, often disruptive, technologies.  One heuristic describing the respective roles of the tacit and explicit knowledge workers as it relates to innovation: the tacit knowledge worker answers &ldquo;why&rdquo;, whereas the explicit knowledge workers answers &ldquo;how.&rdquo;   &ldquo;What does the market need&rdquo; and &ldquo;how do we build it&rdquo; are two important questions seeding the early stages of innovation.  Ultimately, the optimal mix of tacit and explicit knowledge workers, depends on market structure and firm conduct. Certain industries and firm sizes are better served hiring more tacit knowledge worker while other firms are better served hiring more explicit knowledge works.  Technology companies, for example, particularly in early stages, require more explicit knowledge workers than tacit.  Advertising agencies, by contrast, are better served by tacit knowledge workers.  Still yet: perhaps the &ldquo;optimal&rdquo; mix of tacit to explicit knowledge workers is better asked in terms of worker inclination as opposed to worker composition. Instead of hiring, say, x% pure tacit workers and y% pure explicit knowledge worker, the &ldquo;optimal mix&rdquo; might just require firms hiring explicit workers with a tacit inclination and tacit workers with an explicit inclination.  The combined effects might more optimally problem solve with more innovative solutions, while eliminating communication gaps and silo effects.  Meanwhile, managers will need to not just understand &ldquo;the business&rdquo;, but, more generally, business.  Forecasting, inventory optimization, pricing, marketing analytics, etc. are all components of the overall skillset required of managers to both compete for profit and position.   Finally, both explicit and tacit knowledge workers (individual contributors and management, alike) will need to harness systems thinking skills.   Explicit knowledge workers will need to, for obvious reasons, create a mental or computational model of how various constituents of the larger (be it analytical, software, information, manufacturing) system interact with each other and over time.  Meanwhile, tacit workers - and management, specifically - will need to embrace systems thinking to solve problems relating to pricing, inventory optimization, quality control, demand forecasting, personnel management, etc.  The ever evolving, complex systems on which we depend for new products and services, employment and income, innovations and modernization require understanding &ldquo;the larger system&rdquo; if we are to properly adapt to changing economic conditions and continue our path of technological innovation.  While recent years have seen a surge of demand for tacit workers in the United States, the trend, absent explicit worker counterparts, is unsustainable at best.  Firms require revenues, capital deepening, and future innovations to remain competitive for the long run.  For the U.S. economy to return to full employment, deep cultural changes must first take place in the workplace, allowing firms to again innovate internally and create new markets for products and services, which will in turn spur labor demand.
 		</p>
 	</div>
 	<?php include('includes/footer.php'); ?>
