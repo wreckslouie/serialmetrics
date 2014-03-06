@@ -1,0 +1,11 @@
+@import 'white_inside_pages';
+
+.inside-page{
+	h2{
+		&:nth-child(3){
+			font-size: 1.4em;
+			margin-top:30px;
+		}
+		
+	}
+}
