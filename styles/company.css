@@ -139,3 +139,16 @@ nav a {
 
 nav {
   padding: 5px 10px; }
+
+.inside-page h1 {
+  margin: 40px 0 20px; }
+
+ul {
+  text-decoration: none; }
+  ul strong {
+    font-weight: bold; }
+
+ul {
+  margin-bottom: 40px; }
+  ul li {
+    line-height: 2em; }
