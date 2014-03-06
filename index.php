@@ -80,35 +80,38 @@
 		<!--Top Row -->
 		<div>
 			<img src="images/home_page/share-icon.png">
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-			Et lectus posuere acumsan.</p>
+			<h1>Scoring Systems</h1>
+			<p>Measure influence, evaluate risk, or rate quality using 
+			probabilistic Machine Learning models.</p>
 		</div>	
 		<div>
 			<img src="images/home_page/path-icon.png">
-			<p>Vivamus ut libero, Hendrerit arcu at, scelerisque turpis. 
-			Integer nec odio.</p>
+			<h1>Intelligent Promotions</h1>
+			<p>Estimate the probability of a purchase, and thus the value of 
+			any site visitor, in real-time.</p>
 		</div>
 		<div>
 			<img src="images/home_page/navigation-icon.png">
-			<p>Quisque vulputate, nisl ac placerat porttitor, 
-			sem metus blandit sem.</p>
+			<h1>Recommendation Engines</h1>
+			<p>Predict the value that users would apply to an item (such as music, books, 
+			or movies) or social elements (e.g. people or groups).</p>
 		</div>
 
 		<!--Bottom Row -->
 		<div>
 			<img src="images/home_page/gear-icon.png">
-			<p>Mauris blandit semper risus, vitae sagittis massa porta et. 
-			Sed id pharetra odio.</p>
+			<h1>Text Classification</h1>
+			<p>Extract themes from huge amounts of text.</p>
 		</div>	
 		<div>
 			<img src="images/home_page/relations-icon.png">
-			<p>Donec sapien erat, luctus facilisis leo fermentum, 
-			sodales gravida lacus.</p>
+			<h1>Matching Algorithms</h1>
+			<p>Pair platform users based on individual sets of attributes and preferences.</p>
 		</div>
 		<div>
 			<img src="images/home_page/abacus-icon.png">
-			<p>Pulvinar leo sit amet pellentesque. Etiam eleme 
-			augue ac nunc.</p>
+			<h1>Dynamic Pricing</h1>
+			<p>Increase revenue with real-time demand discovery and price optimization.</p>
 		</div>
 	</div>
 

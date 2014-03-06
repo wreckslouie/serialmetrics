@@ -24,10 +24,8 @@ body{
 	}
 
 	#background-graph{
-		background-image: url('../images/home_page/background-graph.png');
+		background: url('../images/home_page/background-graph.png') no-repeat left top;
 		width: 100%;
-		height: 500px;
-		margin: -280px 0 0 0;
 	}
 
 	#modules-section{
@@ -36,18 +34,13 @@ body{
 		margin: 50px auto;
 		div{
 			display: inline-block;
-			width: 250px;
-			letter-spacing: .1em;
-			font-size: 0.9em;
-			line-height: 1.7em;
+			position: relative;
+			vertical-align: top;
 
-			&:nth-child(2), &:nth-child(5){
-				margin: 0 60px;
+			h1,p{
+				position: absolute;
 			}
-
-			img{
-				margin: 0 0 5px 0;
-			}
+			
 		}
 	}
 
@@ -166,10 +159,56 @@ body{
 
 body{
 
+	#background-graph{
+		height: 400px;
+		margin: -150px 0 0 0;
+	}
+
 	#modules-section{
 		div{
-			&:nth-child(4),&:nth-child(5),&:nth-child(6){
-				margin-top: 70px;
+			width: 250px;
+			height: 220px;
+			letter-spacing: .1em;
+			font-size: 0.9em;
+			line-height: 1.7em;
+
+			h1,p{
+				width: 250px;
+			}
+
+			h1{
+				font-size: 1.2em;
+				line-height: 1.2em;
+				top: 70px;
+
+			}
+
+			p{
+				line-height: 1.3em;
+				top: 100px;
+			}
+
+			
+
+			&:nth-child(2), &:nth-child(5){
+				margin: 0 60px;
+			}
+
+			&:nth-child(4) h1, &:nth-child(5) h1, &:nth-child(6) h1{
+				top:90px;
+			}
+
+			&:nth-child(4) p, &:nth-child(5) p, &:nth-child(6) p{
+				top:120px;
+			}
+
+			img{
+				margin: 0 0 5px 0;
+			}
+
+			&:nth-child(6) img{
+				position: relative;
+				top: 15px;
 			}
 		}
 	}
