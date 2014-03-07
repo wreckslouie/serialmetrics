@@ -10,13 +10,7 @@ $(function(){
 		}
 		
 	},function(){
-		if(sliding==false){
-			$('nav ul').removeClass('hover');
-			sliding=true;
-			$('nav ul').slideUp(300,function(){
-				sliding=false;
-			});
-		}
+		$('nav ul ').slideUp(300); 
 	});
 	$('nav ul').mouseleave(function(){
 		if($('nav ul').hasClass('hover')){
