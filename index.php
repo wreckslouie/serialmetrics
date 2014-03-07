@@ -123,7 +123,7 @@
 		at speeds over 1000 times faster than conventional querying technologies. Orion is 
 		available as both a hosted solution and as a standard installation, which fits with 
 		any of three common platforms: Hadoop/ Hive, MySQL, PostgreSQL.</p>
-		<a href="/products.php#orion">Learn more >></a>
+		<a href="products.php#orion">Learn more >></a>
 	</div>
 
 	<form id="contact" name="contact" method="post">
