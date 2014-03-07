@@ -122,7 +122,7 @@
 		<p>Introducing Orion, a database engine that can quickly process massive amounts of data 
 		at speeds over 1000 times faster than conventional querying technologies. Orion is 
 		available as both a hosted solution and as a standard installation, which fits with 
-		any of three common platforms: Hadoop/ Hive, MySQL, PostgreSQL.</p>
+		any of three common platforms: MySQL, PostgreSQL, and Hadoop/Hive.</p>
 		<a href="products.php#orion">Learn more >></a>
 	</div>
 

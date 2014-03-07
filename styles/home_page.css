@@ -163,6 +163,8 @@ body {
       text-align: justify; }
     body #hadoop p {
       text-align: justify; }
+    body #hadoop a {
+      display: block; }
   body #contact {
     width: 890px;
     margin: 120px auto;
@@ -253,7 +255,7 @@ body #hadoop {
   width: 390px; }
   body #hadoop .divider {
     margin: 35px 0; }
-  body #hadoop h1, body #hadoop p {
+  body #hadoop h1, body #hadoop p, body #hadoop a {
     width: 245px; }
   body #hadoop h1 {
     font-size: 1.45em;

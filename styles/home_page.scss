@@ -66,6 +66,10 @@ body{
 		p{
 			text-align: justify;
 		}
+
+		a{
+			display: block;
+		}
 	}
 
 	#contact{
@@ -221,7 +225,7 @@ body{
 			margin: 35px 0;
 		}
 
-		h1,p{
+		h1,p,a{
 			
 			width: 245px;
 		}
