@@ -118,12 +118,12 @@
 	<div id="hadoop">
 		<img src="images/home_page/plug-icon.png">
 		<div class="divider"></div>
-		<h1>Hadoop Plugin</h1>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ut libero pellent, 
-		hendrerit arcu at, sceleri turpis. Integer nec odio et lectus posuere accumsan. Ut 
-		volut laoreet volutpat. Quisque vulputate, nisl ac placerat porttitor, sem metus 
-		blandit sem, ut gravida est ante eget urna. Mauris blandit semper risus, vitae 
-		sagittis massa sem.</p>
+		<h1>Orion</h1>
+		<p>Introducing Orion, a database engine that can quickly process massive amounts of data 
+		at speeds over 1000 times faster than conventional querying technologies. Orion is 
+		available as both a hosted solution and as a standard installation, which fits with 
+		any of three common platforms: Hadoop/ Hive, MySQL, PostgreSQL.</p>
+		<a href="/products.php#orion">Learn more >></a>
 	</div>
 
 	<form id="contact" name="contact" method="post">
