@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Clients</title>
+	<title>Case Studies</title>
 	<?php include('includes/head_links.php'); ?>
 	<link rel="stylesheet" type="text/css" href="styles/case_studies.css">
 </head>
