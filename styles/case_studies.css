@@ -93,7 +93,7 @@ html {
   .inside-page img {
     padding: 25px 0; }
   .inside-page p {
-    padding: 25px 0;
+    padding: 25px 0 0 0;
     line-height: 2em;
     text-align: justify; }
   .inside-page footer {
