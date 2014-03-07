@@ -145,7 +145,8 @@ nav {
   margin: 25px 0 0; }
 .inside-page h3 {
   text-transform: uppercase;
-  margin: 10px 0; }
+  margin-top: 25px; }
 .inside-page p {
   line-height: 1.3em;
-  padding-bottom: 0; }
+  padding-bottom: 0;
+  padding: 10px 0; }
