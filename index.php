@@ -93,8 +93,7 @@
 		<div>
 			<img src="images/home_page/navigation-icon.png">
 			<h1>Recommendation Engines</h1>
-			<p>Predict the value that users would apply to an item (such as music, books, 
-			or movies) or social elements (e.g. people or groups).</p>
+			<p>Surface and recommend relevant content for consumers and brands alike.</p>
 		</div>
 
 		<!--Bottom Row -->
