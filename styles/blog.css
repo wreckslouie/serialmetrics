@@ -122,21 +122,21 @@ footer {
     letter-spacing: .215em;
     word-spacing: 7px; }
 
-body {
-  background-color: #2e2f2e;
-  font-weight: 100;
-  color: white; }
-
-nav a {
-  background-position: 94% 50%; }
+.inside-page {
+  background-color: white;
+  color: #464c57; }
+  .inside-page nav {
+    background-color: #464c57;
+    color: white;
+    font-family: "Raleway", sans-serif;
+    border-radius: 8px;
+    -moz-border-radius: 8px; }
+    .inside-page nav a {
+      background-position: 94% 50%; }
+  .inside-page footer a {
+    color: #464c57; }
 
 /*------ Desktop Styles -----*/
-.inside-page h1 {
-  margin-top: 50px; }
-.inside-page h2 {
-  font-size: 1.4em;
-  margin: 30px 0 0 0; }
-
 nav {
   padding: 5px 10px; }
 

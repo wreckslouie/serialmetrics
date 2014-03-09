@@ -29,7 +29,7 @@
 	<div class="main-content">
 		<h1>Our Team</h1>
 		<ul>
-			<li><strong>Amir Behbani</strong> - Founder / Algorithms</li>
+			<li><strong>Amir Behbehani</strong> - Founder / Algorithms</li>
 			<li><strong>Emiko Higashi</strong> - Partnerships</li>
 			<li><strong>Bjorn Cooley</strong> - Marketing</li>
 			<li><strong>Igor Savic</strong> - Engineering</li>
