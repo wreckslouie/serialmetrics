@@ -137,12 +137,14 @@
 
 	<div id="data-stack">
 		<h1>Process Model</h1>
-		<div id="sixth-layer"></div>
-		<div id="fifth-layer"></div>
-		<div id="fourth-layer"></div>
-		<div id="third-layer"></div>
-		<div id="second-layer"></div>
-		<div id="first-layer"></div>
+		<div id="layer-container">
+			<div id="sixth-layer"></div>
+			<div id="fifth-layer"></div>
+			<div id="fourth-layer"></div>
+			<div id="third-layer"></div>
+			<div id="second-layer"></div>
+			<div id="first-layer"></div>
+		</div>
 	</div>
 
 	<!-- Google Map Embed Code -->

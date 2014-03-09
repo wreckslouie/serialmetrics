@@ -19,51 +19,51 @@ $(function(){
 		}
 	});
 
-	$('#data-stack').hover(function(){
-		$('#sixth-layer').animate({'top':'-=40px'},200);
-		$('#fifth-layer').animate({'top':'-=24px'},200);
-		$('#fourth-layer').animate({'top':'-=8px'},200);
-		$('#third-layer').animate({'top':'+=8px'},200);
-		$('#second-layer').animate({'top':'+=24px'},200);
-		$('#first-layer').animate({'top':'+=40px'},200);
+	$('#layer-container').hover(function(){
+		$('#sixth-layer').animate({'top':'-=20px'},200);
+		$('#fifth-layer').animate({'top':'-=12px'},200);
+		$('#fourth-layer').animate({'top':'-=4px'},200);
+		$('#third-layer').animate({'top':'+=4px'},200);
+		$('#second-layer').animate({'top':'+=12px'},200);
+		$('#first-layer').animate({'top':'+=20px'},200);
 	},function(){
-		$('#sixth-layer').animate({'top':'+=40px'},200);
-		$('#fifth-layer').animate({'top':'+=24px'},200);
-		$('#fourth-layer').animate({'top':'+=8px'},200);
-		$('#third-layer').animate({'top':'-=8px'},200);
-		$('#second-layer').animate({'top':'-=24px'},200);
-		$('#first-layer').animate({'top':'-=40px'},200);
+		$('#sixth-layer').animate({'top':'+=20px'},200);
+		$('#fifth-layer').animate({'top':'+=12px'},200);
+		$('#fourth-layer').animate({'top':'+=4px'},200);
+		$('#third-layer').animate({'top':'-=4px'},200);
+		$('#second-layer').animate({'top':'-=12px'},200);
+		$('#first-layer').animate({'top':'-=20px'},200);
 	});
 
 	$('#sixth-layer').hover(function(){
-		$(this).css('background','url("images/home_page/data_stack/sixth-layer-highlighted.png")');
+		$(this).css('background','url("images/home_page/data_stack/sixth-layer-highlighted.png") no-repeat');
 	},function(){
-		$(this).css('background','url("images/home_page/data_stack/sixth-layer.png")');
+		$(this).css('background','url("images/home_page/data_stack/sixth-layer.png") no-repeat');
 	});
 	$('#fifth-layer').hover(function(){
-		$(this).css('background','url("images/home_page/data_stack/fifth-layer-highlighted.png")');
+		$(this).css('background','url("images/home_page/data_stack/fifth-layer-highlighted.png") no-repeat');
 	},function(){
-		$(this).css('background','url("images/home_page/data_stack/fifth-layer.png")');
+		$(this).css('background','url("images/home_page/data_stack/fifth-layer.png") no-repeat');
 	});
 	$('#fourth-layer').hover(function(){
-		$(this).css('background','url("images/home_page/data_stack/fourth-layer-highlighted.png")');
+		$(this).css('background','url("images/home_page/data_stack/fourth-layer-highlighted.png") no-repeat');
 	},function(){
-		$(this).css('background','url("images/home_page/data_stack/fourth-layer.png")');
+		$(this).css('background','url("images/home_page/data_stack/fourth-layer.png") no-repeat');
 	});
 	$('#third-layer').hover(function(){
-		$(this).css('background','url("images/home_page/data_stack/third-layer-highlighted.png")');
+		$(this).css('background','url("images/home_page/data_stack/third-layer-highlighted.png") no-repeat');
 	},function(){
-		$(this).css('background','url("images/home_page/data_stack/third-layer.png")');
+		$(this).css('background','url("images/home_page/data_stack/third-layer.png") no-repeat');
 	});
 	$('#second-layer').hover(function(){
-		$(this).css('background','url("images/home_page/data_stack/second-layer-highlighted.png")');
+		$(this).css('background','url("images/home_page/data_stack/second-layer-highlighted.png") no-repeat');
 	},function(){
-		$(this).css('background','url("images/home_page/data_stack/second-layer.png")');
+		$(this).css('background','url("images/home_page/data_stack/second-layer.png") no-repeat');
 	});
 	$('#first-layer').hover(function(){
-		$(this).css('background','url("images/home_page/data_stack/first-layer-highlighted.png")');
+		$(this).css('background','url("images/home_page/data_stack/first-layer-highlighted.png") no-repeat');
 	},function(){
-		$(this).css('background','url("images/home_page/data_stack/first-layer.png")');
+		$(this).css('background','url("images/home_page/data_stack/first-layer.png") no-repeat');
 	});
 
 	

@@ -102,33 +102,36 @@ body{
 		div{
 			position: relative;
 		}
-		div:nth-child(2){
-			background: url('../images/home_page/data_stack/sixth-layer.png') no-repeat;
-			z-index: 60;
-		}
+		#layer-container{
+			div:nth-child(1){
+				background: url('../images/home_page/data_stack/sixth-layer.png') no-repeat;
+				z-index: 60;
+			}
 
-		div:nth-child(3){
-			background: url('../images/home_page/data_stack/fifth-layer.png') no-repeat;
-			z-index: 50;
-		}
-		div:nth-child(4){
-			background: url('../images/home_page/data_stack/fourth-layer.png') no-repeat;
-			z-index: 40;
-		}
+			div:nth-child(2){
+				background: url('../images/home_page/data_stack/fifth-layer.png') no-repeat;
+				z-index: 50;
+			}
+			div:nth-child(3){
+				background: url('../images/home_page/data_stack/fourth-layer.png') no-repeat;
+				z-index: 40;
+			}
 
-		div:nth-child(5){
-			background: url('../images/home_page/data_stack/third-layer.png') no-repeat;
-			z-index: 30;
-		}
-		div:nth-child(6){
-			background: url('../images/home_page/data_stack/second-layer.png') no-repeat;
-			z-index: 20;
-		}
+			div:nth-child(4){
+				background: url('../images/home_page/data_stack/third-layer.png') no-repeat;
+				z-index: 30;
+			}
+			div:nth-child(5){
+				background: url('../images/home_page/data_stack/second-layer.png') no-repeat;
+				z-index: 20;
+			}
 
-		div:nth-child(7){
-			background: url('../images/home_page/data_stack/first-layer.png') no-repeat;
-			z-index: 10;
+			div:nth-child(6){
+				background: url('../images/home_page/data_stack/first-layer.png') no-repeat;
+				z-index: 10;
+			}
 		}
+		
 
 
 	} 
@@ -279,25 +282,31 @@ body{
 
 	#data-stack{
 		margin: 0 auto;
-		padding-top:30px;
-		width: 850px;
-		height: 800px;
+		padding: 30px 0 0 0;
+		width: 1080px;
+		height: 750px;
 
 		h1{
 			width: 250px;
-			margin: 0 0 45px 25px;
+			margin: 0 0 45px 110px;
 			padding-bottom:10px;
 			font-size: 1.45em;
 			letter-spacing: .2em;
 			text-align: center;
 		}
+
+		#layer-container{
+			margin-left: 120px;
+			div{
+				height: 160px;
+				margin: 0 0 -76px 0;
+				vertical-align: baseline;
+			}
+		}
+		
 	}
 
-	#data-stack div{
-		height: 160px;
-		margin-bottom: -70px;
-		vertical-align: baseline;
-	}
+	
 
 	#network-image{
 		height: 300px;
