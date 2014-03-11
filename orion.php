@@ -9,8 +9,7 @@
 	<?php include('includes/main_nav.php'); ?>
 	<div class="main-content">
 		<img src="images/products_page/db_icon.png">
-		<h1>Products</h1>
-		<h2>Orion</h2>
+		<h1>Orion</h1>
 		
 		<p>Orion, quite simply, is the fastest database on the planet.</p>
 		<h3>How it works</h3>
