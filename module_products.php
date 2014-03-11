@@ -18,7 +18,7 @@
 		that you wanted, before you even thought of it.  Amazing, right?  Amazing, but completely possible. 
 		</div>
 
-		<div class="modules">
+		<div class="module">
 		Matching System -  The Perfect Job, The Perfect Partner
 
 		Pairs users from one set with users from the other set.  Think of a job board, where one set of users 
@@ -26,7 +26,7 @@
 		looks at  the features and preferences from each side of the market and recommends optimal pairs of users.    
 		</div>
 
-		<div class="modules">
+		<div class="module">
 		Intelligent Promotions -  The Right Deal at the Right Time
 
 		Engages users that are less likely to purchase from your site with deals, coupons, discounts, or other 
@@ -38,7 +38,7 @@
 		promotional campaigns. 
 		</div>
 
-		<div class="modules">
+		<div class="module">
 		Scoring Systems  -  Identify Quality, Quantifiably
 
 		Classifies data according to quality, risk, or event likelihood.  Know which users are at risk of quitting 
@@ -48,7 +48,7 @@
 		quality to lead quality. 
 		</div>
 
-		<div class="modules">
+		<div class="module">
 		Geo Inference - Locate Users, Spot-on
 
 		Determines where users live, down to the zip code.  Ever need to know where your users live, where they work, 
@@ -56,7 +56,7 @@
 		locations of users, but even identify their next travel destination! 
 		</div>
 
-		<div class="modules">
+		<div class="module">
 		Text Classification - Find Meaning, not Keywords	
 
 		Structures free-form text into sets of topic categories.  Imagine needing to organize volumes of text into 
@@ -68,7 +68,7 @@
 		those topics, and coalesce them into broader categories,  accordingly.  
 		</div>
 
-		<div class="modules">
+		<div class="module">
 		Dynamic Pricing - Extract Value on Demand
 
 		Assigns the optimal price to goods such that each unit of inventory is sold to achieve revenue-optimality. 
