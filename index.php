@@ -83,7 +83,7 @@
 			<h1>Scoring Systems</h1>
 			<p>Measure influence, evaluate risk, or rate quality using 
 			probabilistic Machine Learning models.</p>
-		</div>	
+		</div>
 		<div>
 			<img src="images/home_page/path-icon.png">
 			<h1>Intelligent Promotions</h1>

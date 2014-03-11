@@ -139,3 +139,27 @@ nav a {
 
 nav {
   padding: 5px 10px; }
+
+.inside-page #main-content .module .module-heading {
+  cursor: pointer; }
+.inside-page #main-content .module .module-content {
+  display: none; }
+
+/*----- Desktop Styles ------*/
+.inside-page #main-content {
+  width: 720px;
+  margin: 30px auto; }
+  .inside-page #main-content h1 {
+    margin: 10px 0 50px 0; }
+  .inside-page #main-content .module {
+    padding: 30px 20px;
+    margin: 30px 0;
+    border: 2px solid white;
+    border-radius: 5px;
+    -moz-border-radius: 5px; }
+    .inside-page #main-content .module .module-heading {
+      font-size: 1.5em;
+      line-height: 1.5em; }
+    .inside-page #main-content .module .module-content {
+      margin-top: 20px;
+      line-height: 1.5em; }
