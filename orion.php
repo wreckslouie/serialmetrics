@@ -70,31 +70,6 @@
 		latency associated with disk/CPU interaction.  Therefore, as the number of disks and processor 
 		cores increase, so to can the number of tasks to fetch and convey data to the multiple processor cores. 
 		</p>
-
-		<!--Machine Learning Modules -->
-		<h2>Machine Learning Modules</h2>
-
-		<h3>Recommendation System -   Personalize Content Discovery</h3>
-
-		<p>Recommends content, tailored specifically to the tastes and preferences of individual users.  
-		Imagine visiting a site - your favorite music site, or shopping site, and the site offering just 
-		the product that you wanted, before you even thought of it.  Amazing, right?  Amazing, but completely possible.</p>
-
-		<h3>Matching System -  The Perfect Job, The Perfect Partner</h3>
-
-		<p>Pairs users from one set with users from the other set.  Think of a job board, where one set of 
-		users (job posters) and another set of users (job seekers), are looking for each other.  A matching 
-		system looks at  the features and preferences from each side of the market and recommends optimal pairs of users.</p>  
-
-		<h3>Scoring System -  Identify Quality, Quantifiably</h3>
-
-		<p>Classifies data according to quality, risk, or event likelihood.  What  if you could 
-		instantly identify if someone will buy from your store, and even know the exact purchase amount? 
-		This ability to determine expected value, in real-time can help you better allocate resources, 
-		offer discounts, nurture leads. Combine this with the ability identify the risk a that a customer 
-		will attrite, and you have a working model to determine the lifetime expected value.</p> 
-
-
 	</div>
 	<?php include('includes/footer.php'); ?>
 </body>
