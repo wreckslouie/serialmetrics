@@ -3,7 +3,7 @@
 <head>
 	<title>Products</title>
 	<?php include('includes/head_links.php'); ?>
-	<link rel="stylesheet" type="text/css" href="styles/products.css">
+	<link rel="stylesheet" type="text/css" href="styles/orion.css">
 </head>
 <body class="inside-page">
 	<?php include('includes/main_nav.php'); ?>
