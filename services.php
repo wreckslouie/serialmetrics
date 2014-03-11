@@ -25,7 +25,7 @@
 		'full-time', dedicated, data science resources, but don't want to take the hire staff in-house.</p>
 
 
-		<h2>Module Implementation</h2>
+		<h2><a href="module_products.php">Module Implementation</a></h2>
 		<p>Over the last five years we've built a suit of 
 		machine learning applications.  We refer to these applications as "modules." 
 		Often, Data Science solutions require thinking through some very challenging, 
