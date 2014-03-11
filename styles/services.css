@@ -149,5 +149,5 @@ nav {
 .inside-page p {
   line-height: 1.3em;
   padding: 10px 0; }
-.inside-page a {
+.inside-page .main-content a {
   color: #464c57; }
