@@ -10,22 +10,61 @@
 
 	<?php include('includes/main_nav.php'); ?>
 
+
 	<div id="main-content">
 		<img src="images/modules_page/modules_icon.png">
 		<h1>Modules: Ready to Use, Machine Learning APIs</h1>
 		<div class="module">
 			<div class="module-heading">
-			Scoring Systems  -  Identify Quality, Quantifiably
+			Matching Algorithms -  The Perfect Job, The Perfect Partner
+			</div>
+
+			<div class="module-content">
+				Pairs users from one set with users from the other set.  Think of a job board, where one set of users 
+				(job posters) and another set of users (job seekers), are looking for each other.  A matching system 
+				looks at  the features and preferences from each side of the market and recommends optimal pairs of users. 
+			</div>   
+		</div>		
+		<div class="module">
+			<div class="module-heading">
+				Dynamic Pricing - Extract Value on Demand
 			</div>
 			<div class="module-content">
-				Classifies data according to quality, risk, or event likelihood.  Know which users are at risk of quitting 
-				their subscription, or conversely, which users are completely loyal and price insensitive.   Need to score 
-				your leads?  It&rsquo;s the same math.  Simply put, the scoring system assign a value to your data based on an 
-				estimated event likelihood, given a set of facts (or features). You can score anything from nutritional 
-				quality to lead quality.
+				Assigns the optimal price to goods such that each unit of inventory is sold to achieve revenue-optimality. 
+				Should you raise prices, or lower them?  Should you give a discount just this once, or just to a certain 
+				set of users.  When should you increase prices? Will the users return to your site if your prices are too high? 
+				These are all common questions that online retailers ask. What if, though, you could set prices dynamically 
+				to extract as much value as possible from each user?  Or, what if you could estimate the one, best, price 
+				that the majority of your customers can pay so you can maximize your revenues.  Our dynamic pricing module 
+				does just this, and more, including real-time demand fluctuations (changes in demand, or price elasticity 
+				of demand), and can make corrective action! Imagine a control system for regulating prices.  
+			</div>
+		</div>
+		<div class="module">
+			<div class="module-heading">
+			Recommendation Systems -  Personalize Content Discovery
+			</div>
+
+			<div class="module-content">
+				Recommend content, tailored specifically to the tastes and preferences of individual users.  Imagine 
+				visiting a site - your favorite music site, or shopping site, and the site offering just the product 
+				that you wanted, before you even thought of it.  Amazing, right?  Amazing, but completely possible.
 			</div> 
 		</div>
-
+		<div class="module">
+			<div class="module-heading">
+				Text Classification - Find Meaning, not Keywords	
+			</div>
+			<div class="module-content">
+				Structures free-form text into sets of topic categories.  Imagine needing to organize volumes of text into 
+				ordered categories. This can be quite the manual process! One way to do this is reading each document, 
+				searching for keywords, then organizing the texts into categories based on keywords that arise. But, is this 
+				the best way? Our text classification module extracts themes from documents based on term frequencies.  
+				Forget keywords.  If you can assign topics to documents dynamically, then you don&rsquo;t need to have a list of 
+				categories a priori.  What&rsquo;s more, if two topics are too closely, cognitively, related, we can identify 
+				those topics, and coalesce them into broader categories,  accordingly.
+			</div>
+		</div>
 		<div class="module">
 			<div class="module-heading">
 			Intelligent Promotions -  The Right Deal at the Right Time
@@ -40,64 +79,18 @@
 				promotional campaigns. 
 			</div>
 		</div>
-
 		<div class="module">
 			<div class="module-heading">
-			Recommendation Systems -  Personalize Content Discovery
+			Scoring Systems  -  Identify Quality, Quantifiably
 			</div>
-
 			<div class="module-content">
-				Recommend content, tailored specifically to the tastes and preferences of individual users.  Imagine 
-				visiting a site - your favorite music site, or shopping site, and the site offering just the product 
-				that you wanted, before you even thought of it.  Amazing, right?  Amazing, but completely possible.
+				Classifies data according to quality, risk, or event likelihood.  Know which users are at risk of quitting 
+				their subscription, or conversely, which users are completely loyal and price insensitive.   Need to score 
+				your leads?  It&rsquo;s the same math.  Simply put, the scoring system assign a value to your data based on an 
+				estimated event likelihood, given a set of facts (or features). You can score anything from nutritional 
+				quality to lead quality.
 			</div> 
 		</div>
-
-		<div class="module">
-			<div class="module-heading">
-				Text Classification - Find Meaning, not Keywords	
-			</div>
-
-			<div class="module-content">
-				Structures free-form text into sets of topic categories.  Imagine needing to organize volumes of text into 
-				ordered categories. This can be quite the manual process! One way to do this is reading each document, 
-				searching for keywords, then organizing the texts into categories based on keywords that arise. But, is this 
-				the best way? Our text classification module extracts themes from documents based on term frequencies.  
-				Forget keywords.  If you can assign topics to documents dynamically, then you don&rsquo;t need to have a list of 
-				categories a priori.  What&rsquo;s more, if two topics are too closely, cognitively, related, we can identify 
-				those topics, and coalesce them into broader categories,  accordingly.
-			</div>
-		</div>
-
-		<div class="module">
-			<div class="module-heading">
-			Matching Systems -  The Perfect Job, The Perfect Partner
-			</div>
-
-			<div class="module-content">
-				Pairs users from one set with users from the other set.  Think of a job board, where one set of users 
-				(job posters) and another set of users (job seekers), are looking for each other.  A matching system 
-				looks at  the features and preferences from each side of the market and recommends optimal pairs of users. 
-			</div>   
-		</div>		
-
-		<div class="module">
-			<div class="module-heading">
-				Dynamic Pricing - Extract Value on Demand
-			</div>
-
-			<div class="module-content">
-				Assigns the optimal price to goods such that each unit of inventory is sold to achieve revenue-optimality. 
-				Should you raise prices, or lower them?  Should you give a discount just this once, or just to a certain 
-				set of users.  When should you increase prices? Will the users return to your site if your prices are too high? 
-				These are all common questions that online retailers ask. What if, though, you could set prices dynamically 
-				to extract as much value as possible from each user?  Or, what if you could estimate the one, best, price 
-				that the majority of your customers can pay so you can maximize your revenues.  Our dynamic pricing module 
-				does just this, and more, including real-time demand fluctuations (changes in demand, or price elasticity 
-				of demand), and can make corrective action! Imagine a control system for regulating prices.  
-			</div>
-		</div>
-
 		<div class="module">
 			<div class="module-heading">
 			Geo Inference - Locate Users, Spot-on
