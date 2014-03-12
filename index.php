@@ -80,19 +80,17 @@
 		<!--Top Row -->
 		<div>
 			<img src="images/home_page/share-icon.png">
-			<h1>Scoring Systems</h1>
-			<p>Measure influence, evaluate risk, or rate quality using 
-			probabilistic Machine Learning models.</p>
+			<h1>Matching Algorithms</h1>
+			<p>Pair platform users based on individual sets of attributes and preferences.</p>
 		</div>
 		<div>
 			<img src="images/home_page/path-icon.png">
-			<h1>Intelligent Promotions</h1>
-			<p>Estimate the probability of a purchase, and thus the value of 
-			any site visitor, in real-time.</p>
+			<h1>Dynamic Pricing</h1>
+			<p>Increase revenue with real-time demand discovery and price optimization.</p>
 		</div>
 		<div>
 			<img src="images/home_page/navigation-icon.png">
-			<h1>Recommendation Engines</h1>
+			<h1>Recommendation Systems</h1>
 			<p>Surface and recommend relevant content for consumers and brands alike.</p>
 		</div>
 
@@ -104,13 +102,15 @@
 		</div>	
 		<div>
 			<img src="images/home_page/relations-icon.png">
-			<h1>Matching Algorithms</h1>
-			<p>Pair platform users based on individual sets of attributes and preferences.</p>
+			<h1>Intelligent Promotions</h1>
+			<p>Estimate the probability of a purchase, and thus the value of 
+			any site visitor, in real-time.</p>
 		</div>
 		<div>
 			<img src="images/home_page/abacus-icon.png">
-			<h1>Dynamic Pricing</h1>
-			<p>Increase revenue with real-time demand discovery and price optimization.</p>
+			<h1>Scoring Systems</h1>
+			<p>Measure influence, evaluate risk, or rate quality using 
+			Machine Learning models.</p>
 		</div>
 	</div>
 
