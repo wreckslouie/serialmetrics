@@ -4,7 +4,7 @@
 	<title>Modules</title>
 	<?php include('includes/head_links.php'); ?>
 	<link rel="stylesheet" type="text/css" href="styles/modules.css">
-	<script type="text/javascript" src="js/module_products.js"></script>
+	<script type="text/javascript" src="js/modules.js"></script>
 </head>
 <body class="inside-page">
 
