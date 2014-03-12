@@ -84,12 +84,12 @@
 			<p>Pair platform users based on individual sets of attributes and preferences.</p>
 		</div>
 		<div>
-			<img src="images/home_page/path-icon.png">
+			<img src="images/home_page/pricing-icon.png">
 			<h1>Dynamic Pricing</h1>
 			<p>Increase revenue with real-time demand discovery and price optimization.</p>
 		</div>
 		<div>
-			<img src="images/home_page/navigation-icon.png">
+			<img src="images/home_page/recommendations-icon.png">
 			<h1>Recommendation Systems</h1>
 			<p>Surface and recommend relevant content for consumers and brands alike.</p>
 		</div>
