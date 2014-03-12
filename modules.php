@@ -12,7 +12,7 @@
 
 	<div id="main-content">
 		<img src="images/modules_page/modules_icon.png">
-		<h1>Modules</h1>
+		<h1>Modules: Ready to Use, Machine Learning APIs</h1>
 		<div class="module">
 			<div class="module-heading">
 			Scoring Systems  -  Identify Quality, Quantifiably
