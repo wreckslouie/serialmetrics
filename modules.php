@@ -16,6 +16,7 @@
 		<h1>Modules: Ready to Use, Machine Learning APIs</h1>
 		<div class="module">
 			<div class="module-heading">
+			<img src="images/home_page/share-icon.png">
 			Matching Algorithms -  The Perfect Job, The Perfect Partner
 			</div>
 
@@ -27,6 +28,7 @@
 		</div>		
 		<div class="module">
 			<div class="module-heading">
+				<img src="images/home_page/pricing-icon.png">
 				Dynamic Pricing - Extract Value on Demand
 			</div>
 			<div class="module-content">
@@ -42,7 +44,8 @@
 		</div>
 		<div class="module">
 			<div class="module-heading">
-			Recommendation Systems -  Personalize Content Discovery
+				<img src="images/home_page/recommendations-icon.png">
+				Recommendation Systems -  Personalize Content Discovery
 			</div>
 
 			<div class="module-content">
@@ -53,6 +56,7 @@
 		</div>
 		<div class="module">
 			<div class="module-heading">
+				<img src="images/home_page/gear-icon.png">
 				Text Classification - Find Meaning, not Keywords	
 			</div>
 			<div class="module-content">
@@ -67,7 +71,8 @@
 		</div>
 		<div class="module">
 			<div class="module-heading">
-			Intelligent Promotions -  The Right Deal at the Right Time
+				<img src="images/home_page/relations-icon.png">
+				Intelligent Promotions -  The Right Deal at the Right Time
 			</div>
 			<div class="module-content">
 				Engages users that are less likely to purchase from your site with deals, coupons, discounts, or other 
@@ -81,7 +86,8 @@
 		</div>
 		<div class="module">
 			<div class="module-heading">
-			Scoring Systems  -  Identify Quality, Quantifiably
+				<img src="images/home_page/abacus-icon.png">
+				Scoring Systems  -  Identify Quality, Quantifiably
 			</div>
 			<div class="module-content">
 				Classifies data according to quality, risk, or event likelihood.  Know which users are at risk of quitting 
@@ -93,7 +99,8 @@
 		</div>
 		<div class="module">
 			<div class="module-heading">
-			Geo Inference - Locate Users, Spot-on
+				<img src="images/home_page/navigation-icon.png">
+				Geo Inference - Locate Users, Spot-on
 			</div>
 
 			<div class="module-content">
