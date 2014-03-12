@@ -43,7 +43,7 @@
 
 		<div class="module">
 			<div class="module-heading">
-			Recommendation Engines -  Personalize Content Discovery
+			Recommendation Systems -  Personalize Content Discovery
 			</div>
 
 			<div class="module-content">
@@ -71,7 +71,7 @@
 
 		<div class="module">
 			<div class="module-heading">
-			Matching System -  The Perfect Job, The Perfect Partner
+			Matching Systems -  The Perfect Job, The Perfect Partner
 			</div>
 
 			<div class="module-content">
