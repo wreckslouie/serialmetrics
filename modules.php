@@ -17,7 +17,7 @@
 		<div class="module">
 			<div class="module-heading">
 			<img src="images/home_page/share-icon.png">
-			Matching Algorithms -  The Perfect Job, The Perfect Partner
+			<h1>Matching Algorithms -  The Perfect Job, The Perfect Partner</h1>
 			</div>
 
 			<div class="module-content">
@@ -29,7 +29,7 @@
 		<div class="module">
 			<div class="module-heading">
 				<img src="images/home_page/pricing-icon.png">
-				Dynamic Pricing - Extract Value on Demand
+				<h1>Dynamic Pricing - Extract Value on Demand</h1>
 			</div>
 			<div class="module-content">
 				Assigns the optimal price to goods such that each unit of inventory is sold to achieve revenue-optimality. 
@@ -45,7 +45,7 @@
 		<div class="module">
 			<div class="module-heading">
 				<img src="images/home_page/recommendations-icon.png">
-				Recommendation Systems -  Personalize Content Discovery
+				<h1>Recommendation Systems -  Personalize Content Discovery</h1>
 			</div>
 
 			<div class="module-content">
@@ -57,7 +57,7 @@
 		<div class="module">
 			<div class="module-heading">
 				<img src="images/home_page/gear-icon.png">
-				Text Classification - Find Meaning, not Keywords	
+				<h1>Text Classification - Find Meaning, not Keywords</h1>
 			</div>
 			<div class="module-content">
 				Structures free-form text into sets of topic categories.  Imagine needing to organize volumes of text into 
@@ -72,7 +72,7 @@
 		<div class="module">
 			<div class="module-heading">
 				<img src="images/home_page/relations-icon.png">
-				Intelligent Promotions -  The Right Deal at the Right Time
+				<h1>Intelligent Promotions -  The Right Deal at the Right Time</h1>
 			</div>
 			<div class="module-content">
 				Engages users that are less likely to purchase from your site with deals, coupons, discounts, or other 
@@ -87,7 +87,7 @@
 		<div class="module">
 			<div class="module-heading">
 				<img src="images/home_page/abacus-icon.png">
-				Scoring Systems  -  Identify Quality, Quantifiably
+				<h1>Scoring Systems  -  Identify Quality, Quantifiably</h1>
 			</div>
 			<div class="module-content">
 				Classifies data according to quality, risk, or event likelihood.  Know which users are at risk of quitting 
@@ -100,9 +100,8 @@
 		<div class="module">
 			<div class="module-heading">
 				<img src="images/home_page/navigation-icon.png">
-				Geo Inference - Locate Users, Spot-on
+				<h1>Geo Inference - Locate Users, Spot-on</h1>
 			</div>
-
 			<div class="module-content">
 				Determines where users live, down to the zip code.  Ever need to know where your users live, where they work, 
 				how far they commute, or have other location-based questions?  Our geo-inference module not only infer the 

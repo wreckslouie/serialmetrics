@@ -142,9 +142,14 @@ nav {
 
 .inside-page #main-content .module .module-heading {
   cursor: pointer;
-  vertical-align: middle; }
+  vertical-align: middle;
+  position: relative; }
+  .inside-page #main-content .module .module-heading h1, .inside-page #main-content .module .module-heading img {
+    display: inline-block; }
   .inside-page #main-content .module .module-heading img {
     vertical-align: middle; }
+  .inside-page #main-content .module .module-heading h1 {
+    position: absolute; }
 .inside-page #main-content .module .module-content {
   display: none; }
 
@@ -160,11 +165,14 @@ nav {
     border: 2px solid white;
     border-radius: 5px;
     -moz-border-radius: 5px; }
-    .inside-page #main-content .module .module-heading {
+    .inside-page #main-content .module .module-heading h1 {
       font-size: 1.5em;
-      line-height: 1.5em; }
-      .inside-page #main-content .module .module-heading img {
-        padding: 0 25px 0 0; }
+      line-height: 1.5em;
+      margin: 0;
+      top: 9px;
+      left: 95px; }
+    .inside-page #main-content .module .module-heading img {
+      padding: 0 25px 0 0; }
     .inside-page #main-content .module .module-content {
       margin-top: 20px;
       line-height: 1.5em; }
