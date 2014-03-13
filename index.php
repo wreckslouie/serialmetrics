@@ -79,38 +79,50 @@
 	<div id="modules-section">
 		<!--Top Row -->
 		<div>
-			<img src="images/home_page/share-icon.png">
-			<h1>Matching Algorithms</h1>
-			<p>Pair platform users based on individual sets of attributes and preferences.</p>
+			<a href="modules.php#matching-algorithms">
+				<img src="images/home_page/share-icon.png">
+				<h1>Matching Algorithms</h1>
+				<p>Pair platform users based on individual sets of attributes and preferences.</p>
+			</a>
 		</div>
 		<div>
-			<img src="images/home_page/pricing-icon.png">
-			<h1>Dynamic Pricing</h1>
-			<p>Increase revenue with real-time demand discovery and price optimization.</p>
+			<a href="modules.php#dynamic-pricing">
+				<img src="images/home_page/pricing-icon.png">
+				<h1>Dynamic Pricing</h1>
+				<p>Increase revenue with real-time demand discovery and price optimization.</p>
+			</a>
 		</div>
 		<div>
-			<img src="images/home_page/recommendations-icon.png">
-			<h1>Recommendation Systems</h1>
-			<p>Surface and recommend relevant content for consumers and brands alike.</p>
+			<a href="modules.php#recommendation-systems">
+				<img src="images/home_page/recommendations-icon.png">
+				<h1>Recommendation Systems</h1>
+				<p>Surface and recommend relevant content for consumers and brands alike.</p>
+			</a>
 		</div>
 
 		<!--Bottom Row -->
 		<div>
-			<img src="images/home_page/gear-icon.png">
-			<h1>Text Classification</h1>
-			<p>Extract themes from huge amounts of text.</p>
+			<a href="modules.php#text-classification">
+				<img src="images/home_page/gear-icon.png">
+				<h1>Text Classification</h1>
+				<p>Extract themes from huge amounts of text.</p>
+			</a>
 		</div>	
 		<div>
-			<img src="images/home_page/relations-icon.png">
-			<h1>Intelligent Promotions</h1>
-			<p>Estimate the probability of a purchase, and thus the value of 
-			any site visitor, in real-time.</p>
+			<a href="modules.php#intelligent-promotions">
+				<img src="images/home_page/relations-icon.png">
+				<h1>Intelligent Promotions</h1>
+				<p>Estimate the probability of a purchase, and thus the value of 
+				any site visitor, in real-time.</p>
+			</a>
 		</div>
 		<div>
-			<img src="images/home_page/abacus-icon.png">
-			<h1>Scoring Systems</h1>
-			<p>Measure influence, evaluate risk, or rate quality using 
-			Machine Learning models.</p>
+			<a href="modules.php#scoring-systems">
+				<img src="images/home_page/abacus-icon.png">
+				<h1>Scoring Systems</h1>
+				<p>Measure influence, evaluate risk, or rate quality using 
+				Machine Learning models.</p>
+			</a>
 		</div>
 	</div>
 

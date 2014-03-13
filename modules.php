@@ -14,7 +14,7 @@
 	<div id="main-content">
 		<img src="images/modules_page/modules_icon.png">
 		<h1>Modules: Ready to Use, Machine Learning APIs</h1>
-		<div class="module">
+		<div class="module" id="matching-algorithms">
 			<div class="module-heading">
 			<img src="images/home_page/share-icon.png">
 			<h1>Matching Algorithms -  The Perfect Job, The Perfect Partner</h1>
@@ -26,7 +26,7 @@
 				looks at  the features and preferences from each side of the market and recommends optimal pairs of users. 
 			</div>   
 		</div>		
-		<div class="module">
+		<div class="module" id="dynamic-pricing">
 			<div class="module-heading">
 				<img src="images/home_page/pricing-icon.png">
 				<h1>Dynamic Pricing - Extract Value on Demand</h1>
@@ -42,7 +42,7 @@
 				of demand), and can make corrective action! Imagine a control system for regulating prices.  
 			</div>
 		</div>
-		<div class="module">
+		<div class="module" id="recommendation-systems">
 			<div class="module-heading">
 				<img src="images/home_page/recommendations-icon.png">
 				<h1>Recommendation Systems -  Personalize Content Discovery</h1>
@@ -54,7 +54,7 @@
 				that you wanted, before you even thought of it.  Amazing, right?  Amazing, but completely possible.
 			</div> 
 		</div>
-		<div class="module">
+		<div class="module" id="text-classification">
 			<div class="module-heading">
 				<img src="images/home_page/gear-icon.png">
 				<h1>Text Classification - Find Meaning, not Keywords</h1>
@@ -69,7 +69,7 @@
 				those topics, and coalesce them into broader categories,  accordingly.
 			</div>
 		</div>
-		<div class="module">
+		<div class="module" id="intelligent-promotions">
 			<div class="module-heading">
 				<img src="images/home_page/relations-icon.png">
 				<h1>Intelligent Promotions -  The Right Deal at the Right Time</h1>
@@ -84,7 +84,7 @@
 				promotional campaigns. 
 			</div>
 		</div>
-		<div class="module">
+		<div class="module" id="scoring-systems">
 			<div class="module-heading">
 				<img src="images/home_page/abacus-icon.png">
 				<h1>Scoring Systems  -  Identify Quality, Quantifiably</h1>
@@ -97,7 +97,7 @@
 				quality to lead quality.
 			</div> 
 		</div>
-		<div class="module">
+		<div class="module" id="geo-inference">
 			<div class="module-heading">
 				<img src="images/home_page/navigation-icon.png">
 				<h1>Geo Inference - Locate Users, Spot-on</h1>
