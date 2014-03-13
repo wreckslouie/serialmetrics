@@ -1,7 +1,13 @@
 @import 'dark_inside_pages';
 
-.inside-page h1{
-	margin:40px 0 20px;
+.inside-page{ 
+	width:100%;
+	h1{
+		margin:40px 0 20px;
+	}
+	.full-width{
+		width: 100%;
+	}
 }
 
 ul{

@@ -25,7 +25,7 @@
 			solves the most complex data science problems facing today&rsquo;s companies.
 		</p>
 	</div>
-	<img src="images/client_page/sf_bay.jpg">
+	<img src="images/client_page/sf_bay.jpg" class="full-width">
 	<div class="main-content">
 		<h1>Our Team</h1>
 		<ul>

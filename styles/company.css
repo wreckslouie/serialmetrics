@@ -140,8 +140,12 @@ nav a {
 nav {
   padding: 5px 10px; }
 
-.inside-page h1 {
-  margin: 40px 0 20px; }
+.inside-page {
+  width: 100%; }
+  .inside-page h1 {
+    margin: 40px 0 20px; }
+  .inside-page .full-width {
+    width: 100%; }
 
 ul {
   text-decoration: none; }
