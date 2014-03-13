@@ -122,6 +122,9 @@ footer {
     letter-spacing: .215em;
     word-spacing: 7px; }
 
+html {
+  background-color: white; }
+
 .inside-page {
   background-color: white;
   color: #464c57; }
