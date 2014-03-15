@@ -12,29 +12,21 @@
 		<h1>
 			Clients
 		</h1>
-		
-		<a title="eventbrite-logo-e1315080753495" href="http://www.eventbrite.com/"><img class="attachment-full" title="" alt="eventbrite-logo-e1315080753495" src="http://serialmetrics.com/wp-content/uploads/2011/09/eventbrite-logo-e1315080753495.jpg" width="243" height="130" /></a>
-		<a title="AAA-logo" href="http://www.aaa.com/"><img class="attachment-full" title="" alt="AAA-logo" src="http://serialmetrics.com/wp-content/uploads/2011/09/AAA-logo.jpg" width="248" height="185" /></a>
-		<a title="WellsFargoLogo" href="https://www.wellsfargo.com/"><img class="attachment-full" title="" alt="WellsFargoLogo" src="http://serialmetrics.com/wp-content/uploads/2011/09/WellsFargoLogo.png" width="136" height="135" /></a>
-		&nbsp;
 
-		<a title="BACLogo" href="https://www.bankofamerica.com/"><img class="attachment-full" title="" alt="BACLogo" src="http://serialmetrics.com/wp-content/uploads/2011/09/BACLogo.png" width="258" height="113" /></a>
-		<a title="sycleBig" href="http://web.sycle.net/"><img class="attachment-full" title="" alt="sycleBig" src="http://serialmetrics.com/wp-content/uploads/2011/09/sycleBig.png" width="269" height="107" /></a>
-		&nbsp;
-
-		<a href="http://serialmetrics.com/project/swaylo/swaylo-fb/" rel="attachment wp-att-1004"><img class="alignright size-full wp-image-1004" alt="swaylo fb" src="http://serialmetrics.com/wp-content/uploads/2013/06/swaylo-fb.jpg" width="300" height="225" /></a>
-		<a title="pathto" href="https://www.path.to/"><img class="attachment-full" title="" alt="pathto" src="http://serialmetrics.com/wp-content/uploads/2011/09/pathto-e1371947172804.png" width="300" height="75" /></a>
-		&nbsp;
-
-		<a title="Harvard" href="http://www.hbs.edu/"><img class="attachment-full" title="" alt="Harvard" src="http://serialmetrics.com/wp-content/uploads/2011/09/Harvard.jpg" width="200" height="200" /></a>
-		<a title="Actiance-logo" href="http://www.actiance.com/"><img class="attachment-full" title="" alt="Actiance-logo" src="http://serialmetrics.com/wp-content/uploads/2011/09/Actiance-logo.jpg" width="288" height="130" /></a>
-		<a title="zipongo" href="http://www.zipongo.com/"><img class="attachment-full" title="" alt="zipongo" src="http://serialmetrics.com/wp-content/uploads/2011/09/zipongo-e1371946612882.jpg" width="250" height="101" /></a>
-		&nbsp;
-
-		<a title="ibm-logo" href="http://www.ibm.com/us/en/"><img class="attachment-full" title="" alt="ibm-logo" src="http://serialmetrics.com/wp-content/uploads/2011/09/ibm-logo.jpg" width="140" height="140" /></a>
-		<a title="Print" href="http://www.waypointhomes.com/"><img class="attachment-full" title="" alt="Print" src="http://serialmetrics.com/wp-content/uploads/2011/09/homes-logo.jpg" width="279" height="88" /></a>
-		<a title="Hang-logo" href="http://www.hang.co"><img class="attachment-full" title="" alt="Hang-logo" src="http://serialmetrics.com/wp-content/uploads/2011/09/Hang-logo.jpg" width="288" height="130" /></a>
-		<a title="topicalogo" href="http://www.topica.com/"><img class="attachment-full" title="" alt="topicalogo" src="http://serialmetrics.com/wp-content/uploads/2011/09/topicalogo.png" width="385" height="65" /></a>
+		<a href="http://www.aaa.com/"><img alt="AAA logo" src="images/client_page/aaa.png" /></a>
+		<a href="http://www.actiance.com/"><img alt="Actiance logo" src="images/client_page/actiance.png" /></a>
+		<a href="http://www.eventbrite.com/"><img alt="Eventbrite logo" src="images/client_page/eventbrite.jpg" /></a>
+		<a href="https://www.wellsfargo.com/"><img alt="Wells Fargo logo" src="images/client_page/wells-fargo.png" /></a>
+		<a href="https://www.bankofamerica.com/"><img alt="Bank of America logo" src="images/client_page/bank-of-america.png" /></a>
+		<a href="http://web.sycle.net/"><img alt="sycleBig logo" src="images/client_page/sycle.png" /></a>
+		<a href="http://serialmetrics.com/project/swaylo/swaylo-fb/"><img alt="Swaylo Facebook logo" src="images/client_page/swaylo.jpg" /></a>
+		<a href="https://www.path.to/"><img alt="Pathto logo" src="images/client_page/path-to.png" /></a>
+		<a href="http://www.hbs.edu/"><img alt="Harvard Business School logo" src="images/client_page/harvard-business.jpg" /></a>
+		<a href="http://www.zipongo.com/"><img alt="Zipongo logo" src="himages/client_page/zipongo.jpg" /></a>
+		<a href="http://www.ibm.com/us/en/"><img alt="IBM logo" src="images/client_page/ibm.jpg" /></a>
+		<a href="http://www.waypointhomes.com/"><img alt="Waypoint logo" src="images/client_page/waypoint.jpg" /></a>
+		<a href="http://www.hang.co"><img alt="Hang logo" src="images/client_page/hang.jpg" /></a>
+		<a href="http://www.topica.com/"><img alt="Topica logo" src="images/client_page/topica.png" /></a>
 		&nbsp;
 
 		</div>
