@@ -1,43 +1,45 @@
 @import 'white_inside_pages';
 
 .inside-page{
-	ul{
-		list-style-type:disc;
-	}
-	ol{
-		list-style-type: decimal;
-	}
-	.case-study-intro{
-		cursor: pointer;
-		a{
-			color: $lighter-gray;
-			&.more{
+	.case-study{
+		ul{
+			list-style-type:disc;
+		}
+		ol{
+			list-style-type: decimal;
+		}
+		.case-study-intro{
+			cursor: pointer;
+			a{
+				color: $lighter-gray;
+				&.more{
 
-			}
-			&.less{
-				display: none;
+				}
+				&.less{
+					display: none;
+				}
 			}
 		}
-	}
-	.case-study-content{
-		display: none;
-		padding-bottom:30px;
-		border-bottom:1px solid $medium-gray;
-	}
-	h2{
-		font-size: 1.4em;
-		margin-top:30px;
-	}
-	h3{
-		font-size: 1.2em;
-		padding: 25px 0 0 0;
-		
-		
-	}
+		.case-study-content{
+			display: none;
+			padding-bottom:30px;
+			border-bottom:1px solid $medium-gray;
+		}
+		h2{
+			font-size: 1.4em;
+			margin-top:30px;
+		}
+		h3{
+			font-size: 1.2em;
+			padding: 25px 0 0 0;
+			
+			
+		}
 
-	sub{
-		font-size: 0.8em;
-		vertical-align: sub;
+		sub{
+			font-size: 0.8em;
+			vertical-align: sub;
+		}
 	}
 }
 
@@ -46,15 +48,15 @@
 	Desktop Styles
 				-----*/
 .inside-page{
-	ul, ol{
-		margin: 20px 0;
-		li{
-			margin: 16px 0 16px 20px;
-			line-height: 1.5em;
-		}
-	}
 	.case-study{
 		margin: 30px 0 60px;
+		ul, ol{
+			margin: 20px 0;
+			li{
+				margin: 16px 0 16px 20px;
+				line-height: 1.5em;
+			}
+		}
 		.case-study-intro{
 			a{
 				margin: 0 0 0 10px;
