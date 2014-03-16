@@ -4,8 +4,17 @@
 
 	.main-content{
 		a{
-			display: block;
+			display: inline-block;
 		}
+
+		img{
+			padding:0px;
+			&:nth-child(odd){
+				padding-right:40px;
+			}
+		}
+
+
 	}
 	
 }

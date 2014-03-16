@@ -150,4 +150,8 @@ nav {
   padding: 5px 10px; }
 
 .inside-page .main-content a {
-  display: block; }
+  display: inline-block; }
+.inside-page .main-content img {
+  padding: 0px; }
+  .inside-page .main-content img:nth-child(odd) {
+    padding-right: 40px; }
