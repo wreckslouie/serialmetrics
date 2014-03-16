@@ -1,5 +1,5 @@
 <nav>
-	<a href="../serialmetrics.com" class="drop-down">Serial Metrics</a>
+	<a href="/" class="drop-down">Serial Metrics</a>
 	<ul>
 		<a href="company.php"><li>Company</li></a>
 		<a href="services.php"><li>Services</li></a>
