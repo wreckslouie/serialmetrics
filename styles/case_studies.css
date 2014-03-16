@@ -157,6 +157,8 @@ nav {
   cursor: pointer; }
   .inside-page .case-study .case-study-intro a {
     color: #a0a0a0; }
+    .inside-page .case-study .case-study-intro a.more, .inside-page .case-study .case-study-intro a.less {
+      display: block; }
     .inside-page .case-study .case-study-intro a.less {
       display: none; }
 .inside-page .case-study .case-study-content {
@@ -184,4 +186,4 @@ nav {
       margin: 16px 0 16px 20px;
       line-height: 1.5em; }
   .inside-page .case-study .case-study-intro a {
-    margin: 0 0 0 10px; }
+    margin: 10px 0 0 0; }
