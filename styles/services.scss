@@ -1,6 +1,7 @@
 @import 'white_inside_pages';
 
 .inside-page{
+
 	h2{
 		font-size:1.5em;
 		margin: 25px 0 0;
@@ -19,7 +20,44 @@
 		a{
 			color: $medium-gray;
 		}
+		ol{
+			list-style-type: decimal;
+			li{
+				.step-summary{
+					cursor: pointer;
+				}
+				.more, .less{
+					color: $lighter-gray;
+				}
+				.step-details, .less{
+					display: none;
+				}
+			}
+		}
+		.button{
+			text-transform: uppercase;
+			display: block;
+		}
 	}
-	
+}
+
+
+//Desktop Styles
+.inside-page{
+	.main-content{
+		ol{
+			margin: 20px 0;
+			li{
+				margin: 16px 0 16px 20px;
+				line-height: 1.2em;
+				.more, .less{
+					margin-left: 5px;
+				}
+			}
+		}
+		.button{
+			margin-top:30px;
+		}
+	}
 	
 }

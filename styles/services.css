@@ -154,3 +154,24 @@ nav {
   padding: 10px 0; }
 .inside-page .main-content a {
   color: #464c57; }
+.inside-page .main-content ol {
+  list-style-type: decimal; }
+  .inside-page .main-content ol li .step-summary {
+    cursor: pointer; }
+  .inside-page .main-content ol li .more, .inside-page .main-content ol li .less {
+    color: #a0a0a0; }
+  .inside-page .main-content ol li .step-details, .inside-page .main-content ol li .less {
+    display: none; }
+.inside-page .main-content .button {
+  text-transform: uppercase;
+  display: block; }
+
+.inside-page .main-content ol {
+  margin: 20px 0; }
+  .inside-page .main-content ol li {
+    margin: 16px 0 16px 20px;
+    line-height: 1.2em; }
+    .inside-page .main-content ol li .more, .inside-page .main-content ol li .less {
+      margin-left: 5px; }
+.inside-page .main-content .button {
+  margin-top: 30px; }
