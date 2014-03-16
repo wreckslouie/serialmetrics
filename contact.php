@@ -1,4 +1,9 @@
 <?php
+	$name="";
+	$company="";
+	$email="";
+	$phone="";
+
 	if($_POST){
 
 		$name=$_POST['name'];
@@ -26,21 +31,28 @@
 			$response="Please fill out all fields";
 			echo "<div class='response'>".$response."</div>";
 		}
+	}else if($_GET){
+		$name=$_GET['name'];
+		$company=$_GET['company'];
+		$email=$_GET['email'];
+		$phone=$_GET['phone'];
 	}
 ?>
 <!DOCTYPE html>
 <html>
 <head>
 	<title>Contact</title>
+	<?php include('includes/head_links.php'); ?>
 	<link rel="stylesheet" type="text/css" href="styles/contact.css">
 </head>
 <body>
+<?php include('includes/main_nav.php'); ?>
 <form id="contact" name="contact" method="post">
 	<h1>Contact</h1>
-	<input type="text" id="name" name="name" placeholder="Name">
-	<input type="company" id="company" name="company" placeholder="Company">
-	<input type="email" id="email" name="email" placeholder="Email">
-	<input type="phone" id="phone" name="phone" placeholder="Phone">
+	<input type="text" id="name" name="name" placeholder="Name" value="<?php echo $name ?>">
+	<input type="company" id="company" name="company" placeholder="Company" value="<?php echo $company ?>">
+	<input type="email" id="email" name="email" placeholder="Email" value="<?php echo $email ?>">
+	<input type="phone" id="phone" name="phone" placeholder="Phone" value="<?php echo $phone ?>">
 	<textarea id="message" name="message" placeholder="Message..."></textarea>
 	<input type="submit" value="Submit >>" id="submit" />
 </form>

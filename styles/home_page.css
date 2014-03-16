@@ -178,10 +178,13 @@ body {
       border: 1px solid white;
       border-radius: 5px;
       -moz-border-radius: 5px; }
-    body #contact a {
+    body #contact #submit {
       display: block;
       text-align: right;
-      text-transform: uppercase; }
+      text-transform: uppercase;
+      border: none;
+      font-family: 'Raleway', sans-serif;
+      font-weight: 100; }
   body #data-stack h1 {
     border-bottom: 1px solid white; }
   body #data-stack div {
@@ -282,10 +285,11 @@ body #contact {
     color: white; }
     body #contact input:nth-child(2), body #contact input:nth-child(4) {
       margin-right: 80px; }
-  body #contact a {
+  body #contact #submit {
     font-size: 1.45em;
     letter-spacing: .2em;
-    padding-right: 17px; }
+    padding-right: 17px;
+    width: 100%; }
 body .full-width-button {
   width: 800px; }
 body #data-stack {

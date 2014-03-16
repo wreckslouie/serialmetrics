@@ -137,13 +137,13 @@
 		<a href="orion.php">Learn more >></a>
 	</div>
 
-	<form id="contact" name="contact" method="post">
+	<form id="contact" name="contact" action="contact.php" method="GET">
 		<h1>Contact Us</h1>
 		<input type="text" id="name" name="name" placeholder="Name">
 		<input type="company" id="company" name="company" placeholder="Company">
 		<input type="email" id="email" name="email" placeholder="Email">
 		<input type="phone" id="phone" name="phone" placeholder="Phone">
-		<a href="#">Next >></a>
+		<input type="submit" id="submit" value="Next >>">
 	</form>
 
 	<div id="data-stack">
