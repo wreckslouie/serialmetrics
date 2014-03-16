@@ -1,0 +1,70 @@
+@import 'dark_inside_pages';
+
+.response{
+	width: 430px;
+	margin: 80px auto -30px;
+	p{
+		margin-top: 10px;
+	}
+}
+
+#contact{
+	h1{
+
+	}
+	input, textarea{
+		background-color: $background-color;
+		border: 1px solid white;
+		border-radius: 5px;
+		-moz-border-radius: 5px;
+		color: white;
+	}
+	#submit{
+		border: none;
+		display: block;
+		text-align: left;
+		text-transform: uppercase;
+		cursor: pointer;
+	}
+}
+
+/*--- Desktop Styles ---*/
+
+#contact{
+	margin: 100px auto 160px;
+	width: 430px;
+	h1{
+		margin: 0 0 20px;
+		padding-bottom:10px;
+		font-size: 1.5em;
+		letter-spacing: .2em;
+	}
+
+	input{
+		width: 330px;
+		margin-bottom:20px;
+		padding: 15px 25px;
+		font-size: 1em;
+		&:nth-child(2), &:nth-child(4){
+			margin-right: 80px;
+		}
+	}
+
+	textarea{
+		width: 330px;
+		height: 200px;
+		font-size: 1em;
+		padding: 15px 25px;
+	}
+
+	#submit{
+		width: auto;
+		height: auto;
+		font-size: 1em;
+		letter-spacing: .2em;
+		padding:0px 17px 0px 0px;
+		margin: 20px 0 0 2px;
+		font-family: 'Raleway',sans-serif;
+		font-weight: 100;
+	}
+}
