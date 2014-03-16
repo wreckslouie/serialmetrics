@@ -143,7 +143,7 @@
 		<input type="company" id="company" name="company" placeholder="Company">
 		<input type="email" id="email" name="email" placeholder="Email">
 		<input type="phone" id="phone" name="phone" placeholder="Phone">
-		<input type="submit" id="submit" value="Next >>">
+		<input type="submit" id="submit" class="group" value="Next >>">
 	</form>
 
 	<div id="data-stack">

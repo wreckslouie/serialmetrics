@@ -46,6 +46,12 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+/* Clearfix */
+.group:after {
+  content: "";
+  display: table;
+  clear: both; }
+
 /*------ Universal Styles -------*/
 a, a:visited, a:hover {
   color: white;
@@ -180,11 +186,12 @@ body {
       -moz-border-radius: 5px; }
     body #contact #submit {
       display: block;
-      text-align: right;
+      float: right;
       text-transform: uppercase;
       border: none;
       font-family: 'Raleway', sans-serif;
-      font-weight: 100; }
+      font-weight: 100;
+      cursor: pointer; }
   body #data-stack h1 {
     border-bottom: 1px solid white; }
   body #data-stack div {
@@ -269,7 +276,7 @@ body #hadoop {
     letter-spacing: .03em;
     line-height: 1.4em; }
 body #contact {
-  padding: 45px 60px; }
+  padding: 45px 60px 100px; }
   body #contact h1 {
     width: 195px;
     margin: 0 0 35px 45px;
@@ -289,7 +296,7 @@ body #contact {
     font-size: 1.45em;
     letter-spacing: .2em;
     padding-right: 17px;
-    width: 100%; }
+    width: auto; }
 body .full-width-button {
   width: 800px; }
 body #data-stack {

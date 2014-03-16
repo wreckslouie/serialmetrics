@@ -48,6 +48,13 @@ border-collapse: collapse;
 border-spacing: 0;
 }
 
+/* Clearfix */
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 /*------ Universal Styles -------*/
 
 //Color palette
