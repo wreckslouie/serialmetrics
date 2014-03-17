@@ -14,10 +14,10 @@
 		$response="";
 
 		if(($name && $company && $email && $phone && $message_text)!=null){
-			$to="bjorncooley@gmail.com";
-			$subject="Message From " . $name . "at " . $company;
-			$message=$message_text . "<br />" . "Name: " . $name . "<br />" . "Company: " . $company .
-				"<br />" . "Email: " . $email . "<br />" . "Phone number: " . $phone;
+			$to="amir@serialmetrics.com";
+			$subject="Message From " . $name . " at " . $company;
+			$message=$message_text . "\r\n" . "Name: " . $name . "\r\n" . "Company: " . $company .
+				"\r\n" . "Email: " . $email . "\r\n" . "Phone number: " . $phone;
 			$headers = 'From: '.$_POST['email']."\r\n".'Reply-To: '.$_POST['email']."\r\n";
 			mail($to,$subject,$message,$headers);
 
