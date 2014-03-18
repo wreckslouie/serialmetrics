@@ -25,6 +25,9 @@
 		your teams.  This model works quite well for companies that might need 
 		'full-time', dedicated, data science resources, but don't want to take the hire staff in-house.</p>
 
+	</div>
+	<img src="images/services_page/ferry-building.jpg" class="full-width">
+	<div class="main-content">
 
 		<h2><a href="module_products.php">Module Implementation</a></h2>
 		<p>Over the last five years we've built a suit of 

@@ -1,7 +1,7 @@
 @import 'white_inside_pages';
 
 .inside-page{
-
+	width: 100%;
 	h2{
 		font-size:1.5em;
 		margin: 25px 0 0;
@@ -44,6 +44,9 @@
 
 //Desktop Styles
 .inside-page{
+	.full-width{
+		width: 100%;
+	}
 	.main-content{
 		ol{
 			margin: 20px 0;

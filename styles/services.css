@@ -149,29 +149,33 @@ html {
 nav {
   padding: 5px 10px; }
 
-.inside-page h2 {
-  font-size: 1.5em;
-  margin: 25px 0 0; }
-.inside-page h3 {
-  text-transform: uppercase;
-  margin-top: 25px; }
-.inside-page p {
-  line-height: 1.3em;
-  padding: 10px 0; }
-.inside-page .main-content a {
-  color: #464c57; }
-.inside-page .main-content ol {
-  list-style-type: decimal; }
-  .inside-page .main-content ol li .step-summary {
-    cursor: pointer; }
-  .inside-page .main-content ol li .more, .inside-page .main-content ol li .less {
-    color: #a0a0a0; }
-  .inside-page .main-content ol li .step-details, .inside-page .main-content ol li .less {
-    display: none; }
-.inside-page .main-content .button {
-  text-transform: uppercase;
-  display: block; }
+.inside-page {
+  width: 100%; }
+  .inside-page h2 {
+    font-size: 1.5em;
+    margin: 25px 0 0; }
+  .inside-page h3 {
+    text-transform: uppercase;
+    margin-top: 25px; }
+  .inside-page p {
+    line-height: 1.3em;
+    padding: 10px 0; }
+  .inside-page .main-content a {
+    color: #464c57; }
+  .inside-page .main-content ol {
+    list-style-type: decimal; }
+    .inside-page .main-content ol li .step-summary {
+      cursor: pointer; }
+    .inside-page .main-content ol li .more, .inside-page .main-content ol li .less {
+      color: #a0a0a0; }
+    .inside-page .main-content ol li .step-details, .inside-page .main-content ol li .less {
+      display: none; }
+  .inside-page .main-content .button {
+    text-transform: uppercase;
+    display: block; }
 
+.inside-page .full-width {
+  width: 100%; }
 .inside-page .main-content ol {
   margin: 20px 0; }
   .inside-page .main-content ol li {
