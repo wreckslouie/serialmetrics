@@ -155,7 +155,8 @@ nav {
   .inside-page #main-content .module .module-heading img {
     vertical-align: middle; }
   .inside-page #main-content .module .module-heading h1 {
-    position: absolute; }
+    position: absolute;
+    -webkit-text-size-adjust: 100%; }
 .inside-page #main-content .module .module-content {
   display: none; }
 
