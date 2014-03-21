@@ -317,7 +317,7 @@
 					<li>Establishes A/B control and tests groups to measure campaign efficacy</li>
 					<li>Incrementally adjusts marketing message after campaign execution completes</li>
 				</ul>
-				<img src="images/case_studies/sycle_1.jpg">
+				<img src="images/case_studies/sycle_1.png">
 				<h3>Serial Metrics Approach</h3>
 				<ul>
 					<li>Treats message flow as a network path optimization problem</li>
@@ -357,7 +357,7 @@
 				</ol>
 				<h3>Scoring Algorithm</h3>
 				<p>Clicks are given a score of 1 and are divided by the message number. This ratio factors message saturation, i.e., diminishing marginal value of each additional message.<p>
-				<img src="images/case_studies/sycle_3.jpg">
+				<img src="images/case_studies/sycle_3.png">
 				<p>Adding additional weights: Time to open (1/Xt) and template weight (Tw)</p>
 				<img src="images/case_studies/sycle_4.png">
 				<p>Leads are routed based on score percentile distribution</p>
@@ -366,14 +366,15 @@
 					<li>80th percentile receive a more aggressive series of marketing messages</li>
 					<li>50th percentile receive a more 'nurturing' series of marketing messages</li>
 				</ul>
-				<p><strong><strong>Fast Track: Target marketing population receives a sequence of messages that quickly prompt a purchase decision</strong></strong></p>
-				<p style="padding-left: 30px; text-align: justify;"><strong><a href="http://serialmetrics.com/wp-content/uploads/2011/10/FastTrack.jpg"><img alt="FastTrack" src="http://serialmetrics.com/wp-content/uploads/2011/10/FastTrack.jpg" width="482" height="321" /></a></strong></p>
-				<p>Slow Track: Target marketing population continue receiving marketing messages before being prompted with a purchase decision</strong></strong></p>
-				<p style="padding-left: 30px; text-align: justify;"><a href="http://serialmetrics.com/wp-content/uploads/2011/10/SlowTrack2.jpg"><img alt="SlowTrack2" src="http://serialmetrics.com/wp-content/uploads/2011/10/SlowTrack2.jpg" width="480" height="321" /></a></p>
+				<p>Fast Track: Target marketing population receives a sequence of messages that quickly prompt a purchase decision</p>
+				<img alt="FastTrack" src="images/case_studies/sycle_5.png">
+
+				<p>Slow Track: Target marketing population continue receiving marketing messages before being prompted with a purchase decision</p>
+				<img alt="SlowTrack2" src="images/case_studies/sycle_6.png">
 
 				<h3>Path Scoring</h3>
 				<p>The Serial Metrics lead routing application uses a series of decision criteria, incorporating scored recipient engagement values as well as data supporting the message sequence that maximizes the sales conversion propensity.  The resulting process identifies, dynamically, and within the campaign window the series of messages to which each consumer segment reacts.  Information elucidated during this process is critical to future marketing campaigns as it identifies not only the individual messages, but as well the <em>sequence of messages </em>that increase sales conversion.</p>
-				<img src="images/case_studies/sycle_5.jpg">
+				<img src="images/case_studies/sycle_7.png">
 			</div>
 		</div>	<!-- .case-study -->
 
