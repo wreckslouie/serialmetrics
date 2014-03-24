@@ -37,13 +37,13 @@
 					greater the usage, the greater perceived value, the greater the membership 
 					count, <em>ceteris paribus</em>.
 				</p>
-				<img src="images/case_studies/aaa_1.jpg">
+				<img src="images/case_studies/aaa_1.png">
 				<p>
 					Membership count is governed by the potential adopters, marketing spend, 
 					and membership tenure (the longer an individual is customer, the less 
 					likely to attrite).
 				</p>
-				<img src="images/case_studies/aaa_2.jpg">
+				<img src="images/case_studies/aaa_2.png">
 				<p>
 					Combining the two aforementioned feedback processes, we are able to model 
 					a set of variables that drive customer counts at any moment in time, and 
@@ -52,24 +52,24 @@
 					nonlinear member adoption, and usage, patterns. Additionally, <em>Second-Order</em>
 					effects amplify any said non-linearities.
 				</p>
-				<img src="images/case_studies/aaa_3.jpg">
+				<img src="images/case_studies/aaa_3.png">
 				<p>
 					Linking usage data ... (assuming a positive experience, the more frequently 
 					customers <em>use</em> the service the greater the customer retention rate, 
 					hence achange in the aggregate price elasticity of demand.)
 				</p>
-				<img src="images/case_studies/aaa_4.jpg">
+				<img src="images/case_studies/aaa_4.png">
 				<p>Linking cost data ...</p>
-				<img src="images/case_studies/aaa_5.jpg">
+				<img src="images/case_studies/aaa_5.png">
 				<p>Linking macro-economic data ...</p>
 				<p>
 					Fuel costs, the unemployment rate, for example, influence all sorts of variables 
 					ranging from car wear and tear to average miles driven: both significant cost 
 					determinants.
 				</p>
-				<img src="images/case_studies/aaa_6.jpg">
+				<img src="images/case_studies/aaa_6.png">
 				<p>Combining the Micro-economic and the Macro-economic drivers ...</p>
-				<img src="images/case_studies/aaa_7.jpg">
+				<img src="images/case_studies/aaa_7.png">
 				<p>
 					The <em>B's</em> and <em>R's</em> indicate Balanced (Negative) and Reinforcing 
 					(Positive) feedback relationships, respectively.
