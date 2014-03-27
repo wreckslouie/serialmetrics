@@ -165,6 +165,8 @@ nav {
   display: none;
   padding-bottom: 30px;
   border-bottom: 1px solid #464c57; }
+  .inside-page .case-study .case-study-content a {
+    color: #a0a0a0; }
 .inside-page .case-study h2 {
   font-size: 1.4em;
   margin-top: 30px; }
@@ -174,6 +176,9 @@ nav {
 .inside-page .case-study sub {
   font-size: 0.8em;
   vertical-align: sub; }
+.inside-page .case-study #code-appendix p {
+  text-align: left;
+  line-height: 1.3em; }
 
 /*-----
 	Desktop Styles
@@ -187,3 +192,13 @@ nav {
       line-height: 1.5em; }
   .inside-page .case-study .case-study-intro a {
     margin: 10px 0 0 0; }
+  .inside-page .case-study #code-appendix {
+    margin-top: 30px; }
+    .inside-page .case-study #code-appendix div {
+      margin: 15px 0 30px; }
+      .inside-page .case-study #code-appendix div ul {
+        margin: 10px 0 20px; }
+        .inside-page .case-study #code-appendix div ul li {
+          list-style-type: none;
+          margin: 0px;
+          line-height: 1.3em; }

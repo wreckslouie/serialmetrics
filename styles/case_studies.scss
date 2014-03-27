@@ -24,6 +24,9 @@
 			display: none;
 			padding-bottom:30px;
 			border-bottom:1px solid $medium-gray;
+			a{
+				color: $lighter-gray;
+			}
 		}
 		h2{
 			font-size: 1.4em;
@@ -39,6 +42,13 @@
 		sub{
 			font-size: 0.8em;
 			vertical-align: sub;
+		}
+
+		#code-appendix{
+			p{
+				text-align: left;
+				line-height: 1.3em;
+			}
 		}
 	}
 }
@@ -60,6 +70,21 @@
 		.case-study-intro{
 			a{
 				margin: 10px 0 0 0;
+			}
+		}
+
+		#code-appendix{
+			margin-top: 30px;
+			div{
+				margin: 15px 0 30px;
+				ul{
+					margin: 10px 0 20px;
+					li{
+						list-style-type: none;
+						margin: 0px;
+						line-height: 1.3em;
+					}
+				}
 			}
 		}
 	}
