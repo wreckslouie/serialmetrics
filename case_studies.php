@@ -575,7 +575,7 @@
 						
 						<h5>Line Item Subset: Carpeting</h5>
 						<ul>
-							<li>carpeting &lt;- subset(lineitembyproperty, Category=="Carpeting")</li>
+							<li>carpeting &lt;- subset(lineitembyproperty, Category=="Carpeting")</li>
 							<li>carpetingIV &lt;-merge(carpeting, indvarsrn, by="Property", all.y=T)</li>
 							<li>carpetingIV[,3][is.na(carpetingIV[,3])] &lt;- 0</li>
 						</ul>
@@ -659,7 +659,8 @@
 						
 						<h5>Estimate Dependent Variable: Appliances</h5>
 						<ul>
-							<li>modelappliances&lt;-lm(EstItemCost~as.factor(County)+Year.Built+ I(Year.Built^2)+Bedrooms+Bathrooms+ Square.Feet+Yard.Size+as.factor(Source)+ PropFeatur..Pool+PropFeature..Stories+PropFeature..Garage+ARV+Best.Guess..Rent+Livability.Score,data=appliancesIV)</li>
+							<li>modelappliances&lt;-lm(EstItemCost~as.factor(County)+Year.Built+ I(Year.Built^2)+Bedrooms+Bathrooms+ Square.Feet+Yard.Size+as.factor(Source)+ PropFeatur..Pool+PropFeature..Stories+PropFeature..Garage+ARV+
+							Best.Guess..Rent+Livability.Score,data=appliancesIV)</li>
 							<li>summary(modelappliances)</li>
 							<li>appliancesIV$appliancespredict&lt;-predict(modelappliances)</li>
 							<li>appliancespred&lt;-data.frame(predict(modelappliances), appliancesIV$Property)</li>
@@ -667,7 +668,10 @@
 						
 						<h5>Estimate Dependent Variable: Carpentry</h5>
 						<ul>
-							<li>modelcarpentry&lt;-lm(EstItemCost~as.factor(County)+Year.Built+I(Year.Built^2)+ Bedrooms+Bathrooms+Square.Feet+Yard.Size+as.factor(Source)+PropFeature..Pool+PropFeature..Stories+PropFeature..Garage+ARV+Best.Guess..Rent+Livability.Score, data=carpentryIV)</li>
+							<li>modelcarpentry&lt;-lm(EstItemCost~as.factor(County)+Year.Built+I(Year.Built^2)+ 
+							Bedrooms+Bathrooms+Square.Feet+Yard.Size+as.factor(Source)+
+							PropFeature..Pool+PropFeature..Stories+PropFeature..Garage+ARV+
+							Best.Guess..Rent+Livability.Score, data=carpentryIV)</li>
 							<li>summary(modelcarpentry)</li>
 							<li>carpentryIV$carpentrypredict&lt;-predict(modelcarpentry)</li>
 							<li>carpentrypred&lt;-data.frame(predict(modelcarpentry), carpentryIV$Property)</li>
@@ -675,7 +679,10 @@
 						
 						<h5>Estimate Dependent Variable: Carpeting</h5>
 						<ul>
-							<li>modelcarpeting&lt;-lm(EstItemCost~as.factor(County)+Year.Built+I(Year.Built^2)+Bedrooms+Bathrooms+Square.Feet+Yard.Size+as.factor(Source)+PropFeature..Pool+PropFeature..Stories+PropFeature..Garage+ARV+Best.Guess..Rent+Livability.Score,data=carpetingIV)</li>
+							<li>modelcarpeting&lt;-lm(EstItemCost~as.factor(County)+Year.Built+I(Year.Built^2)+
+							Bedrooms+Bathrooms+Square.Feet+Yard.Size+as.factor(Source)+
+							PropFeature..Pool+PropFeature..Stories+PropFeature..Garage+ARV+
+							Best.Guess..Rent+Livability.Score,data=carpetingIV)</li>
 							<li>summary(modelcarpeting)</li>
 							<li>carpetingIV$carpetingpredict&lt;-predict(modelcarpeting)</li>
 							<li>carpetingpred&lt;-data.frame(predict(modelcarpeting), carpetingIV$Property)</li>
@@ -683,7 +690,10 @@
 						
 						<h5>Estimate Dependent Variable: Demolition</h5>
 						<ul>
-							<li>modeldemo&lt;-lm(EstItemCost~as.factor(County)+Year.Built+I(Year.Built^2)+Bedrooms+Bathrooms+Square.Feet+Yard.Size+as.factor(Source)+ PropFeature..Pool+ PropFeature..Stories+PropFeature..Garage+ARV+Best.Guess..Rent+Livability.Score,data=demoIV)</li>
+							<li>modeldemo&lt;-lm(EstItemCost~as.factor(County)+Year.Built+I(Year.Built^2)+
+							Bedrooms+Bathrooms+Square.Feet+Yard.Size+as.factor(Source)+ 
+							PropFeature..Pool+ PropFeature..Stories+PropFeature..Garage+
+							ARV+Best.Guess..Rent+Livability.Score,data=demoIV)</li>
 							<li>summary(modeldemo)</li>
 							<li>demoIV$demopredict&lt;-predict(modeldemo)</li>
 							<li>demopred&lt;-data.frame(predict(modeldemo), demoIV$Property)</li>
@@ -691,7 +701,8 @@
 						
 						<h5>Estimate Dependent Variable: Doors / Windows</h5>
 						<ul>
-							<li>modeldoorswindows&lt;-lm(EstItemCost~as.factor(County)+Year.Built+I(Year.Built^2)+Bedrooms+Bathrooms+Square.Feet+ Yard.Size+as.factor(Source)+ PropFeature..Pool+PropFeature..Stories+PropFeature..Garage+ ARV+Best.Guess..Rent+Livability.Score,data=doorswindowsIV)</li>
+							<li>modeldoorswindows&lt;-lm(EstItemCost~as.factor(County)+Year.Built+I(Year.Built^2)+
+							Bedrooms+Bathrooms+Square.Feet+ Yard.Size+as.factor(Source)+ PropFeature..Pool+PropFeature..Stories+PropFeature..Garage+ ARV+Best.Guess..Rent+Livability.Score,data=doorswindowsIV)</li>
 							<li>summary(modeldoorswindows)</li>
 							<li>doorswindowsIV$doorswindowspredict&lt;-predict(modeldoorswindows)</li>
 							<li>doorswindowspred&lt;-data.frame(predict(modeldoorswindows), doorswindowsIV$Property)</li>
@@ -699,14 +710,16 @@
 						
 						<h5>Estimate Dependent Variable: Electrical</h5>
 						<ul>
-							<li>modelelectrical&lt;-lm(EstItemCost~as.factor(County)+Year.Built+I(Year.Built^2)+Bedrooms+Bathrooms+Square.Feet+Yard.Size+as.factor(Source)+ PropFeature..Pool+PropFeature..Stories+PropFeature..Garage+ ARV+Best.Guess..Rent+Livability.Score,data=electricalIV)</li>
+							<li>modelelectrical&lt;-lm(EstItemCost~as.factor(County)+Year.Built+I(Year.Built^2)+
+							Bedrooms+Bathrooms+Square.Feet+Yard.Size+as.factor(Source)+ PropFeature..Pool+PropFeature..Stories+PropFeature..Garage+ ARV+Best.Guess..Rent+Livability.Score,data=electricalIV)</li>
 							<li>summary(modelelectrical)</li>
 							<li>electricalIV$electricalpredict&lt;-predict(modelelectrical)</li>
 							<li>electricalpred&lt;-data.frame(predict(modelelectrical), electricalIV$Property)</li></ul>
 						
 						<h5>Estimate Dependent Variable: Fencing</h5>
 						<ul>
-							<li>modelfencing&lt;-lm(EstItemCost~as.factor(County)+Year.Built+ I(Year.Built^2)++Bathrooms+Square.Feet+Yard.Size+ as.factor(Source)+PropFeature..Pool+ PropFeature..Stories+PropFeature..Garage+ARV+Best.Guess..Rent+Livability.Score,data=fencingIV)</li>
+							<li>modelfencing&lt;-lm(EstItemCost~as.factor(County)+Year.Built+ I(Year.Built^2)++Bathrooms+Square.Feet+Yard.Size+ as.factor(Source)+PropFeature..Pool+ PropFeature..Stories+PropFeature..Garage+ARV+Best.Guess..Rent+
+							Livability.Score,data=fencingIV)</li>
 							<li>summary(modelfencing)</li>
 							<li>fencingIV$fencingpredict&lt;-predict(modelfencing)</li>
 							<li>fencingpred&lt;-data.frame(predict(modelfencing), fencingIV$Property)</li>
@@ -714,7 +727,10 @@
 						
 						<h5>Estimate Dependent Variable: Flooring</h5>
 						<ul>
-							<li>modelflooring&lt;-lm(EstItemCost~as.factor(County)+Year.Built+I(Year.Built^2)+Bedrooms+Bathrooms+Square.Feet+ Yard.Size+as.factor(Source)+PropFeature..Pool+PropFeature..Stories+PropFeature..Garage+ARV+Best.Guess..Rent+Livability.Score,data=flooringIV)</li>
+							<li>modelflooring&lt;-lm(EstItemCost~as.factor(County)+Year.Built+I(Year.Built^2)+
+							Bedrooms+Bathrooms+Square.Feet+ Yard.Size+as.factor(Source)+PropFeature..Pool+
+							PropFeature..Stories+PropFeature..Garage+ARV+Best.Guess..Rent+
+							Livability.Score,data=flooringIV)</li>
 							<li>summary(modelflooring)</li>
 							<li>flooringIV$flooringpredict&lt;-predict(modelflooring)</li>
 							<li>flooringpred&lt;-data.frame(predict(modelflooring), flooringIV$Property)</li>
@@ -722,7 +738,11 @@
 						
 						<h5>Estimate Dependent Variable: Kitchen</h5>
 						<ul>
-							<li>modelkitchen&lt;-lm(EstItemCost~as.factor(County)+Year.Built+I(Year.Built^2)+Bedrooms+Bathrooms+Square.Feet+Yard.Size+as.factor(Source)+PropFeature..Pool+PropFeature..Stories+PropFeature..Garage+ARV+Best.Guess..Rent+Livability.Score,data=kitchenIV)</li>
+							<li>modelkitchen&lt;-lm(EstItemCost~as.factor(County)+Year.Built+I(Year.Built^2)+
+							Bedrooms+Bathrooms+Square.Feet+Yard.Size+as.factor(Source)+
+							PropFeature..Pool+PropFeature..Stories+PropFeature..Garage+
+							ARV+Best.Guess..Rent+
+							Livability.Score,data=kitchenIV)</li>
 							<li>summary(modelkitchen)</li>
 							<li>kitchenIV$kitchenpredict&lt;-predict(modelkitchen)</li>
 							<li>kitchenpred&lt;-data.frame(predict(modelkitchen), kitchenIV$Property)</li>
@@ -730,7 +750,10 @@
 						
 						<h5>Estimate Dependent Variable: Landscaping</h5>
 						<ul>
-							<li>modellandscaping&lt;-lm(EstItemCost~as.factor(County)+Year.Built+ I(Year.Built^2)+Bedrooms+Bathrooms+Square.Feet+Yard.Size+as.factor(Source)+ PropFeature..Pool+PropFeature..Stories+PropFeature..Garage+ARV+ Best.Guess..Rent+Livability.Score,data=landscapingIV)</li>
+							<li>modellandscaping&lt;-lm(EstItemCost~as.factor(County)+Year.Built+ I(Year.Built^2)+
+							Bedrooms+Bathrooms+Square.Feet+Yard.Size+as.factor(Source)+ 
+							PropFeature..Pool+PropFeature..Stories+PropFeature..Garage+ARV+ 
+							Best.Guess..Rent+Livability.Score,data=landscapingIV)</li>
 							<li>summary(modellandscaping)</li>
 							<li>landscapingIV$landscapingpredict&lt;-predict(modellandscaping)</li>
 							<li>landscapingpred&lt;-data.frame(predict(modellandscaping),landscapingIV$Property)</li>
@@ -738,7 +761,10 @@
 						
 						<h5>Estimate Dependent Variable: Mechanical</h5>
 						<ul>
-							<li>modelmechanical&lt;-lm(EstItemCost~as.factor(County)+Year.Built+I(Year.Built^2)+Bedrooms+Bathrooms+Square.Feet+ Yard.Size+as.factor(Source)+ PropFeature..Pool+PropFeature..Stories+PropFeature..Garage+ARV+Best.Guess..Rent+Livability.Score,data=mechanicalIV)</li>
+							<li>modelmechanical&lt;-lm(EstItemCost~as.factor(County)+Year.Built+I(Year.Built^2)+
+							Bedrooms+Bathrooms+Square.Feet+ Yard.Size+as.factor(Source)+ 
+							PropFeature..Pool+PropFeature..Stories+PropFeature..Garage+
+							ARV+Best.Guess..Rent+Livability.Score,data=mechanicalIV)</li>
 							<li>summary(modelmechanical)</li>
 							<li>mechanicalIV$mechanicalpredict&lt;-predict(modelmechanical)</li>
 							<li>mechanicalpred&lt;-data.frame(predict(modelmechanical), mechanicalIV$Property)</li>
@@ -746,7 +772,10 @@
 						
 						<h5>Estimate Dependent Variable: Painting</h5>
 						<ul>
-							<li>modelpainting&lt;-lm(EstItemCost~as.factor(County)+Year.Built+I(Year.Built^2)+Bedrooms+Bathrooms+Square.Feet+Yard.Size+ as.factor(Source)+PropFeature..Pool+PropFeature..Stories+PropFeature..Garage+ARV+Best.Guess..Rent+Livability.Score,data=paintingIV)</li>
+							<li>modelpainting&lt;-lm(EstItemCost~as.factor(County)+Year.Built+I(Year.Built^2)+
+							Bedrooms+Bathrooms+Square.Feet+Yard.Size+ as.factor(Source)+
+							PropFeature..Pool+PropFeature..Stories+PropFeature..Garage+
+							ARV+Best.Guess..Rent+Livability.Score,data=paintingIV)</li>
 							<li>summary(modelpainting)</li>
 							<li>paintingIV$paintingpredict&lt;-predict(modelpainting)</li>
 							<li>paintingpred&lt;-data.frame(predict(modelpainting), paintingIV$Property)</li>
@@ -754,7 +783,10 @@
 						
 						<h5>Estimate Dependent Variable: Plumbing</h5>
 						<ul>
-							<li>modelplumbing&lt;-lm(EstItemCost~as.factor(County)+Year.Built+I(Year.Built^2)+Bedrooms+Bathrooms+Square.Feet+Yard.Size+as.factor(Source)+ PropFeature..Pool+PropFeature..Stories+PropFeature..Garage+ ARV+Best.Guess..Rent+Livability.Score,data=plumbingIV)</li>
+							<li>modelplumbing&lt;-lm(EstItemCost~as.factor(County)+Year.Built+I(Year.Built^2)+
+							Bedrooms+Bathrooms+Square.Feet+Yard.Size+as.factor(Source)+ 
+							PropFeature..Pool+PropFeature..Stories+PropFeature..Garage+ 
+							ARV+Best.Guess..Rent+Livability.Score,data=plumbingIV)</li>
 							<li>summary(modelplumbing)</li>
 							<li>plumbingIV$plumbingpredict&lt;-predict(modelplumbing)</li>
 							<li>plumbingpred&lt;-data.frame(predict(modelplumbing), plumbingIV$Property)</li>
@@ -762,7 +794,10 @@
 						
 						<h5>Estimate Dependent Variable: Roofing</h5>
 						<ul>
-							<li>modelroofing&lt;-lm(EstItemCost~as.factor(County)+Year.Built+I(Year.Built^2)+Bedrooms+Bathrooms+Square.Feet+Yard.Size+ as.factor(Source)+PropFeature..Pool+PropFeature..Stories+PropFeature..Garage+ARV+Best.Guess..Rent+Livability.Score, data=roofingIV)</li>
+							<li>modelroofing&lt;-lm(EstItemCost~as.factor(County)+Year.Built+I(Year.Built^2)+
+							Bedrooms+Bathrooms+Square.Feet+Yard.Size+ as.factor(Source)+
+							PropFeature..Pool+PropFeature..Stories+PropFeature..Garage+
+							ARV+Best.Guess..Rent+Livability.Score, data=roofingIV)</li>
 							<li>summary(modelroofing)</li>
 							<li>roofingIV$roofingpredict&lt;-predict(modelroofing)</li>
 							<li>roofingpred&lt;-data.frame(predict(modelroofing), roofingIV$Property)</li>
@@ -799,7 +834,16 @@
 							<li>lineitemprediction[is.na(lineitemprediction)] &lt;- 0</li>
 							<li>identical(lineitempredictiontest, lineitemprediction)</li>
 							<li>#Add up all line item predictions</li>
-							<li>sumprediction&lt;-lineitemprediction$predict.modelappliances.+lineitemprediction$predict.modelcarpentry.+lineitemprediction$predict.modelcarpeting.+lineitemprediction$predict.modeldemo.+lineitemprediction$predict.modeldoorswindows.+ lineitemprediction$predict.modelelectrical.+lineitemprediction$predict.modelfencing.+lineitemprediction$predict.modelflooring.+lineitemprediction$predict.modelkitchen.+lineitemprediction$predict.modellandscaping.+lineitemprediction$predict.modelmechanical.+lineitemprediction$predict.modelpainting.+lineitemprediction$predict.modelplumbing.+lineitemprediction$predict.modelroofing.</li>
+							<li>sumprediction&lt;-lineitemprediction$predict.modelappliances.+lineitemprediction
+							$predict.modelcarpentry.+lineitemprediction$predict.modelcarpeting.
+							+lineitemprediction$predict.modeldemo.+
+							lineitemprediction$predict.modeldoorswindows.+lineitemprediction
+							$predict.modelelectrical.+lineitemprediction$predict.modelfencing.
+							+lineitemprediction$predict.modelflooring.+lineitemprediction
+							$predict.modelkitchen.+lineitemprediction$predict.modellandscaping.
+							+lineitemprediction$predict.modelmechanical.+lineitemprediction
+							$predict.modelpainting.+lineitemprediction$predict.modelplumbing.
+							+lineitemprediction$predict.modelroofing.</li>
 						</ul>
 						
 						<h5>Place Prediction in Dataset</h5>
@@ -813,7 +857,9 @@
 							<li>totalcost&lt;-aggregate(lineitems[,4], FUN=sum, by=list(lineitems[,1]))</li>
 							<li>totalcost&lt;-rename.vars(totalcost, c("Group.1","x"), c("Property","totalcost"))</li>
 							<li>final&lt;-merge(itempredIV, totalcost, by="Property")</li>
-							<li>modeltotal&lt;-lm(totalcost~as.factor(County)+Year.Built+I(Year.Built^2)+ Bedrooms+Bathrooms+Square.Feet+Yard.Size+as.factor(Source)+PropFeature..Pool+PropFeature..Stories+PropFeature..Garage+ARV+Best.Guess..Rent+Livability.Score, data=final)
+							<li>modeltotal&lt;-lm(totalcost~as.factor(County)+Year.Built+I(Year.Built^2)+ Bedrooms+Bathrooms+Square.Feet+Yard.Size+as.factor(Source)+
+							PropFeature..Pool+PropFeature..Stories+PropFeature..Garage+ARV+
+							Best.Guess..Rent+Livability.Score, data=final)
 							<li>summary(modeltotal)</li>
 							<li>final$totalpredict&lt;-predict(modeltotal)</li>
 						</ul>

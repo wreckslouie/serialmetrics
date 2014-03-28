@@ -176,9 +176,13 @@ nav {
 .inside-page .case-study sub {
   font-size: 0.8em;
   vertical-align: sub; }
-.inside-page .case-study #code-appendix p {
+.inside-page .case-study #code-appendix div {
   text-align: left;
   line-height: 1.3em; }
+  .inside-page .case-study #code-appendix div ul {
+    font-family: Consolas, sans-serif;
+    background-color: gainsboro;
+    border: 1px solid #a0a0a0; }
 
 /*-----
 	Desktop Styles
@@ -197,7 +201,8 @@ nav {
     .inside-page .case-study #code-appendix div {
       margin: 15px 0 30px; }
       .inside-page .case-study #code-appendix div ul {
-        margin: 10px 0 20px; }
+        margin: 10px 0 20px;
+        padding: 13px; }
         .inside-page .case-study #code-appendix div ul li {
           list-style-type: none;
           margin: 0px;

@@ -45,9 +45,15 @@
 		}
 
 		#code-appendix{
-			p{
+			div{
 				text-align: left;
 				line-height: 1.3em;
+
+				ul{
+					font-family: Consolas, sans-serif;
+					background-color: $lightest-gray;
+					border: 1px solid $lighter-gray;
+				}
 			}
 		}
 	}
@@ -79,6 +85,7 @@
 				margin: 15px 0 30px;
 				ul{
 					margin: 10px 0 20px;
+					padding:13px;
 					li{
 						list-style-type: none;
 						margin: 0px;
