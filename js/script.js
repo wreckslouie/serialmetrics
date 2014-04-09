@@ -12,11 +12,33 @@ $(function(){
 	},function(){
 		$('nav ul ').slideUp(300); 
 	});
+	
 	$('nav ul').mouseleave(function(){
 		if($('nav ul').hasClass('hover')){
 			$('nav ul').slideUp(300);
 			$('nav ul').removeClass('hover');
 		}
+	});
+
+	//Drop-down menu function for tablet/mobile devices
+	$('nav .drop-down').click(function(){
+		if(sliding==false){
+			if($('nav ul').css('display')=='none'){
+				sliding=true;
+				$('nav ul').slideDown(300,function(){
+					sliding=false;
+				});
+			}else if($('nav ul').css('display')=='block'){
+				sliding=true;
+				$('nav ul').slideUp(300,function(){
+					sliding=false;
+				});
+			}
+		}
+	});
+
+	$('nav a').click(function(e){
+		e.stopPropagation();
 	});
 
 	$('#layer-container').hover(function(){
