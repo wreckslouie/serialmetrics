@@ -130,10 +130,7 @@
 		<img src="images/home_page/plug-icon.png">
 		<div class="divider"></div>
 		<h1>Orion</h1>
-		<p>Introducing Orion, a database engine that can quickly process massive amounts of data 
-		at speeds over 1000 times faster than conventional querying technologies. Orion is 
-		available as both a hosted solution and as a standard installation, which fits with 
-		any of three common platforms: MySQL, PostgreSQL, and Hadoop/Hive.</p>
+		<p>COMING SOON!</p>
 		<a href="orion.php">Learn more >></a>
 	</div>
 

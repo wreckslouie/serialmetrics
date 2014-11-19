@@ -92,7 +92,7 @@
 			<div class="module-content">
 				Classifies data according to quality, risk, or event likelihood.  Know which users are at risk of quitting 
 				their subscription, or conversely, which users are completely loyal and price insensitive.   Need to score 
-				your leads?  It&rsquo;s the same math.  Simply put, the scoring system assign a value to your data based on an 
+				your leads?  It&rsquo;s the same math.  Simply put, the scoring system assigns a value to your data based on an
 				estimated event likelihood, given a set of facts (or features). You can score anything from nutritional 
 				quality to lead quality.
 			</div> 

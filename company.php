@@ -31,7 +31,7 @@
 		<ul>
 			<li><strong>Amir Behbehani</strong> - Founder / Algorithms</li>
 			<li><strong>Emiko Higashi</strong> - Partnerships</li>
-			<li><strong>Bjorn Cooley</strong> - Marketing</li>
+			<li><strong>Bjorn Cooley</strong> - Development</li>
 			<li><strong>Igor Savic</strong> - Engineering</li>
 			<li><strong>Jason Yu</strong> - Research</li>
 			<li><strong>Ben Smucker</strong> - Sales</li>
