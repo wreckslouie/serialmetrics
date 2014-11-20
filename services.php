@@ -9,19 +9,19 @@
 <body class="inside-page">
 	<?php include('includes/main_nav.php'); ?>
 	<div class="main-content">
-		<img src="images/services_page/graph.png">
+		<img src="images/services_page/graph.png" class="ico-graph">
 		<h1>Services</h1>
 		<p>Serial Metrics ensures that companies efficiently solve Machine Learning challenges. Our consulting services cover three basic areas:</p>
 
 		<h2>Custom Machine Learning</h2>
 
-		<h3>Remote Model</h3> 
+		<h3>Remote Model</h3>
 <p>Your company provides us data; we build solutions -
 		offsite</p>
 
 		<h3>Onsite Model</h3>
-		<p>We deploy staff, onsite, at your company to work with 
-		your teams.  This model works quite well for companies that might need 
+		<p>We deploy staff, onsite, at your company to work with
+		your teams.  This model works quite well for companies that might need
 		'full-time', dedicated, data science resources, but do not want to hire staff in-house.</p>
 
 	</div>
@@ -49,7 +49,7 @@
 		<h3>Our six step process</h3>
 		<ol>
 			<li><span class="step-summary">
-					Meet the client to ascertain specific data needs. 
+					Meet the client to ascertain specific data needs.
 					<span class="more">Details &darr;</span>
 					<span class="less">Fewer details &uarr;</span>
 				</span>
@@ -58,7 +58,7 @@
 				</p>
 			</li>
 			<li><span class="step-summary">
-					Determine the amount of firm-specific domain knowledge required to build a model. 
+					Determine the amount of firm-specific domain knowledge required to build a model.
 					<span class="more">Details &darr;</span>
 					<span class="less">Fewer details &uarr;</span>
 				</span>
@@ -78,7 +78,7 @@
 				</p>
 			</li>
 			<li><span class="step-summary">
-					Data Analysis. 
+					Data Analysis.
 					<span class="more">Details &darr;</span>
 					<span class="less">Fewer details &uarr;</span>
 				</span>
@@ -93,10 +93,10 @@
 					<span class="less">Fewer details &uarr;</span>
 				</span>
 				<p class="step-details">
-					Once a model is developed and its predictive value yields measurable value, 
-					we proceed to deploy the model to a production environment, by way of a 
-					custom API, which we develop as a "wrapper" around the predictive model. 
-					The goal here is to have a system in place, where your systems send data, 
+					Once a model is developed and its predictive value yields measurable value,
+					we proceed to deploy the model to a production environment, by way of a
+					custom API, which we develop as a "wrapper" around the predictive model.
+					The goal here is to have a system in place, where your systems send data,
 					either in real-time or batch process, and we send an answer.
 				</p>
 			</li>
@@ -106,15 +106,15 @@
 					<span class="less">Fewer details &uarr;</span>
 				</span>
 				<p class="step-details">
-					It goes without saying, the entire process described here is thoroughly, and 
-					methodically documented. This includes design of experiment, table structures, 
-					sample data, R scripts used for statistical analysis, and documentation to use 
+					It goes without saying, the entire process described here is thoroughly, and
+					methodically documented. This includes design of experiment, table structures,
+					sample data, R scripts used for statistical analysis, and documentation to use
 					the API.
 				</p>
 			</li>
 		</ol>
 		<a class="button" href="contact.php" target="_parent">Get Started Today >></a>
-		
+
 
 	</div>
 	<?php include('includes/footer.php'); ?>

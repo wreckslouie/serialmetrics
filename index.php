@@ -80,21 +80,21 @@
 		<!--Top Row -->
 		<div>
 			<a href="modules.php#matching-algorithms">
-				<img src="images/home_page/share-icon.png">
+				<img src="images/home_page/share-icon.png" class="ico-share">
 				<h1>Matching Algorithms</h1>
 				<p>Pair platform users based on individual sets of attributes and preferences.</p>
 			</a>
 		</div>
 		<div>
 			<a href="modules.php#dynamic-pricing">
-				<img src="images/home_page/pricing-icon.png">
+				<img src="images/home_page/pricing-icon.png" class="ico-pricing">
 				<h1>Dynamic Pricing</h1>
 				<p>Increase revenue with real-time demand discovery and price optimization.</p>
 			</a>
 		</div>
 		<div>
 			<a href="modules.php#recommendation-systems">
-				<img src="images/home_page/recommendations-icon.png">
+				<img src="images/home_page/recommendations-icon.png" class="ico-recommend">
 				<h1>Recommendation Systems</h1>
 				<p>Surface and recommend relevant content for consumers and brands alike.</p>
 			</a>
@@ -103,24 +103,24 @@
 		<!--Bottom Row -->
 		<div>
 			<a href="modules.php#text-classification">
-				<img src="images/home_page/gear-icon.png">
+				<img src="images/home_page/gear-icon.png" class="ico-gear">
 				<h1>Text Classification</h1>
 				<p>Extract themes from huge amounts of text.</p>
 			</a>
-		</div>	
+		</div>
 		<div>
 			<a href="modules.php#intelligent-promotions">
-				<img src="images/home_page/relations-icon.png">
+				<img src="images/home_page/relations-icon.png" class="ico-relations">
 				<h1>Intelligent Promotions</h1>
-				<p>Estimate the probability of a purchase, and thus the value of 
+				<p>Estimate the probability of a purchase, and thus the value of
 				any site visitor, in real-time.</p>
 			</a>
 		</div>
 		<div>
 			<a href="modules.php#scoring-systems">
-				<img src="images/home_page/abacus-icon.png">
+				<img src="images/home_page/abacus-icon.png" class="ico-abacus">
 				<h1>Scoring Systems</h1>
-				<p>Measure influence, evaluate risk, or rate quality using 
+				<p>Measure influence, evaluate risk, or rate quality using
 				Machine Learning models.</p>
 			</a>
 		</div>
