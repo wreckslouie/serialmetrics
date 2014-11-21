@@ -321,3 +321,23 @@ body #data-stack {
 body #network-image {
   height: 300px;
   overflow: hidden; }
+
+/*----- Icons -----*/
+img.ico-share {
+  width: 54px;
+  height: 50px; }
+img.ico-pricing {
+  width: 60px;
+  height: 50px; }
+img.ico-recommend {
+    height: 50px;
+    width: 50px; }
+img.ico-gear {
+  width: 62px;
+  height: 60px; }
+img.ico-relations {
+  width: 60px;
+  height: 67px; }
+img.ico-abacus {
+  width: 65px;
+  height: 47px; }

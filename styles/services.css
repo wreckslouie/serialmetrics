@@ -186,3 +186,8 @@ nav {
       margin-left: 5px; }
 .inside-page .main-content .button {
   margin-top: 30px; }
+
+/*---- Icons -----*/
+img.ico-graph {
+  width: 120px;
+  height: 120px; }
