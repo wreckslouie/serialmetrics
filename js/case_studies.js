@@ -30,4 +30,10 @@ $(function(){
 	$('html, body').click(function(){
 		$('.case-study-content').slideUp(500);
 	});
+
+	$('.download-btn').click(function(e) {
+		var file = $(this).data('file');
+		window.location.href=file;
+
+	});
 });
