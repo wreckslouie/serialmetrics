@@ -107,12 +107,12 @@
 				<h1>Text Classification</h1>
 				<p>Extract themes from huge amounts of text.</p>
 			</a>
-		</div>	
+		</div>
 		<div>
 			<a href="modules.php#intelligent-promotions">
 				<img src="images/home_page/relations-icon.png">
 				<h1>Intelligent Promotions</h1>
-				<p>Estimate the probability of a purchase, and thus the value of 
+				<p>Estimate the probability of a purchase, and thus the value of
 				any site visitor, in real-time.</p>
 			</a>
 		</div>
@@ -120,18 +120,10 @@
 			<a href="modules.php#scoring-systems">
 				<img src="images/home_page/abacus-icon.png">
 				<h1>Scoring Systems</h1>
-				<p>Measure influence, evaluate risk, or rate quality using 
+				<p>Measure influence, evaluate risk, or rate quality using
 				Machine Learning models.</p>
 			</a>
 		</div>
-	</div>
-
-	<div id="hadoop">
-		<img src="images/home_page/plug-icon.png">
-		<div class="divider"></div>
-		<h1>Orion</h1>
-		<p>COMING SOON!</p>
-		<a href="orion.php">Learn more >></a>
 	</div>
 
 	<form id="contact" name="contact" action="contact.php" method="GET">
