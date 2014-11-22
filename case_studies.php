@@ -123,7 +123,7 @@
 					instantaneous demand, using the velocity of sales: quantity sold per unit of time (Qs/t). In
 					addition, price elasticity of demand [(&#37;&Delta;Qs/&#37;&Delta;P) * P/Qs] is approximated in real-time to
 					determine the revenue maximizing price. This method of pricing is of particular value to
-					organizations that sell perishable commodities such as concert tickets. <strong>The challenge:
+					organizations that sell &ldquo;perishable&rdquo; commodities such as concert tickets. <strong>The challenge:
 					</strong>How do you price tickets for a said venue, such that the event 'sells out' and gross
 					revenues from the event ticket sales are maximized?
 					<a class="more">Read on...</a>
@@ -885,7 +885,7 @@
 
 		<div class="case-study">
 			<div class="case-study-intro">
-				<h2>Learn how Serial Metrics created the geo-inferencing system for Identified.com</h2>
+				<h2>Identified Geo-Inferencing System</h2>
 				<p>
 					Identified is a data and analytics company, based in San Francisco that uses Facebook data
 					to provide professional insights. The company is recognized for developing SYMAN (Systematic Mass Normalization),
@@ -894,21 +894,21 @@
 					professional infor- mation that can assist in the recruitment process. The company was in search of a reliable
 					way to detect the location of profiled users for the purpose of recommending jobs to prospective employees that are
 					within a commutable distance.
-					<a class="more download-btn" data-file="attachments/identified.pdf">Read on...</a>
+					<a class="more" href="attachments/identified.pdf" target="_blank">Read on...</a>
 				</p>
 			</div>
 		</div>	<!-- .case-study -->
 
 		<div class="case-study">
 			<div class="case-study-intro">
-				<h2>Learn how Serial Metrics built the Atypon article recommendation engine</h2>
+				<h2>Atypon Article Recommendation Engine</h2>
 				<p>
 					Atypon, an enterprise technology company, based in Silicon Valley, delivers libraries and
 					academic institutions an electronic publishing platform. Atypon hosts more than 17 million
 					journal articles, 100,000 eBooks, and many other types of scientific and scholarly content
 					for leading publishers worldwide. The company was in search of a reliable way to improve audience
 					engagement by allowing readers to discover new, relevant, content.
-					<a class="more download-btn" data-file="attachments/Atypon.pdf">Read on...</a>
+					<a class="more" href="attachments/Atypon.pdf" target="_blank">Read on...</a>
 				</p>
 			</div>
 		</div>	<!-- .case-study -->
