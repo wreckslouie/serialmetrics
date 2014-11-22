@@ -123,7 +123,7 @@
 					instantaneous demand, using the velocity of sales: quantity sold per unit of time (Qs/t). In
 					addition, price elasticity of demand [(&#37;&Delta;Qs/&#37;&Delta;P) * P/Qs] is approximated in real-time to
 					determine the revenue maximizing price. This method of pricing is of particular value to
-					organizations that sell &ldquo;perishable&rdquo; commodities such as concert tickets. <strong>The challenge:
+					organizations that sell &ldquo;perishable&rdquo; commodities such as concert tickets. <strong>The challenge:
 					</strong>How do you price tickets for a said venue, such that the event 'sells out' and gross
 					revenues from the event ticket sales are maximized?
 					<a class="more">Read on...</a>
