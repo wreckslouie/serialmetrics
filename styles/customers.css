@@ -156,3 +156,9 @@ nav {
   padding: 0px; }
   .inside-page .main-content img:nth-child(odd) {
     padding-right: 40px; }
+
+
+/*---- Icons -----*/
+img.ico-message {
+  width: 120px;
+  height: 120px; }
