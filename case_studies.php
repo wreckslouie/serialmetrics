@@ -9,7 +9,7 @@
 <body class="inside-page">
 	<?php include('includes/main_nav.php'); ?>
 	<div class="main-content">
-		<img src="images/case_studies/pencil_icon.png">
+		<img src="images/case_studies/pencil_icon.png" class="ico-pencil">
 		<h1>Case Studies</h1>
 		<div class="case-study">
 			<div class="case-study-intro">

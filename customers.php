@@ -8,7 +8,7 @@
 <body class="inside-page">
 	<?php include('includes/main_nav.php'); ?>
 	<div class="main-content">
-		<img src="images/customers_page/message.png">
+		<img src="images/customers_page/message.png" class="ico-message">
 		<h1>
 			Customers
 		</h1>
