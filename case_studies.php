@@ -13,6 +13,36 @@
 		<h1>Case Studies</h1>
 		<div class="case-study">
 			<div class="case-study-intro">
+				<h2>Identified Geo-Inferencing System</h2>
+				<p>
+					Identified is a data and analytics company, based in San Francisco that uses Facebook data
+					to provide professional insights. The company is recognized for developing SYMAN (Systematic Mass Normalization),
+					an artificial intelligence technology to identify professionals that would otherwise not be available to
+					employment recruiters. The technology analyzes data from sources like Facebook and filters out relevant
+					professional infor- mation that can assist in the recruitment process. The company was in search of a reliable
+					way to detect the location of profiled users for the purpose of recommending jobs to prospective employees that are
+					within a commutable distance.
+					<a class="more" href="attachments/identified.pdf" target="_blank">Download...</a>
+				</p>
+			</div>
+		</div>	<!-- .case-study -->
+
+		<div class="case-study">
+			<div class="case-study-intro">
+				<h2>Atypon Article Recommendation Engine</h2>
+				<p>
+					Atypon, an enterprise technology company, based in Silicon Valley, delivers libraries and
+					academic institutions an electronic publishing platform. Atypon hosts more than 17 million
+					journal articles, 100,000 eBooks, and many other types of scientific and scholarly content
+					for leading publishers worldwide. The company was in search of a reliable way to improve audience
+					engagement by allowing readers to discover new, relevant, content.
+					<a class="more" href="attachments/Atypon.pdf" target="_blank">Download...</a>
+				</p>
+			</div>
+		</div>	<!-- .case-study -->
+
+		<div class="case-study">
+			<div class="case-study-intro">
 				<h2>AAA Membership Services Cost Forecast</h2>
 				<p>
 					Serial Metrics custom-built a system dynamics simulator to forecast
