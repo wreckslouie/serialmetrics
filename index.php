@@ -136,7 +136,7 @@
 	</form>
 
 	<div id="data-stack">
-		<h1>Process Model</h1>
+		<h1>A Packaged Solution Custom to Your Data</h1>
 		<div id="layer-container">
 			<div id="sixth-layer"></div>
 			<div id="fifth-layer"></div>
