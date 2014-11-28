@@ -24,6 +24,9 @@
 				Pairs users from one set with users from the other set.  Think of a job board, where one set of users
 				(job posters) and another set of users (job seekers), are looking for each other.  A matching system
 				looks at  the features and preferences from each side of the market and recommends optimal pairs of users.
+				<div class="more">
+					<a href="matching_algorithms.php">Read more...</a>
+				</div>
 			</div>
 		</div>
 		<div class="module" id="dynamic-pricing">
@@ -40,6 +43,9 @@
 				that the majority of your customers can pay so you can maximize your revenues.  Our dynamic pricing module
 				does just this, and more, including real-time demand fluctuations (changes in demand, or price elasticity
 				of demand), and can make corrective action! Imagine a control system for regulating prices.
+				<div class="more">
+					<a href="dynamic_pricing.php">Read more</a>
+				</div>
 			</div>
 		</div>
 		<div class="module" id="recommendation-systems">
@@ -52,6 +58,9 @@
 				Recommend content, tailored specifically to the tastes and preferences of individual users.  Imagine
 				visiting a site - your favorite music site, or shopping site, and the site offering just the product
 				that you wanted, before you even thought of it.  Amazing, right?  Amazing, but completely possible.
+				<div class="more">
+					<a href="recommendation_systems.php">Read more</a>
+				</div>
 			</div>
 		</div>
 		<div class="module" id="text-classification">
@@ -67,6 +76,9 @@
 				Forget keywords.  If you can assign topics to documents dynamically, then you don&rsquo;t need to have a list of
 				categories a priori.  What&rsquo;s more, if two topics are too closely, cognitively, related, we can identify
 				those topics, and coalesce them into broader categories,  accordingly.
+				<div class="more">
+					<a href="text_classification.php">Read more</a>
+				</div>
 			</div>
 		</div>
 		<div class="module" id="intelligent-promotions">
@@ -82,6 +94,9 @@
 				If we can simply identify users that are least likely to purchase, but most likely to respond to a promotion,
 				and target them exclusively, and instantly upon their visiting your site, then we can maximize returns on
 				promotional campaigns.
+				<div class="more">
+					<a href="intelligent_promotions.php">Read more</a>
+				</div>
 			</div>
 		</div>
 		<div class="module" id="scoring-systems">
@@ -95,6 +110,9 @@
 				your leads?  It&rsquo;s the same math.  Simply put, the scoring system assigns a value to your data based on an
 				estimated event likelihood, given a set of facts (or features). You can score anything from nutritional
 				quality to lead quality.
+				<div class="more">
+					<a href="scoring_systems.php">Read more</a>
+				</div>
 			</div>
 		</div>
 		<div class="module" id="geo-inference">
@@ -106,6 +124,9 @@
 				Determines where users live, down to the zip code.  Ever need to know where your users live, where they work,
 				how far they commute, or have other location-based questions?  Our geo-inference module not only infer the
 				locations of users, but even identify their next travel destination!
+				<div class="more">
+					<a href="geo_inference.php">Read more</a>
+				</div>
 			</div>
 		</div>
 

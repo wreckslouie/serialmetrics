@@ -12,7 +12,7 @@
 
 
     <div id="main-content">
-        <img src="images/home_page/pricing-icon.png">
+        <img class="ico-modules" src="images/home_page/pricing-icon.png">
         <h1>Dynamic Pricing - Extract Value on Demand</h1>
 
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt

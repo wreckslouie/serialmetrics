@@ -12,7 +12,7 @@
 
 
     <div id="main-content">
-        <img src="images/home_page/relations-icon.png">
+        <img class="ico-modules" src="images/home_page/relations-icon.png">
         <h1>Intelligent Promotions -  The Right Deal at the Right Time</h1>
 
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt

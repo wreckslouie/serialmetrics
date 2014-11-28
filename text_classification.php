@@ -12,7 +12,7 @@
 
 
     <div id="main-content">
-        <img src="images/home_page/gear-icon.png">
+        <img class="ico-modules" src="images/home_page/gear-icon.png">
         <h1>Text Classification - Find Meaning, not Keywords</h1>
 
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt

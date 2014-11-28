@@ -12,7 +12,7 @@
 
 
     <div id="main-content">
-        <img src="images/home_page/share-icon.png">
+        <img class="ico-modules" src="images/home_page/share-icon.png">
         <h1>Matching Algorithms -  The Perfect Job, The Perfect Partner</h1>
 
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt

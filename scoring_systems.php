@@ -12,7 +12,7 @@
 
 
     <div id="main-content">
-        <img src="images/home_page/abacus-icon.png">
+        <img class="ico-modules" src="images/home_page/abacus-icon.png">
         <h1>Scoring Systems  -  Identify Quality, Quantifiably</h1>
 
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
