@@ -117,7 +117,7 @@
 		</div>
 		<div class="module" id="geo-inference">
 			<div class="module-heading">
-				<img src="images/home_page/navigation-icon.png">
+				<img src="images/home_page/navigation-icon.png" class="ico-geo-inference">
 				<h1>Geo Inference - Locate Users, Spot-on</h1>
 			</div>
 			<div class="module-content">

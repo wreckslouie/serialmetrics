@@ -189,8 +189,7 @@ nav {
 
 /*----- icons -----*/
 img.ico-modules {
-  width:100px;
-  height:116px; }
+  width:100px;}
 img.ico-share {
   width: 54px;
   height: 50px; }
@@ -209,3 +208,6 @@ img.ico-relations {
 img.ico-abacus {
   width: 65px;
   height: 47px; }
+img.ico-geo-inference {
+  height: 48px;
+  width: 80px;}
