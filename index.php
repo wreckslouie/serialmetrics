@@ -45,22 +45,19 @@
     <script type="text/javascript">
 
 	Layer1= new Image(776,159)
-	Layer1.src = "images/home_page/data_stack/first-layer-highlighted.png"
+	Layer1.src = "images/home_page/data_stack/tranparent/layer5.png"
 
 	Layer2= new Image(776,159)
-	Layer2.src = "images/home_page/data_stack/second-layer-highlighted.png"
+	Layer2.src = "images/home_page/data_stack/tranparent/layer4.png"
 
 	Layer3= new Image(776,159)
-	Layer3.src = "images/home_page/data_stack/third-layer-highlighted.png"
+	Layer3.src = "images/home_page/data_stack/tranparent/layer3.png"
 
 	Layer4= new Image(776,159)
-	Layer4.src = "images/home_page/data_stack/fourth-layer-highlighted.png"
+	Layer4.src = "images/home_page/data_stack/tranparent/layer2.png"
 
-	Layer5= new Image(776,159)
-	Layer5.src = "images/home_page/data_stack/fifth-layer-highlighted.png"
-
-	Layer6= new Image(776,159)
-	Layer6.src = "images/home_page/data_stack/sixth-layer-highlighted.png"
+    Layer5= new Image(776,159)
+    Layer5.src = "images/home_page/data_stack/tranparent/layer1.png"
 
 	</script>
 
@@ -135,17 +132,16 @@
 		<input type="submit" id="submit" class="group" value="Next >>">
 	</form>
 
-	<div id="data-stack">
-		<h1>A Packaged Solution Custom to Your Data</h1>
-		<div id="layer-container">
-			<div id="sixth-layer"></div>
-			<div id="fifth-layer"></div>
-			<div id="fourth-layer"></div>
-			<div id="third-layer"></div>
-			<div id="second-layer"></div>
-			<div id="first-layer"></div>
-		</div>
-	</div>
+    <div id="data-stack">
+        <h1>A Packaged Solution Custom to Your Data</h1>
+        <div id="layer-container">
+            <div id="fifth-layer"></div>
+            <div id="fourth-layer"></div>
+            <div id="third-layer"></div>
+            <div id="second-layer"></div>
+            <div id="first-layer"></div>
+        </div>
+    </div>
 
 	<!-- Google Map Embed Code -->
 	<div id="map-canvas"></div>
