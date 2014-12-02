@@ -8,11 +8,11 @@ $(function(){
 				$('nav ul').addClass('hover');
 			});
 		}
-		
+
 	},function(){
-		$('nav ul ').slideUp(300); 
+		$('nav ul ').slideUp(300);
 	});
-	
+
 	$('nav ul').mouseleave(function(){
 		if($('nav ul').hasClass('hover')){
 			$('nav ul').slideUp(300);
@@ -42,51 +42,82 @@ $(function(){
 	});
 
 	$('#layer-container').hover(function(){
-		$('#sixth-layer').animate({'top':'-=20px'},200);
-		$('#fifth-layer').animate({'top':'-=12px'},200);
-		$('#fourth-layer').animate({'top':'-=4px'},200);
-		$('#third-layer').animate({'top':'+=4px'},200);
-		$('#second-layer').animate({'top':'+=12px'},200);
-		$('#first-layer').animate({'top':'+=20px'},200);
-	},function(){
-		$('#sixth-layer').animate({'top':'+=20px'},200);
-		$('#fifth-layer').animate({'top':'+=12px'},200);
-		$('#fourth-layer').animate({'top':'+=4px'},200);
+		$('#fifth-layer').animate({'top':'-=20px'},200);
+		$('#fourth-layer').animate({'top':'-=12px'},200);
 		$('#third-layer').animate({'top':'-=4px'},200);
-		$('#second-layer').animate({'top':'-=12px'},200);
-		$('#first-layer').animate({'top':'-=20px'},200);
+		$('#second-layer').animate({'top':'+=4px'},200);
+		$('#first-layer').animate({'top':'+=12px'},200);
+	},function(){
+		$('#fifth-layer').animate({'top':'+=20px'},200);
+		$('#fourth-layer').animate({'top':'+=12px'},200);
+		$('#third-layer').animate({'top':'+=4px'},200);
+		$('#second-layer').animate({'top':'-=4px'},200);
+		$('#first-layer').animate({'top':'-=12px'},200);
 	});
 
-	$('#sixth-layer').hover(function(){
-		$(this).css('background','url("images/home_page/data_stack/sixth-layer-highlighted.png") no-repeat');
-	},function(){
-		$(this).css('background','url("images/home_page/data_stack/sixth-layer.png") no-repeat');
-	});
 	$('#fifth-layer').hover(function(){
-		$(this).css('background','url("images/home_page/data_stack/fifth-layer-highlighted.png") no-repeat');
+		$(this).css('background','url("images/home_page/data_stack/layers/api.png") no-repeat')
+			.css('background-size', '924px')
+			.css('background-position', 'center')
+			.css('margin-left', '137px');
+
 	},function(){
-		$(this).css('background','url("images/home_page/data_stack/fifth-layer.png") no-repeat');
+		$(this).css('background','url("images/home_page/data_stack/transparent/layer5.png") no-repeat')
+			.css('background-size', '650px')
+			.css('background-position', 'center')
+			.css('margin-left', '0px');
 	});
 	$('#fourth-layer').hover(function(){
-		$(this).css('background','url("images/home_page/data_stack/fourth-layer-highlighted.png") no-repeat');
+		$(this).css('background','url("images/home_page/data_stack/layers/machine_learning.png") no-repeat')
+			.css('background-size', '924px')
+			.css('background-position', 'center')
+			.css('margin-left', '137px');
+
 	},function(){
-		$(this).css('background','url("images/home_page/data_stack/fourth-layer.png") no-repeat');
+		$(this).css('background','url("images/home_page/data_stack/transparent/layer4.png") no-repeat')
+			.css('background-size', '650px')
+			.css('background-position', 'center')
+			.css('margin-left', '0px');
+
 	});
 	$('#third-layer').hover(function(){
-		$(this).css('background','url("images/home_page/data_stack/third-layer-highlighted.png") no-repeat');
+		$(this).css('background','url("images/home_page/data_stack/layers/access.png") no-repeat')
+			.css('background-size', '924px')
+			.css('background-position', 'center')
+			.css('margin-left', '137px');
+
 	},function(){
-		$(this).css('background','url("images/home_page/data_stack/third-layer.png") no-repeat');
+		$(this).css('background','url("images/home_page/data_stack/transparent/layer3.png") no-repeat')
+			.css('background-size', '650px')
+			.css('background-position', 'center')
+			.css('margin-left', '0px');
+
 	});
 	$('#second-layer').hover(function(){
-		$(this).css('background','url("images/home_page/data_stack/second-layer-highlighted.png") no-repeat');
+		$(this).css('background','url("images/home_page/data_stack/layers/etl.png") no-repeat')
+			.css('background-size', '924px')
+			.css('background-position', 'center')
+			.css('margin-left', '137px');
+
 	},function(){
-		$(this).css('background','url("images/home_page/data_stack/second-layer.png") no-repeat');
+		$(this).css('background','url("images/home_page/data_stack/transparent/layer2.png") no-repeat')
+			.css('background-size', '650px')
+			.css('background-position', 'center')
+			.css('margin-left', '0px');
+
 	});
 	$('#first-layer').hover(function(){
-		$(this).css('background','url("images/home_page/data_stack/first-layer-highlighted.png") no-repeat');
+		$(this).css('background','url("images/home_page/data_stack/layers/infrastructure.png") no-repeat')
+			.css('background-size', '924px')
+			.css('background-position', 'center')
+			.css('margin-left', '137px');
+
 	},function(){
-		$(this).css('background','url("images/home_page/data_stack/first-layer.png") no-repeat');
+		$(this).css('background','url("images/home_page/data_stack/transparent/layer1.png") no-repeat')
+			.css('background-size', '650px')
+			.css('background-position', 'center')
+			.css('margin-left', '0px');
+
 	});
 
-	
 });
