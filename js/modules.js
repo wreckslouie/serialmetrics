@@ -38,8 +38,4 @@ $(function(){
 		}
 	});
 
-	$('html, body').click(function(){
-		$('.module-content').slideUp(300);
-	});
-
 });
