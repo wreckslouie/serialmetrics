@@ -31,26 +31,8 @@
 	</section>
 	<section class="curtain">
 		<div class="main-content">
-			<h2><a href="module_products.php">Module Implementation</a></h2>
-			<p>Over the last five years, we've built a suite of machine learning applications.
-			We refer to these applications as "modules." Often, Data Science solutions require thinking
-			through some very challenging, mathematically rigorous, modeling problems. Companies might
-			spend months just trying to model a seemingly unique business problem, a process that
-			typically requires hiring a team of engineers to mine data formulate a hypothesis, code
-			a set of algorithms, and test for model accuracy. Interestingly, rarely are these business
-			problems truly unique. Instead, we find that different verticals try solving the same problems
-			day in day out. For example, gaming companies seem particularly interested in solving problems
-			relating to attrition, whereas advertising companies seem perplexed by improving the conversion
-			rates.</p>
-
-			<p>The benefit of the modules is that they prevent companies from having to reinvent the wheel.
-			If a dynamic pricing algorithm exists, why not just use it? Similarly, if the system exists
-			that can predict churn, why not just leverage it. There's very little point to reinvent the
-			algorithm.</p>
-
-			<p>The Serial Metrics modules eliminate the need to apply machine learning solutions to
-			solve problems that need machine learning solutions. These modules only require customers
-			to plug in data, and we will provide an answer. Super simple.</p>
+			<h2><a href="module_products.php">Why reinvent the wheel?</a></h2>
+			<p>Serial Metrics offers sets of APIs that use your data. We leverage cutting edge machine learning techniques to solve your company’s most complex problems.</p>
 
 			<h2>Methodology</h2>
 			<h3><span style="font-size: 1.17em;">Our services cover the full stack</span></h3>
