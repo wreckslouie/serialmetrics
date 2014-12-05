@@ -93,7 +93,7 @@
 			<a href="modules.php#recommendation-systems">
 				<img src="images/home_page/recommendations-icon.png" class="ico-recommend">
 				<h1>Recommendation Systems</h1>
-				<p>Surface and recommend relevant content for consumers and brands alike.</p>
+				<p>Surface relevant content for consumers and brands alike.</p>
 			</a>
 		</div>
 
