@@ -149,7 +149,7 @@ body {
     background: url("../images/home_page/background-graph.png") no-repeat left top;
     width: 100%; }
   body #modules-section {
-    max-width: 960px;
+    max-width: 990px;
     width: 100%;
     margin: 50px auto; }
     body #modules-section div {
@@ -233,13 +233,13 @@ body #background-graph {
   height: 400px;
   margin: -150px 0 0 0; }
 body #modules-section div {
-  width: 250px;
+  width: 270px;
   height: 220px;
   letter-spacing: .1em;
   font-size: 0.9em;
   line-height: 1.7em; }
   body #modules-section div h1, body #modules-section div p {
-    width: 250px; }
+    width: 270px; }
   body #modules-section div h1 {
     font-size: 16px;
     line-height: 16px;
