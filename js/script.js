@@ -58,64 +58,65 @@ $(function(){
 	$('#fifth-layer').hover(function(){
 		$(this).css('background','url("images/home_page/data_stack/layers/api.png") no-repeat')
 			.css('background-size', '924px')
-			.css('background-position', 'center')
-			.css('margin-left', '137px');
+			//.css('background-position', 'center')
+			.css('margin-left', '-8px');
 
 	},function(){
 		$(this).css('background','url("images/home_page/data_stack/transparent/layer5.png") no-repeat')
 			.css('background-size', '650px')
-			.css('background-position', 'center')
+			//.css('background-position', 'center')
+			//.css('margin-left', '-110px');
 			.css('margin-left', '0px');
 	});
 	$('#fourth-layer').hover(function(){
 		$(this).css('background','url("images/home_page/data_stack/layers/machine_learning.png") no-repeat')
 			.css('background-size', '924px')
-			.css('background-position', 'center')
-			.css('margin-left', '137px');
+			//.css('background-position', 'center')
+			.css('margin-left', '-8px');
 
 	},function(){
 		$(this).css('background','url("images/home_page/data_stack/transparent/layer4.png") no-repeat')
 			.css('background-size', '650px')
-			.css('background-position', 'center')
+			//.css('background-position', 'center')
 			.css('margin-left', '0px');
 
 	});
 	$('#third-layer').hover(function(){
 		$(this).css('background','url("images/home_page/data_stack/layers/access.png") no-repeat')
 			.css('background-size', '924px')
-			.css('background-position', 'center')
-			.css('margin-left', '137px');
+			//.css('background-position', 'center')
+			.css('margin-left', '-8px');
 
 	},function(){
 		$(this).css('background','url("images/home_page/data_stack/transparent/layer3.png") no-repeat')
 			.css('background-size', '650px')
-			.css('background-position', 'center')
+			//.css('background-position', 'center')
 			.css('margin-left', '0px');
 
 	});
 	$('#second-layer').hover(function(){
-		$(this).css('background','url("images/home_page/data_stack/layers/etl.png") no-repeat')
+		$(this).css('background','url("images/home_page/data_stack/layers/infrastructure.png") no-repeat')
 			.css('background-size', '924px')
-			.css('background-position', 'center')
-			.css('margin-left', '137px');
+			//.css('background-position', 'center')
+			.css('margin-left', '-8px');
 
 	},function(){
 		$(this).css('background','url("images/home_page/data_stack/transparent/layer2.png") no-repeat')
 			.css('background-size', '650px')
-			.css('background-position', 'center')
+			//.css('background-position', 'center')
 			.css('margin-left', '0px');
 
 	});
 	$('#first-layer').hover(function(){
-		$(this).css('background','url("images/home_page/data_stack/layers/infrastructure.png") no-repeat')
+		$(this).css('background','url("images/home_page/data_stack/layers/etl.png") no-repeat')
 			.css('background-size', '924px')
-			.css('background-position', 'center')
-			.css('margin-left', '137px');
+			//.css('background-position', 'center')
+			.css('margin-left', '-8px');
 
 	},function(){
 		$(this).css('background','url("images/home_page/data_stack/transparent/layer1.png") no-repeat')
 			.css('background-size', '650px')
-			.css('background-position', 'center')
+			//.css('background-position', 'center')
 			.css('margin-left', '0px');
 
 	});

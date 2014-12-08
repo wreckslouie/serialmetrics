@@ -68,6 +68,27 @@ a, a:visited, a:hover {
 body {
   font-family: "Raleway", sans-serif; }
 
+body:after {
+  content: "";
+  height: 600px;
+  width:100%;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 45px;
+  background-image: url('../images/customers_page/sf_bay.jpg');
+  background-size:cover;
+
+  background-repeat: no-repeat;
+  z-index: 1;}
+
+body .curtain {
+  z-index:2;
+  background-color:#2e2f2e;
+  position:relative;
+  padding:40px 0;}
+  body #about {padding:96px 0;}
+
 nav {
   position: absolute;
   cursor: pointer; }
@@ -88,7 +109,7 @@ html {
 
 .inside-page {
   width: 1280px;
-  padding: 85px 0; }
+  padding: 0px 0; }
   .inside-page .main-content {
     width: 625px; }
   .inside-page h1 {

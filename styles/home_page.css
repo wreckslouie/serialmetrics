@@ -199,19 +199,19 @@ body {
     position: relative; }
   body #data-stack #layer-container div:nth-child(1) {
     background: url("../images/home_page/data_stack/transparent/layer5.png") no-repeat;
-    z-index: 60; background-size:650px; background-position:center;}
+    z-index: 60; background-size:650px;}
   body #data-stack #layer-container div:nth-child(2) {
     background: url("../images/home_page/data_stack/transparent/layer4.png") no-repeat;
-    z-index: 50; background-size:650px; background-position:center;}
+    z-index: 50; background-size:650px;}
   body #data-stack #layer-container div:nth-child(3) {
     background: url("../images/home_page/data_stack/transparent/layer3.png") no-repeat;
-    z-index: 40; background-size:650px; background-position:center;}
+    z-index: 40; background-size:650px;}
   body #data-stack #layer-container div:nth-child(4) {
     background: url("../images/home_page/data_stack/transparent/layer2.png") no-repeat;
-    z-index: 30; background-size:650px; background-position:center;}
+    z-index: 30; background-size:650px;}
   body #data-stack #layer-container div:nth-child(5) {
     background: url("../images/home_page/data_stack/transparent/layer1.png") no-repeat;
-    z-index: 20; background-size:650px; background-position:center;}
+    z-index: 20; background-size:650px;}
   body .full-width-button {
     display: inline-block;
     background-color: #464c57;
@@ -298,17 +298,17 @@ body #contact {
 body .full-width-button {
   width: 800px; }
 body #data-stack {
-  margin: 0 auto;
+  margin: 0 195px 0;
   padding: 30px 0 0 0;
   width: 1080px;
   height: 750px; }
   body #data-stack h1 {
-    width: 360px;
-    margin: 0 0 45px 110px;
+    width: 370px;
+    margin: 0 0 75px;
     padding-bottom: 10px;
     font-size: 1.45em;
     letter-spacing: .2em;
-    text-align: center; }
+    line-height: 27px; }
   body #data-stack #layer-container {
     amargin:65px 0 0 200px;}
     body #data-stack #layer-container div {

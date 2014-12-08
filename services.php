@@ -32,7 +32,7 @@
 	<section class="curtain">
 		<div class="main-content">
 			<h2><a href="module_products.php">Why reinvent the wheel?</a></h2>
-			<p>Serial Metrics offers sets of APIs that use your data. We leverage cutting edge machine learning techniques to solve your company’s most complex problems.</p>
+			<p>Serial Metrics offers sets of APIs that use your data. We leverage cutting edge machine learning techniques to solve your company&lsquo;s most complex problems.</p>
 
 			<h2>Methodology</h2>
 			<h3><span style="font-size: 1.17em;">Our services cover the full stack</span></h3>
