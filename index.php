@@ -132,17 +132,17 @@
 		<input type="submit" id="submit" class="group" value="Next >>">
 	</form>
 
-    <div id="data-stack-container" style="margin:10px auto; width:1160px;">
-    <h1>A Packaged Solution Custom to Your Data</h1>
-    <div id="data-stack">
-        <div id="layer-container">
-            <div id="fifth-layer"></div>
-            <div id="fourth-layer"></div>
-            <div id="third-layer"></div>
-            <div id="second-layer"></div>
-            <div id="first-layer"></div>
+    <div id="data-stack-container">
+        <h1>A Packaged Solution Custom to Your Data</h1>
+        <div id="data-stack">
+            <div id="layer-container">
+                <div id="fifth-layer"></div>
+                <div id="fourth-layer"></div>
+                <div id="third-layer"></div>
+                <div id="second-layer"></div>
+                <div id="first-layer"></div>
+            </div>
         </div>
-    </div>
     </div>
 
 	<!-- Google Map Embed Code -->

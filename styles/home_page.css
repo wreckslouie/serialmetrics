@@ -297,10 +297,9 @@ body #contact {
     width: auto; }
 body .full-width-button {
   width: 800px; }
-body #data-stack {
-  padding: 30px 0 0 0;
-  margin-left:240px;
-  height: 600px; }
+body #data-stack-container {
+  margin:10px auto;
+  width:1160px;}
   body #data-stack-container h1 {
     width: 370px;
     margin: 0 76px 75px;
@@ -308,12 +307,16 @@ body #data-stack {
     font-size: 1.45em;
     letter-spacing: .2em;
     line-height: 27px; }
-  body #data-stack #layer-container {
-    amargin:65px 0 0 200px;}
-    body #data-stack #layer-container div {
-      height: 275px;
-      margin: 0 0 -220px 0;
-      vertical-align: baseline;}
+  body #data-stack {
+    padding: 30px 0 0 0;
+    margin-left:240px;
+    height: 600px; }
+    body #data-stack #layer-container {
+      amargin:65px 0 0 200px;}
+      body #data-stack #layer-container div {
+        height: 275px;
+        margin: 0 0 -220px 0;
+        vertical-align: baseline;}
 body #network-image {
   height: 300px;
   overflow: hidden; }
