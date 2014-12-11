@@ -198,20 +198,20 @@ body {
   body #data-stack div {
     position: relative; }
   body #data-stack #layer-container div:nth-child(1) {
-    background: url("../images/home_page/data_stack/transparent/layer5.png") no-repeat;
-    z-index: 60; background-size:650px;}
+    background: url("../images/home_page/data_stack/layers/api.png") no-repeat;
+    z-index: 60; background-size:924px; margin-left:-8px;}
   body #data-stack #layer-container div:nth-child(2) {
-    background: url("../images/home_page/data_stack/transparent/layer4.png") no-repeat;
-    z-index: 50; background-size:650px;}
+    background: url("../images/home_page/data_stack/layers/machine_learning.png") no-repeat;
+    z-index: 50; background-size:924px; margin-left:-8px;}
   body #data-stack #layer-container div:nth-child(3) {
-    background: url("../images/home_page/data_stack/transparent/layer3.png") no-repeat;
-    z-index: 40; background-size:650px;}
+    background: url("../images/home_page/data_stack/layers/access.png") no-repeat;
+    z-index: 40; background-size:924px; margin-left:-8px;}
   body #data-stack #layer-container div:nth-child(4) {
-    background: url("../images/home_page/data_stack/transparent/layer2.png") no-repeat;
-    z-index: 30; background-size:650px;}
+    background: url("../images/home_page/data_stack/layers/infrastructure.png") no-repeat;
+    z-index: 30; background-size:924px; margin-left:-8px;}
   body #data-stack #layer-container div:nth-child(5) {
-    background: url("../images/home_page/data_stack/transparent/layer1.png") no-repeat;
-    z-index: 20; background-size:650px;}
+    background: url("../images/home_page/data_stack/layers/etl.png") no-repeat;
+    z-index: 20; background-size:924px; margin-left:-8px;}
   body .full-width-button {
     display: inline-block;
     background-color: #464c57;
@@ -314,7 +314,7 @@ body #data-stack-container {
     body #data-stack #layer-container {
       amargin:65px 0 0 200px;}
       body #data-stack #layer-container div {
-        height: 275px;
+        height: 280px;
         margin: 0 0 -220px 0;
         vertical-align: baseline;}
 body #network-image {
