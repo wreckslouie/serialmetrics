@@ -70,12 +70,12 @@ body {
 
 body:after {
   content: "";
-  height: 600px;
+  height: 100%;
   width:100%;
   position: fixed;
   left: 0;
   right: 0;
-  bottom: 45px;
+  bottom: 0;
   background-image: url('../images/customers_page/sf_bay.jpg');
   background-size:cover;
 
@@ -87,7 +87,7 @@ body .curtain {
   background-color:#2e2f2e;
   position:relative;
   padding:40px 0;}
-  body #about {padding:96px 0;}
+  body #about {padding:30px 0;}
 
 nav {
   position: absolute;

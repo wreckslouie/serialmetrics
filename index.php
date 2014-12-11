@@ -41,24 +41,31 @@
       google.maps.event.addDomListener(window, 'load', initialize);
     </script>
 
-    <!--Pre-load highlighted background images-->
     <script type="text/javascript">
-
-	Layer1= new Image(776,159)
-	Layer1.src = "images/home_page/data_stack/tranparent/layer5.png"
-
-	Layer2= new Image(776,159)
-	Layer2.src = "images/home_page/data_stack/tranparent/layer4.png"
-
-	Layer3= new Image(776,159)
-	Layer3.src = "images/home_page/data_stack/tranparent/layer3.png"
-
-	Layer4= new Image(776,159)
-	Layer4.src = "images/home_page/data_stack/tranparent/layer2.png"
-
-    Layer5= new Image(776,159)
-    Layer5.src = "images/home_page/data_stack/tranparent/layer1.png"
-
+        // Cover the pre-highlighted layers with transparent background
+        // after the page loads
+        $(document).ready(function() {
+            // API layer
+            $('#fifth-layer').css('background','url("images/home_page/data_stack/transparent/layer5.png") no-repeat')
+                .css('background-size', '650px')
+                .css('margin-left', '0px');
+            // Machine learning layer
+            $('#fourth-layer').css('background','url("images/home_page/data_stack/transparent/layer4.png") no-repeat')
+                .css('background-size', '650px')
+                .css('margin-left', '0px');
+            // Access layer
+            $('#third-layer').css('background','url("images/home_page/data_stack/transparent/layer3.png") no-repeat')
+                .css('background-size', '650px')
+                .css('margin-left', '0px');
+            // Infrastructure layer
+            $('#second-layer').css('background','url("images/home_page/data_stack/transparent/layer2.png") no-repeat')
+                .css('background-size', '650px')
+                .css('margin-left', '0px');
+            // etl layer
+            $('#first-layer').css('background','url("images/home_page/data_stack/transparent/layer1.png") no-repeat')
+                .css('background-size', '650px')
+                .css('margin-left', '0px');
+        });
 	</script>
 
 </head>

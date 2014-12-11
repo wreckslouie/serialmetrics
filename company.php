@@ -27,7 +27,7 @@
 			</p>
 		</div>
 	</section>
-	<section style="height:630px">
+	<section style="height:570px">
 	</section>
 	<section class="curtain team">
 		<div class="main-content">
