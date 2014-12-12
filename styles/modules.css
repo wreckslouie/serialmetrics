@@ -91,6 +91,8 @@ html {
   padding: 85px 0; }
   .inside-page .main-content {
     width: 625px; }
+    .inside-page #main-content .content {
+      margin-top:90px;}
   .inside-page h1 {
     font-size: 2em;
     margin: 25px 0 10px; }
@@ -100,6 +102,8 @@ html {
     padding: 25px 0 0 0;
     line-height: 2em;
     text-align: justify; }
+  .inside-page p.description {
+    padding: 10px 0;}
   .inside-page footer {
     width: 960px; }
     .inside-page footer p {
