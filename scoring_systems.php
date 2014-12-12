@@ -15,12 +15,29 @@
         <img class="ico-modules" src="images/home_page/abacus-icon.png">
         <h1>Scoring Systems  -  Identify Quality, Quantifiably</h1>
 
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-        ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
-        non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p>Classifies data according to quality, risk, or event likelihood.  Know which users are at risk of quitting
+        their subscription, or conversely, which users are completely loyal and price insensitive.   Need to score
+        your leads?  It&rsquo;s the same math.  Simply put, the scoring system assigns a value to your data based on an
+        estimated event likelihood, given a set of facts (or features). You can score anything from nutritional
+        quality to lead quality.</p>
 
+        <div class="content">
+            <h1>HOW TO WORK WITH SERIAL METRICS</h1>
+
+            <h2>Integrating Orion</h2>
+            <p class="description">Integration requires loading our Java SDK, which scans your databases for relevant, and predicatively valuable features.</p>
+
+            <h2>Learning About Users</h2>
+            <p class="description">Our system will then develop an initial model from the column variables automatically mined from your database.</p>
+
+            <h2>Fine-tuning Predictions</h2>
+            <p class="description">To test the efficacy of the predictive models, Serial Metrics fine tunes model parameters to reduce type-1 and type-2 statistical errors.</p>
+
+            <h2>Deploying Results</h2>
+            <p class="description">The final model deploys as an API which monitors your database for new users, or changes to current user&rsquo;s tastes/behavior, and writes scores to a designated &lsquo;propensity&rsquo; table.</p>
+
+            <p>All you need to do is query the propensity table for matches.</p>
+        </div>
     </div>
 
 
