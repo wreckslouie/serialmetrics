@@ -86,7 +86,8 @@ body .curtain {
   z-index:2;
   background-color:#2e2f2e;
   position:relative;
-  padding:40px 0;}
+  padding:40px 0;
+  -webkit-transform: translate3d(0,0,0);}
   body #about {padding:30px 0;}
 
 nav {

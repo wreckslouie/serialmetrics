@@ -86,7 +86,8 @@ body .curtain {
   z-index:2;
   background-color:#FFF;
   position:relative;
-  padding:60px 0;}
+  padding:60px 0;
+  -webkit-transform: translate3d(0,0,0);}
 
 nav {
   position: absolute;
