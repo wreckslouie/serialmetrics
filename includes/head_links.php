@@ -1,3 +1,10 @@
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<!-- <script type="text/javascript" src="/libraries/jquery-1.11.0.js"></script> -->
-<script src="js/script.js"></script>
+<!-- Bootstrap grid components -->
+<link rel="stylesheet" type="text/css" href="styles/bootstrap/bootstrap.css">
+
+<!-- Fontawesome icons -->
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+<!-- Serial Metrics Styles -->
+<!-- TODO: Centralize the styles so that the website loads fewer files -->
+<link rel="stylesheet" type="text/css" href="styles/main.css">
+<link rel="stylesheet" type="text/css" href="styles/pages/home.css">
