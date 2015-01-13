@@ -72,7 +72,7 @@ html {
         box-shadow:0 0 0 0;
         border: none;
         border-radius: 0;
-        padding-left:20px; }
+        margin-left:20px; }
         
         nav .dropdown ul.dropdown-menu li > a {
           color:#fff;
@@ -155,6 +155,61 @@ img.ico-geo-inference {
 
 /*
 ####################
+# 640X480 (IPAD) #
+####################
+*/
+@media (max-width:660px) {
+
+  /*************
+    TOP SIDE-NAV
+    *************/
+  .nav-menu {
+    height:85px;}
+    nav {}
+      nav .dropdown {}
+        nav .dropdown ul.dropdown-menu {
+          margin-left:235px;
+          background-color:#2e2f2e; }
+
+  /******
+    ICONS
+    *******/
+  /* icon sizes are set differently because the
+      image sizes are not the same.
+    */
+  img.ico-share {
+    width: 44px; height: 40px;}
+  img.ico-pricing {
+      width: 50px; height: 40px;}
+  img.ico-recommend {
+      height: 40px; width: 40px;}
+  img.ico-gear {
+      width: 52px; height: 50px;}
+  img.ico-relations {
+      width: 50px; height: 57px;}
+  img.ico-abacus {
+      width: 55px; height: 37px;}
+  img.ico-geo-inference {
+      height: 38px; width: 70px;}
+
+  /*******
+    FOOTER
+    ********/
+    #footer {}
+      #footer .footer-nav ul {text-align:center;}
+      #footer .footer-nav ul > li {
+        display: inline-block;
+        margin: 0 5px; }
+
+      #footer .footer-company > div {
+        display:inline-block;
+        letter-spacing: 0.125em;
+        word-spacing: 0;
+      }
+}
+
+/*
+####################
 # 320X480 (IPHONE) #
 ####################
 */
@@ -168,7 +223,7 @@ img.ico-geo-inference {
     nav {}
       nav .dropdown {}
         nav .dropdown ul.dropdown-menu {
-          padding-left:50px; background-color:#2e2f2e;}
+          margin-left:50px; background-color:#2e2f2e;}
 
   /******
     ICONS
@@ -214,79 +269,4 @@ img.ico-geo-inference {
       letter-spacing: 0.1em;
       line-height: 2.1em;
       word-spacing: 0; }
-}
-
-/*
-####################
-# 640X480 (IPAD) #
-####################
-*/
-@media (max-width:660px) {
-
-  /*************
-    TOP SIDE-NAV
-    *************/
-  .nav-menu {
-    height:85px;}
-    nav {}
-      nav .dropdown {}
-        nav .dropdown ul.dropdown-menu {
-          margin-left:206px; background-color:#2e2f2e;}
-
-  /******
-    ICONS
-    *******/
-  /* icon sizes are set differently because the
-      image sizes are not the same.
-    */
-  img.ico-share {
-    width: 44px; height: 40px;}
-  img.ico-pricing {
-      width: 50px; height: 40px;}
-  img.ico-recommend {
-      height: 40px; width: 40px;}
-  img.ico-gear {
-      width: 52px; height: 50px;}
-  img.ico-relations {
-      width: 50px; height: 57px;}
-  img.ico-abacus {
-      width: 55px; height: 37px;}
-  img.ico-geo-inference {
-      height: 38px; width: 70px;}
-
-  /*******
-    FOOTER
-    ********/
-    #footer {}
-      #footer .footer-nav ul {text-align:center;}
-      #footer .footer-nav ul > li {
-        display: inline-block;
-        margin: 0 5px; }
-
-      #footer .footer-company > div {
-        display:inline-block;
-        letter-spacing: 0.125em;
-        word-spacing: 0;
-      }
-
-/*  #footer {}
-    #footer .collapse-nav {
-      display:block; }
-    #footer .footer-nav {
-      display: none; }
-  
-    #footer .footer-company div {
-      border:none;
-      padding:0; }
-    #footer .footer-company div:nth-child(1) {
-      font-size: 1.23em;
-      letter-spacing: 0.19em;
-      line-height: 0.8em;
-      text-transform: uppercase;
-      word-spacing: 0; }
-    #footer .footer-company div:nth-child(2) {
-      font-size: 0.8em;
-      letter-spacing: 0.1em;
-      line-height: 2.1em;
-      word-spacing: 0; }*/
 }
