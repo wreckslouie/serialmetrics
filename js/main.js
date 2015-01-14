@@ -1,10 +1,12 @@
 $(document).ready(function () {
 
 	/////////--- SIDEBAR NAV (TOP LEFT)
-	$('.dropdown').hover(function() {
+	$('.dropdown').hover(function(e) {
 		$(this).find('.dropdown-menu').slideDown(300);
-	}, function() {
+		e.stopPropagation();
+	}, function(e) {
 		$(this).find('.dropdown-menu').slideUp(300);
+		e.stopPropagation();
 	});
 
 	/////////--- DATASTACK
@@ -61,36 +63,12 @@ $(document).ready(function () {
 		});
 	});
 
+	////////--- MODULES > module description
+	$('.module').click(function() {
+		var description = $(this).find('.content');
+
+		description.slideToggle(300);
+
+	});
 
 });
-
-//////--- GOOGLE MAP
-
-// Initialize and plot map location
-function initialize() {
-	var SMLatLong= new google.maps.LatLng(37.794508,-122.39493);
-	var mapOptions = {
-	  center: new google.maps.LatLng(37.794508,-122.39493),
-	  zoom: 14
-
-
-	};
-	var styles = [
-			{
-	        stylers: [
-	          { saturation: -100 }
-	        ]
-	   }
-	];
-	var map = new google.maps.Map(document.getElementById("map-canvas"), mapOptions);
-	map.setOptions({
-		styles: styles,
-		scrollwheel: false
-	});
-
-	var marker=new google.maps.Marker({
-	     position:SMLatLong,
-	     map: map
-
-	});
-}

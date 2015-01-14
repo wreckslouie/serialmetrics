@@ -222,9 +222,9 @@ img.ico-geo-inference {
   body .nav-menu {
     height:85px;}
     nav {}
-      nav .dropdown {}
+      nav .dropdown {width: 165px;}
         nav .dropdown ul.dropdown-menu {
-          margin-left:235px;
+          margin-left:9px;
           background-color:#2e2f2e; }
 
   /** White version **/
@@ -308,7 +308,7 @@ img.ico-geo-inference {
       nav > div {text-align:center;}
       nav .dropdown {}
         nav .dropdown ul.dropdown-menu {
-          margin-left:50px; background-color:#2e2f2e;}
+          margin-left:12px; background-color:#2e2f2e;}
 
   /** White version **/
   body.white .side-nav {

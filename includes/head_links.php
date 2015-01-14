@@ -7,4 +7,3 @@
 <!-- Serial Metrics Styles -->
 <!-- TODO: Centralize the styles so that the website loads fewer files -->
 <link rel="stylesheet" type="text/css" href="styles/main.css">
-<link rel="stylesheet" type="text/css" href="styles/pages/home.css">

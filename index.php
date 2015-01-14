@@ -3,6 +3,7 @@
 <head>
 	<title>Serial Metrics</title>
 	<?php include('includes/head_links.php'); ?>
+	<link rel="stylesheet" type="text/css" href="styles/pages/home.css">
 </head>
 
 <body>
@@ -209,6 +210,7 @@
 
 	<!-- JAVASCRIPT IMPORTS -->
 	<?php include('includes/scripts.php'); ?>
+	<script type="text/javascript" src="js/gmap.js"></script>
 	<script type="text/javascript">
 		// Initialize gmap
 		google.maps.event.addDomListener(window, 'load', initialize);
