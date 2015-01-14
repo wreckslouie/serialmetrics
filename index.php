@@ -11,9 +11,7 @@
 		<div class="nav-menu">
 			<div class="container">
 				<div class="row">
-					<div class="col-sm-6">
-						<?php include('includes/main_nav.php'); ?>
-					</div>
+					<?php include('includes/main_nav.php'); ?>
 				</div>
 			</div>
 		</div>
@@ -211,6 +209,10 @@
 
 	<!-- JAVASCRIPT IMPORTS -->
 	<?php include('includes/scripts.php'); ?>
+	<script type="text/javascript">
+		// Initialize gmap
+		google.maps.event.addDomListener(window, 'load', initialize);
+	</script>
 
 </body>
 </html>

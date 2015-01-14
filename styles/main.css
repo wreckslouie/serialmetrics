@@ -22,7 +22,7 @@ time, mark, audio, video {
   -webkit-text-size-adjust: 100%; }
 
   a, a:visited, a:hover {
-    color: white;
+    color: #fff;
     text-decoration: none;
 }
 
@@ -35,6 +35,17 @@ html {
     color:#FFF;
     font-weight:100;
     line-height:1; }
+
+    body.white {
+      background-color: #FFF;
+      color: #464c57;
+      font-weight:normal;
+    }
+
+    body.white  a {
+        color: #464c57;
+    }
+
     
     body h1 {
       font-size: 3.6em;
@@ -52,16 +63,23 @@ html {
 
 .nav-menu {
   height:235px;}
-  .nav-menu .container .row div {
-    padding-top:35px;}
 
 /***************
   TOP SIDE-NAV
   ****************/
+  /** default version **/
+  body .side-nav {
+    margin: 80px 0; }
   nav {}
     nav .dropdown {}
       
-      nav .dropdown button {
+      nav .dropdown a {
+        background:transparent;
+        border:none;
+        color:#fff;
+        font:inherit;
+        font-size:0.9em; }
+      nav .dropdown a:hover {
         background:transparent;
         border:none;
         color:#fff;
@@ -72,7 +90,8 @@ html {
         box-shadow:0 0 0 0;
         border: none;
         border-radius: 0;
-        margin-left:20px; }
+        margin-left:20px;
+        margin-top: -5px; }
         
         nav .dropdown ul.dropdown-menu li > a {
           color:#fff;
@@ -81,7 +100,38 @@ html {
           line-height: 1.8em; }
         nav .dropdown ul.dropdown-menu li > a:hover {
           background:transparent;
-          font-weight:bold; }
+          font-weight:bold;}
+
+  /** white version **/
+  body.white .side-nav {
+    margin: 80px 0; }
+    body.white nav {}
+      body.white nav .dropdown {}
+
+        body.white nav .dropdown a {
+            background:#464c57;
+            border:none;
+            color:#fff;
+            font:inherit;
+            font-size:0.9em;
+            padding: 10px 24.5px; }
+          body.white nav .dropdown ul.dropdown-menu {
+            background:#464c57;
+            box-shadow:0 0 0 0;
+            border: 1px solid #464c57;
+            border-radius: 0 0 8px 8px;
+            margin-left:15px; }
+            
+            body.white nav .dropdown ul.dropdown-menu li > a {
+              color:#fff;
+              font-size: 1.0em;
+              font-weight:normal;
+              line-height: 1.1em; }
+            body.white nav .dropdown ul.dropdown-menu li > a:hover {
+              background:#464c57;
+              color:#fff;
+              font-weight:bold;
+              border-radius: 4px 4px 0 0; }
 
 /******
   ICONS
@@ -103,6 +153,9 @@ img.ico-abacus {
     width: 65px; height: 47px;}
 img.ico-geo-inference {
     height: 48px; width: 80px;}
+
+.header-image img {
+  width:75%; }
 
 /*****************
   FOOTER SECTION
@@ -135,6 +188,8 @@ img.ico-geo-inference {
       font-weight:bold; }
 
   /** Default Nav **/
+  #footer .footer-nav {
+    padding: 0;}
   #footer .footer-nav ul > li {
     font-size:0.9em;
     margin:0 19px;
@@ -163,13 +218,31 @@ img.ico-geo-inference {
   /*************
     TOP SIDE-NAV
     *************/
-  .nav-menu {
+  /** Default version **/
+  body .nav-menu {
     height:85px;}
     nav {}
       nav .dropdown {}
         nav .dropdown ul.dropdown-menu {
           margin-left:235px;
           background-color:#2e2f2e; }
+
+  /** White version **/
+  body.white .side-nav {
+    margin:0; }
+  body.white .nav-menu {}
+    body.white nav {}
+      body.white nav .dropdown {}
+        body.white nav .dropdown a {
+          border-radius: 20px }
+        body.white nav .dropdown:hover > a {
+          border-radius: 20px 20px 0 0;}
+        body.white nav .dropdown ul.dropdown-menu {
+          margin-left: 49px;
+          border-radius:0 0 20px 20px;}
+        body.white nav .dropdown ul.dropdown-menu li a {
+          background:transparent;}
+
 
   /******
     ICONS
@@ -191,6 +264,10 @@ img.ico-geo-inference {
       width: 55px; height: 37px;}
   img.ico-geo-inference {
       height: 38px; width: 70px;}
+
+.header-image {text-align:center;}
+  .header-image img {
+    width:15%; }
 
   /*******
     FOOTER
@@ -206,6 +283,10 @@ img.ico-geo-inference {
         letter-spacing: 0.125em;
         word-spacing: 0;
       }
+
+    body.white #footer {}
+      body.white #footer .collapse-nav button {
+        color:#464c57;}
 }
 
 /*
@@ -218,12 +299,32 @@ img.ico-geo-inference {
   /*************
     TOP SIDE-NAV
     *************/
+  /** default version **/
+  .side-nav {
+    margin:0; }
   .nav-menu {
     height:72px;}
     nav {}
+      nav > div {text-align:center;}
       nav .dropdown {}
         nav .dropdown ul.dropdown-menu {
           margin-left:50px; background-color:#2e2f2e;}
+
+  /** White version **/
+  body.white .side-nav {
+    margin:0; }
+  body.white .nav-menu {}
+    body.white nav {}
+      body.white nav .dropdown {}
+        body.white nav .dropdown a {
+          border-radius: 20px }
+        body.white nav .dropdown:hover > a {
+          border-radius: 20px 20px 0 0;}
+        body.white nav .dropdown ul.dropdown-menu {
+          margin-left: 49px;
+          border-radius:0 0 20px 20px;}
+        body.white nav .dropdown ul.dropdown-menu li a {
+          background:transparent;}
 
   /******
     ICONS
@@ -245,6 +346,11 @@ img.ico-geo-inference {
       width: 55px; height: 37px;}
   img.ico-geo-inference {
       height: 38px; width: 70px;}
+
+
+  .header-image {text-align:center;}
+  .header-image img {
+    width:40%; }
 
   /*******
     FOOTER
@@ -269,4 +375,8 @@ img.ico-geo-inference {
       letter-spacing: 0.1em;
       line-height: 2.1em;
       word-spacing: 0; }
+
+  body.white #footer {}
+    body.white #footer .collapse-nav button {
+      color:#464c57;}
 }

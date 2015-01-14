@@ -43,6 +43,24 @@ $(document).ready(function () {
 		$('#datastack .layers > div').hover(hover, release);
 
 
+	/////////--- SERVICES > Step summary
+	$('.step-summary').click(function() {
+		var details = $(this).parent().find('.step-details');
+
+		details.slideToggle(300, function() {
+			var less = $(this).parent().find('.less');
+			var more = $(this).parent().find('.more');
+
+			if (!less.is(':visible')){
+				less.attr('style', 'display:inline');
+				more.attr('style', 'display:none');
+			} else {
+				less.attr('style', 'display:none');
+				more.attr('style', 'display:inline');
+			}
+		});
+	});
+
 
 });
 
@@ -76,5 +94,3 @@ function initialize() {
 
 	});
 }
-
-google.maps.event.addDomListener(window, 'load', initialize);
