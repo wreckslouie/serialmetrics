@@ -1,133 +1,3 @@
-@import url(http://fonts.googleapis.com/css?family=Raleway:400,100);
-/**
-* Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
-* http://cssreset.com
-*/
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline; }
-
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-  display: block; }
-
-body {
-  line-height: 1; }
-
-ol, ul {
-  list-style: none; }
-
-blockquote, q {
-  quotes: none; }
-
-blockquote:before, blockquote:after,
-q:before, q:after {
-  content: '';
-  content: none; }
-
-table {
-  border-collapse: collapse;
-  border-spacing: 0; }
-
-/* Clearfix */
-.group:after {
-  content: "";
-  display: table;
-  clear: both; }
-
-/*------ Universal Styles -------*/
-a, a:visited, a:hover {
-  color: white;
-  text-decoration: none; }
-
-.inside-page {
-  margin: 0 auto; }
-  .inside-page .main-content {
-    margin: 0 auto; }
-  .inside-page footer {
-    margin: 0 auto; }
-
-body {
-  font-family: "Raleway", sans-serif; }
-
-nav {
-  position: absolute;
-  cursor: pointer; }
-  nav .drop-down {
-    background: url("../images/home_page/down-arrow.png") no-repeat 88% 45%;
-    text-align: left;
-    display: inline-block;
-    width: 100%; }
-  nav ul {
-    text-align: left;
-    display: none; }
-    nav ul li:hover {
-      font-weight: bold; }
-
-/*----- Desktop Styles -----*/
-html {
-  background-color: #2e2f2e; }
-
-.inside-page {
-  width: 1280px;
-  padding: 85px 0; }
-  .inside-page .main-content {
-    width: 625px; }
-  .inside-page h1 {
-    font-size: 2em;
-    margin: 25px 0 10px; }
-  .inside-page img {
-    padding: 50px 0 25px; }
-  .inside-page p {
-    padding: 25px 0 0 0;
-    line-height: 2em;
-    text-align: justify; }
-  .inside-page footer {
-    width: 960px; }
-    .inside-page footer p {
-      text-align: center;
-      padding: 0;
-      margin: 30px 0; }
-
-nav {
-  top: 60px;
-  left: 50px;
-  width: 130px;
-  font-size: .9em;
-  line-height: 1.8em; }
-
-footer {
-  padding: 40px; }
-  footer p {
-    margin: 40px 0;
-    font-size: .9em; }
-  footer p:nth-child(1) a {
-    margin: 0px 40px; }
-    footer p:nth-child(1) a:nth-child(1) {
-      margin-left: 0px; }
-    footer p:nth-child(1) a:nth-last-child(1) {
-      margin-right: 0px; }
-  footer p:nth-child(2) {
-    letter-spacing: .215em;
-    word-spacing: 7px; }
-
 html {
   background-color: white; }
 
@@ -137,18 +7,13 @@ html {
   .inside-page nav {
     background-color: #464c57;
     color: white;
-    font-family: "Raleway", sans-serif;
-    border-radius: 8px;
-    -moz-border-radius: 8px; }
+    font-family: "Raleway", sans-serif; }
     .inside-page nav a {
       background-position: 94% 50%; }
   .inside-page footer a {
     color: #464c57; }
 
 /*------ Desktop Styles -----*/
-nav {
-  padding: 5px 10px; }
-
 .inside-page .main-content a {
   display: inline-block; }
 .inside-page .main-content img {

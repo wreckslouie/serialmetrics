@@ -1,0 +1,144 @@
+body {
+  background-color: #2e2f2e;
+  font-weight: 100;
+  color: white; }
+
+nav a {
+  background-position: 94% 50%; }
+
+/*------ Desktop Styles -----*/
+.inside-page h1 {
+  margin-top: 50px; }
+.inside-page h2 {
+  font-size: 1.4em;
+  margin: 30px 0 0 0; }
+
+nav {
+  padding: 5px 10px; }
+
+body.white nav .dropdown ul.dropdown-menu {
+  margin-left: 0;
+  padding-left: 0;
+  padding-right: 0;
+  left: auto;
+  min-width: 158px; }
+@media (max-width: 768px) {
+  body.side-nav {
+    margin: 0 auto 50px; } }
+
+.inside-page {
+  padding-top: 0;
+  position: relative; }
+  .inside-page:before {
+    content: "";
+    height: 600px;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 45px;
+    background-image: url("../images/services_page/ferry-building.jpg");
+    background-size: cover;
+    background-repeat: no-repeat; }
+  .inside-page .wrap {
+    display: block;
+    position: relative;
+    width: 100%;
+    background-color: white; }
+    .inside-page .wrap:before, .inside-page .wrap:after {
+      content: " ";
+      display: table; }
+    .inside-page .wrap:after {
+      clear: both; }
+  .inside-page .main-content {
+    background-color: white;
+    padding: 20px 40px; }
+    .inside-page .main-content .icon {
+      margin-bottom: 50px; }
+    .inside-page .main-content h1 {
+      margin-top: 0;
+      text-align: left;
+      text-transform: none;
+      font-weight: 400;
+      font-size: 2.2em;
+      margin-bottom: 10px; }
+      @media (max-width: 992px) {
+        .inside-page .main-content h1 {
+          text-align: center; } }
+    .inside-page .main-content h2 {
+      text-transform: none;
+      font-weight: 400;
+      font-size: 1.7em; }
+    .inside-page .main-content h3 {
+      text-transform: uppercase;
+      font-size: 1.2em;
+      margin-top: 25px; }
+    .inside-page .main-content p {
+      line-height: 1.2em;
+      padding-top: 0;
+      font-size: 1.2em; }
+  .inside-page .content {
+    background-color: white;
+    position: relative; }
+    .inside-page .content:before, .inside-page .content:after {
+      content: " ";
+      display: table; }
+    .inside-page .content:after {
+      clear: both; }
+    @media (max-width: 768px) {
+      .inside-page .content {
+        margin-top: 100px; } }
+  .inside-page .gap {
+    margin-left: -15px;
+    margin-right: -15px;
+    height: 400px;
+    display: block; }
+    .inside-page .gap:before, .inside-page .gap:after {
+      content: " ";
+      display: table; }
+    .inside-page .gap:after {
+      clear: both; }
+    @media (max-width: 639px) {
+      .inside-page .gap {
+        height: 1300px; } }
+  .inside-page .step-process {
+    list-style-type: decimal;
+    margin: 20px 0; }
+    .inside-page .step-process li {
+      margin: 16px 0 16px 20px;
+      line-height: 1.2em; }
+    .inside-page .step-process .step-summary {
+      cursor: pointer; }
+      .inside-page .step-process .step-summary .more,
+      .inside-page .step-process .step-summary .less {
+        color: #a0a0a0;
+        margin-left: 5px; }
+    .inside-page .step-process .step-details,
+    .inside-page .step-process .less {
+      display: none; }
+    .inside-page .step-process .step-details {
+      line-height: 1.3em;
+      padding: 10px 0; }
+  .inside-page .g-started {
+    margin-top: 30px;
+    text-transform: uppercase;
+    display: block; }
+  .inside-page .full-width {
+    margin: 0 auto;
+    background-color: white;
+    position: relative;
+    margin-bottom: -100px; }
+    .inside-page .full-width:before, .inside-page .full-width:after {
+      content: " ";
+      display: table; }
+    .inside-page .full-width:after {
+      clear: both; }
+  .inside-page .curtain {
+    z-index: 2;
+    background-color: #FFF;
+    position: relative;
+    padding: 60px 0;
+    -webkit-transform: translate3d(0, 0, 0); }
+  .inside-page #footer {
+    background-color: white; }

@@ -56,5 +56,7 @@
 	<textarea id="message" name="message" placeholder="Message..."></textarea>
 	<input type="submit" value="Submit >>" id="submit" />
 </form>
+
+<?php include('includes/scripts.php'); ?>
 </body>
 </html>

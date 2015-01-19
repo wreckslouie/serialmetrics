@@ -1,16 +1,22 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- <link rel="icon" href="../../favicon.ico"> -->
 	<title>Serial Metrics</title>
 	<?php include('includes/head_links.php'); ?>
-	<link rel="stylesheet" type="text/css" href="styles/pages/home.css">
+	<link rel="stylesheet" type="text/css" href="styles/home.css">
 </head>
 
 <body>
 	<!-- $TITLE_SECTION -->
 	<section id="title">
 		<div class="nav-menu">
-			<div class="container">
+			<div class="container-fluid">
 				<div class="row">
 					<?php include('includes/main_nav.php'); ?>
 				</div>
@@ -33,9 +39,9 @@
 	<section id="modules">
 		<div class="container">
 			<div class="row">
-				<div class="modules-wrapper col-sm-12 text-center">
+				<div class="modules-wrapper text-center">
 					<!-- Modules -->
-					<div class="col-sm-4 module">
+					<div class="col-xs-4 module">
 						<a href="modules.php#matching-algorithms">
 							<div class="module-image">
 								<img src="images/home_page/share-icon.png" class="ico-share">
@@ -45,7 +51,7 @@
 						</a>
 					</div>
 
-					<div class="col-sm-4 module">
+					<div class="module">
 						<a href="modules.php#dynamic-pricing">
 							<div class="module-image">
 								<img src="images/home_page/pricing-icon.png" class="ico-pricing">
@@ -54,7 +60,7 @@
 							<p>Increase revenue with real-time demand discovery and price optimization.</p>
 						</a>
 					</div>
-					<div class="col-sm-4 module">
+					<div class="module">
 						<a href="modules.php#recommendation-systems">
 							<div class="module-image">
 								<img src="images/home_page/recommendations-icon.png" class="ico-recommend">
@@ -63,10 +69,8 @@
 							<p>Surface relevant content for consumers and brands alike.</p>
 						</a>
 					</div>
-
-					<div class="clearfix"></div>
 					
-					<div class="col-sm-4 module">
+					<div class="module">
 						<a href="modules.php#text-classification">
 							<div class="module-image">
 								<img src="images/home_page/gear-icon.png" class="ico-gear">
@@ -75,7 +79,7 @@
 							<p>Extract themes from huge amounts of text.</p>
 						</a>
 					</div>
-					<div class="col-sm-4 module">
+					<div class="module">
 						<a href="modules.php#intelligent-promotions">
 							<div class="module-image">
 								<img src="images/home_page/relations-icon.png" class="ico-relations">
@@ -85,7 +89,7 @@
 							any site visitor, in real-time.</p>
 						</a>
 					</div>
-					<div class="col-sm-4 module">
+					<div class="module">
 						<a href="modules.php#scoring-systems">
 							<div class="module-image">
 								<img src="images/home_page/abacus-icon.png" class="ico-abacus">
@@ -201,9 +205,14 @@
 	</section>
 
 	<!-- $MAP SECTION -->
-	<section id="map">
-		<div id="map-canvas"></div>
-	</section>
+
+	<div class="container-fluid">
+		<div class="row">
+			<section id="map">
+				<div id="map-canvas"></div>
+			</section>
+		</div>
+	</div>
 
 	<!-- $FOOTER SECTION -->
 	<?php include('includes/footer.php') ?>

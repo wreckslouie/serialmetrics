@@ -9,6 +9,9 @@ function initialize() {
 
 
 	};
+
+	var isDraggable = $(document).width() > 480 ? true : false;
+
 	var styles = [
 			{
 	        stylers: [
@@ -18,6 +21,7 @@ function initialize() {
 	];
 	var map = new google.maps.Map(document.getElementById("map-canvas"), mapOptions);
 	map.setOptions({
+		draggable: isDraggable,
 		styles: styles,
 		scrollwheel: false
 	});

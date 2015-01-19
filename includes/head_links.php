@@ -1,6 +1,4 @@
-<!-- Bootstrap grid components -->
-<link rel="stylesheet" type="text/css" href="styles/bootstrap/bootstrap.css">
-
+<link href='http://fonts.googleapis.com/css?family=Raleway:400,100' rel='stylesheet' type='text/css'>
 <!-- Fontawesome icons -->
 <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 

@@ -1,0 +1,424 @@
+/****************
+    TITLE SECTION
+******************/
+#title .nav-menu {
+  width: 100%;
+  background: url("../images/home_page/network.png") no-repeat left top;
+  background-size: cover; }
+  @media (min-width: 1200px) {
+    #title .nav-menu {
+      height: 210px;
+      margin-bottom: 200px; } }
+  #title .nav-menu .side-nav {
+    margin: 65px 0 0 10px; }
+#title .brand {
+  width: 100%;
+  height: 480px;
+  background: url("../images/home_page/background-graph.png") no-repeat left top;
+  background-size: cover; }
+  @media (min-width: 1200px) {
+    #title .brand {
+      margin: -180px 0 -180px 0;
+      z-index: -10; } }
+  @media (max-width: 640px) {
+    #title .brand {
+      height: 700px;
+      margin: 200px auto -100px; } }
+  #title .brand .brand-container {
+    margin: 60px 0; }
+  #title .brand h1 {
+    margin: 0;
+    font-size: 4.1em;
+    font-weight: 100;
+    letter-spacing: .05em; }
+    @media (max-width: 640px) {
+      #title .brand h1 {
+        margin-top: -150px; } }
+  #title .brand h2 {
+    margin: 0;
+    line-height: 1.5em;
+    font-size: 1.55em;
+    letter-spacing: .25em; }
+
+/******************
+    MODULES SECTION
+*******************/
+#modules {
+  margin: 110px 0;
+  background-color: #2e2f2e; }
+  @media (max-width: 992px) {
+    #modules {
+      margin-top: 80px; } }
+  #modules .modules-wrapper {
+    position: relative;
+    float: left;
+    width: 100%;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px; }
+    #modules .modules-wrapper .module {
+      position: relative;
+      float: left;
+      width: 33.33333%;
+      min-height: 1px;
+      padding-left: 15px;
+      padding-right: 15px;
+      letter-spacing: .1em;
+      font-size: 0.9em;
+      line-height: 1.7em;
+      padding: 25px 0; }
+      @media (max-width: 640px) {
+        #modules .modules-wrapper .module {
+          position: relative;
+          float: left;
+          width: 50%;
+          min-height: 1px;
+          padding-left: 15px;
+          padding-right: 15px; }
+          #modules .modules-wrapper .module:before, #modules .modules-wrapper .module:after {
+            content: " ";
+            display: table; }
+          #modules .modules-wrapper .module:after {
+            clear: both; } }
+      @media (max-width: 639px) {
+        #modules .modules-wrapper .module {
+          position: relative;
+          float: left;
+          width: 100%;
+          min-height: 1px;
+          padding-left: 15px;
+          padding-right: 15px; } }
+    #modules .modules-wrapper .module-image {
+      height: 88px; }
+    #modules .modules-wrapper h1 {
+      font-size: 16px;
+      margin-bottom: 14px; }
+      @media (max-width: 992px) {
+        #modules .modules-wrapper h1 {
+          line-height: 24px; } }
+    #modules .modules-wrapper p {
+      line-height: 1.3em;
+      top: 100px;
+      letter-spacing: 0.1em;
+      font-size: 1.1em;
+      padding: 0 24px; }
+
+/******************
+    CONTACT SECTION
+******************/
+#contact .contact-form {
+  border: 2px solid white;
+  border-radius: 15px;
+  -moz-border-radius: 15px;
+  margin: 15px; }
+
+#contact .contact-form form {
+  margin-top: 30px;
+  margin-bottom: 40px; }
+
+#contact .contact-form h1 {
+  border-bottom: 1px solid white;
+  font-size: 1.4em;
+  letter-spacing: .2em;
+  display: inline-block;
+  line-height: 1.8em; }
+
+#contact .contact-form .form-input div {
+  margin-top: 10px;
+  margin-bottom: 10px; }
+
+#contact .contact-form .form-input div > div {
+  padding: 25px;
+  background-color: #2e2f2e;
+  border: 1px solid white;
+  border-radius: 5px;
+  -moz-border-radius: 5px; }
+
+#contact .contact-form .form-input div > div > input {
+  background-color: transparent;
+  border: medium none;
+  font-size: 1em;
+  color: #FFF;
+  width: 100%;
+  font-weight: normal; }
+
+#contact .contact-form .form-input div > input[type=submit] {
+  color: #FFF;
+  background-color: transparent;
+  text-transform: uppercase;
+  border: medium none;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
+  cursor: pointer;
+  font-size: 1.4em;
+  letter-spacing: .2em;
+  margin-top: 35px; }
+
+/********************
+        DATASTACK SECTION
+        ********************/
+#datastack {
+  margin: 100px 0; }
+
+#datastack .header div {
+  margin-bottom: 75px; }
+
+#datastack .header div > h1 {
+  border-bottom: 1px solid white;
+  font-size: 1.35em;
+  letter-spacing: .2em;
+  line-height: 27px;
+  display: inline-block;
+  padding-bottom: 10px; }
+
+#datastack .layers {
+  margin-left: 215px;
+  height: 505px; }
+
+#datastack .layers div {
+  position: absolute; }
+
+/* Layers style */
+#datastack .layers div:nth-child(1) {
+  top: 0;
+  z-index: 60; }
+
+#datastack .layers div:nth-child(2) {
+  top: 60px;
+  z-index: 50; }
+
+#datastack .layers div:nth-child(3) {
+  top: 120px;
+  z-index: 40; }
+
+#datastack .layers div:nth-child(4) {
+  top: 180px;
+  z-index: 30; }
+
+#datastack .layers div:nth-child(5) {
+  top: 240px;
+  z-index: 20; }
+
+#datastack .layers div .stack {
+  margin-left: -5px;
+  display: none; }
+
+#datastack .layers div .transparent {
+  width: 70.9%; }
+
+#datastack .layers div > img {
+  width: 100%; }
+
+/**************
+    MAP SECTION
+**************/
+#map #map-canvas {
+  height: 100%;
+  min-height: 400px; }
+
+/*
+####################
+# 640X480 (IPAD) #
+####################
+*/
+@media (max-width: 660px) {
+  /***************
+      TITLE SECTION
+  ***************/
+  #title .brand {
+    height: 190px; }
+
+  #title .brand .brand-container > h1 {
+    font-size: 2.8em; }
+
+  #title .brand .brand-container > h2 {
+    font-size: 1.1em;
+    letter-spacing: 0.22em; }
+
+  /******************
+      MODULES SECTION
+  *****************/
+  /******************
+      CONTACT SECTION
+  ******************/
+  #contact .contact-form {
+    border-radius: 50px; }
+
+  #contact .contact-form h1 {
+    font-size: 1.2em; }
+
+  #contact .contact-form .form-input {
+    text-align: center; }
+
+  #contact .contact-form .form-input div {
+    margin-bottom: 0;
+    padding: 0 5px; }
+
+  #contact .contact-form .form-input div:nth-child(3) {
+    display: inline-block; }
+
+  #contact .contact-form .form-input div:nth-child(4) {
+    display: inline-block; }
+
+  #contact .contact-form .form-input div:nth-child(6) {
+    display: inline-block; }
+
+  #contact .contact-form .form-input div:nth-child(7) {
+    display: inline-block; }
+
+  #contact .contact-form .form-input .pull-right {
+    float: none !important;
+    text-align: center; }
+
+  #contact .contact-form .form-input div > div {
+    padding: 12px;
+    border-radius: 25px;
+    width: 262px; }
+
+  #contact .contact-form .form-input div > div > input {
+    font-size: 0.8em; }
+
+  #contact .contact-form .form-input div > input[type=submit] {
+    font-size: 1.1em;
+    margin-top: 20px; }
+
+  /********************
+      DATASTACK SECTION
+  ********************/
+  #datastack {
+    margin: 40px 0; }
+
+  #datastack .header {
+    margin-bottom: 0px; }
+
+  #datastack .header div {
+    margin-bottom: 65px; }
+
+  #datastack .header div > h1 {
+    font-size: 0.8em;
+    line-height: 1.2em;
+    letter-spacing: 0.19em;
+    width: 36%; }
+
+  #datastack .layers {
+    margin-left: 120px;
+    height: 300px; }
+
+  #datastack .layers div .stack {
+    margin-left: -3px; }
+
+  /* LAYERS */
+  #datastack .layers div:nth-child(1) {
+    top: 0;
+    z-index: 60; }
+
+  #datastack .layers div:nth-child(2) {
+    top: 25px;
+    z-index: 50; }
+
+  #datastack .layers div:nth-child(3) {
+    top: 50px;
+    z-index: 40; }
+
+  #datastack .layers div:nth-child(4) {
+    top: 75px;
+    z-index: 30; }
+
+  #datastack .layers div:nth-child(5) {
+    top: 100px;
+    z-index: 20; } }
+/*
+####################
+# 320X480 (IPHONE) #
+####################
+*/
+@media (max-width: 340px) {
+  /***************
+      TITLE SECTION
+  ***************/
+  #title .brand {
+    height: 140px; }
+
+  #title .brand .brand-container > h1 {
+    font-size: 1.8em; }
+
+  #title .brand .brand-container > h2 {
+    font-size: 0.69em; }
+
+  /******************
+      MODULES SECTION
+  *****************/
+  /******************
+      CONTACT SECTION
+  ******************/
+  #contact .contact-form {
+    border-radius: 50px; }
+
+  #contact .contact-form h1 {
+    font-size: 1.2em; }
+
+  #contact .contact-form .form-input div {
+    margin-bottom: 0;
+    padding: 0 5px; }
+
+  #contact .contact-form .form-input .pull-right {
+    float: none !important;
+    text-align: center; }
+
+  #contact .contact-form .form-input div > div {
+    padding: 12px;
+    border-radius: 25px;
+    width: inherit; }
+
+  #contact .contact-form .form-input div > div > input {
+    font-size: 0.8em; }
+
+  #contact .contact-form .form-input div > input[type=submit] {
+    font-size: 1.1em;
+    margin-top: 20px; }
+
+  /********************
+      DATASTACK SECTION
+  ********************/
+  #datastack {
+    margin: 40px 0; }
+
+  #datastack .header {
+    margin-bottom: 0px; }
+
+  #datastack .header div {
+    margin-bottom: 40px; }
+
+  #datastack .header div > h1 {
+    font-size: 0.8em;
+    line-height: 1.2em;
+    letter-spacing: 0.19em;
+    width: inherit; }
+
+  #datastack .layers {
+    margin-left: 55px;
+    height: 170px; }
+
+  #datastack .layers div .stack {
+    margin-left: -1px; }
+
+  /* LAYERS */
+  #datastack .layers div:nth-child(1) {
+    top: 0;
+    z-index: 60; }
+
+  #datastack .layers div:nth-child(2) {
+    top: 15px;
+    z-index: 50; }
+
+  #datastack .layers div:nth-child(3) {
+    top: 30px;
+    z-index: 40; }
+
+  #datastack .layers div:nth-child(4) {
+    top: 45px;
+    z-index: 30; }
+
+  #datastack .layers div:nth-child(5) {
+    top: 60px;
+    z-index: 20; } }

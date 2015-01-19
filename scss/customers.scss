@@ -1,0 +1,107 @@
+@import "variables";
+@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_mixins.scss";
+@import "helper/mixins";
+@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/variables";
+@import "universal";
+
+body {
+    background-color: #fff;
+}
+
+body {
+    &.white {
+        nav {
+            .dropdown ul.dropdown-menu {
+                z-index: -10;
+                margin-left: 0;
+                padding-top: 15px;
+                padding-left: 0;
+                padding-right: 0;
+                left: auto;
+                min-width: 158px;
+                margin-top: -16px;
+            }
+
+            .btn-group .dropdown-menu {
+                @include breakpoint(mobile-xs) {
+                    z-index: -10;
+                    margin-top: -24px;
+                    padding-top: 20px;
+                    padding-bottom: 10px;
+                }
+            }
+        }
+
+        .side-nav {
+            @include breakpoint(phablet-sm) {
+                left: 0;
+            }
+
+            @include breakpoint(mobile-xs) {
+                left: 18%;
+                margin: 0 auto 50px;
+            }
+        }
+    }
+}
+
+.inside-page {
+    background-color: #fff;
+    padding: 60px 0;
+
+    .main-content {
+        @include make-xs-column(8);
+        @include make-xs-column-offset(2);
+
+        .page-icon {
+            width: 140px;
+            margin: 50px 0;
+
+            img {
+                padding-top: 50px;
+                display: block;
+                @include img-responsive;
+            }
+
+            @include breakpoint(mobile-xs) {
+                width: 64px;
+                text-align: center;
+                margin: 50px auto;
+
+                img {
+                    padding-top: 50px;
+                }
+            }
+        }
+
+        .page-title {
+            margin-top: 10px;
+            margin-bottom: 50px;
+            text-align: left;
+
+            h1 {
+                font-size: 2.1em;
+                font-weight: 400;
+                text-transform: none;
+            }
+        }
+
+        > .list-inline {
+            @include clearfix;
+
+            li {
+                text-align: center;
+                @include make-xs-column(6);
+
+                img {
+                    margin: 0 auto;
+                    @include img-responsive;
+                }
+            }
+        }
+    }
+
+    #footer {
+        background-color: #fff;
+    }
+}

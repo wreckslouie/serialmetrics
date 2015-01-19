@@ -1,0 +1,32 @@
+@import "variables";
+@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_mixins.scss";
+@import "helper/mixins";
+@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/variables";
+@import "universal";
+
+.inside-page{
+	h1{
+		text-transform: none;
+		font-weight: 400;
+		&:first-child{
+			margin-top: 100px;
+		}
+	}
+
+	p{
+		line-height: 1.6em;
+		padding-bottom: 0px;
+	}
+
+	h2{
+		line-height: 1.2em;
+		text-transform: none;
+	}
+
+	h3{
+		font-size:0.9em;
+		margin:10px 0 0;
+	}
+
+}
+
