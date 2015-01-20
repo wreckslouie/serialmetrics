@@ -29,22 +29,31 @@
                         <img src="images/home_page/share-icon.png" alt="">
                     </div>
                     <h1 class="page-title">Matching Algorithms</h1>
-                    <p>Anyone who has ever dated or looked for a job is familiar with the matchmaking process. It’s often a costly, and time-consuming process to find the right ‘one.’ Various platforms attempt to match users with one another. As the number of users on these platforms increases, there is endless opportunity for complexity.</p>
-                    <p>Algorithmic Matching uses data from your users, such as their preferences, and usage habits to recommend the perfect set of matches. It’s a challenging problem, that resembles a “bi-directional” recommendation: you might like someone, but they also have to like you back for there to be a match.</p>
-                    <p>With the Orion Matching API, finding the perfect match, has never been easier. In four simple steps, you can easily have a matching system in place to optimally pair users.</p>
+                    <p>Whether your customers are looking for Mr. or Ms. Right or searching for a new job, 
+                    they know that finding the right match can be costly and time-consuming. A dating app 
+                    recommends a match based on superficial interests, but after an expensive evening out 
+                    the the user realizes it failed to identify the potential for a deeper connection. A 
+                    recommended job position fits in terms of qualifications, but only after the new hire 
+                    starts the job do they realize they dislike the company culture.  We optimize your 
+                    time and resources so these mistakes don’t happen to you and your customers.</p>
+
+                    <p>The Orion matching algorithm searches leverages information about your users on various platforms, checking all their preferences and habits to see which users match each other’s needs. In dating, you might like someone, but they also have to like you for there to be a match. Orion provides optimal matches: only users with matching data will be recommended to one another.</p>
+                    <p>Now imagine you have a hundred potential dates, or a thousand. Our Orion Matching API can handle this work even when the number of users skyrockets. Sorting through user data becomes simple on any scale.</p>
                     <div class="content">
                         <h1>HOW TO WORK WITH SERIAL METRICS</h1>
+                        <p>Technology is most powerful when it’s easy to use. That’s why we’ve streamlined our process to make working with Serial Metrics truly effortless.</p>
                         <h2>Integrating Orion</h2>
-                        <p>Integration requires loading our Java SDK, which scans your databases for relevant, and predicatively valuable features.</p>
+                        <p>Integration simply requires loading our Java SDK, which scans your databases for relevant and predicatively valuable features.</p>
 
                         <h2>Learning About Users</h2>
-                        <p>Our system will then develop an initial model from the column variables automatically mined from your database. We call this, automated feature selection.</p>
+                        <p>Next, our system develops a starting model based on the column variables taken straight from your database. Orion will build upon this foundation as it learns more from your data.</p>
 
                         <h2>Fine-tuning Predictions</h2>
-                        <p>To test the efficacy of the predictive models, Serial Metrics fine tunes model parameters to reduce type-1 and type-2 statistical errors.</p>
+                        <p>To make sure that our predictive models are as maximally effective, we hone the parameters of your starting model to minimize the occurrence of type-1 and type-2 statistical errors. Orion gives you only the most accurate, high quality results.</p>
+
                         <h2>Deploying Results</h2>
-                        <p>The final model deploys as an API which monitors your database for new users, or changes to current user’s tastes/behavior, and writes scores to a designated ‘propensity’ table. This table is continuously updated as parameters that affect potential matches change. The results are always up-to-date.</p>
-                        <p>All you need to do is query the propensity table for matches.</p>
+                        <p>The newly perfected model will deploy an API that simultaneously checks your database for new users and looks back at the data of old users to see if their preferences or activity has changed. Based on this new information, Orion assigns scores and puts them into a ‘propensity’ table. This table will give you a clear view of Orion’s findings and your most important data at a glance. After creating the table, Orion allows you to easily search it for matches.</p>
+                        <p>For more information on how to make the most of your data with Orion, contact us today. Our team of friendly experts will be happy to guide you through the start-up process. You have the data: let Serial Metrics help you maximize your results.</p>
                     </div>
                 </div>
             </div>

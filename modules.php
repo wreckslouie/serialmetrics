@@ -41,7 +41,8 @@
 									</div>
 								</div>
 								<div class="module-content">
-									Pairs users from one set with users from the other set. Think of a job board, where one set of users (job posters) and another set of users (job seekers), are looking for each other. A matching system looks at the features and preferences from each side of the market and recommends optimal pairs of users.
+									Help your users find the perfect match. By scanning user data and focusing 
+									on critical factors, we ensure that you recommend ideal pairings to your users.
 									<div class="more">
 										<a href="matching_algorithms.php">Read more...</a>
 									</div>
@@ -58,7 +59,8 @@
 									</div>
 								</div>
 								<div class="module-content">
-									Assigns the optimal price to goods such that each unit of inventory is sold to achieve revenue-optimality. Should you raise prices, or lower them? Should you give a discount just this once, or just to a certain set of users. When should you increase prices? Will the users return to your site if your prices are too high? These are all common questions that online retailers ask. What if, though, you could set prices dynamically to extract as much value as possible from each user? Or, what if you could estimate the one, best, price that the majority of your customers can pay so you can maximize your revenues. Our dynamic pricing module does just this, and more, including real-time demand fluctuations (changes in demand, or price elasticity of demand), and can make corrective action! Imagine a control system for regulating prices.
+									Which prices are the key to maximizing revenue? Our algorithms find the optimum pricing 
+									to maximize your profits and sales. 
 									<div class="more">
 										<a href="dynamic_pricing.php">Read more...</a>
 									</div>
@@ -75,7 +77,9 @@
 									</div>
 								</div>
 								<div class="module-content">
-									Assigns the optimal price to goods such that each unit of inventory is sold to achieve revenue-optimality. Should you raise prices, or lower them? Should you give a discount just this once, or just to a certain set of users. When should you increase prices? Will the users return to your site if your prices are too high? These are all common questions that online retailers ask. What if, though, you could set prices dynamically to extract as much value as possible from each user? Or, what if you could estimate the one, best, price that the majority of your customers can pay so you can maximize your revenues. Our dynamic pricing module does just this, and more, including real-time demand fluctuations (changes in demand, or price elasticity of demand), and can make corrective action! Imagine a control system for regulating prices.
+									Give your users the content they want before they even know they want it. Using your 
+									customer browsing and transaction data, we help you achieve perfect personalization 
+									for content discovery.
 									<div class="more">
 										<a href="dynamic_pricing.php">Read more...</a>
 									</div>
@@ -92,7 +96,8 @@
 									</div>
 								</div>
 								<div class="module-content">
-									Structures free-form text into sets of topic categories. Imagine needing to organize volumes of text into ordered categories. This can be quite the manual process! One way to do this is reading each document, searching for keywords, then organizing the texts into categories based on keywords that arise. But, is this the best way? Our text classification module extracts themes from documents based on term frequencies. Forget keywords. If you can assign topics to documents dynamically, then you don’t need to have a list of categories a priori. What’s more, if two topics are too closely, cognitively, related, we can identify those topics, and coalesce them into broader categories, accordingly.
+									Eliminate keyword searches from your text analysis and upgrade to a more effective solution. 
+									With automated text classification, you can understand your customers and content at a glance.
 									<div class="more">
 										<a href="text_classification.php">Read more...</a>
 									</div>
@@ -109,7 +114,8 @@
 									</div>
 								</div>
 								<div class="module-content">
-									Engages users that are less likely to purchase from your site with deals, coupons, discounts, or other offers before they leave your site without making a purchase. Instantly identify the users that will buy from your store, know when they will buy, and even know the exact purchase amount. Indiscriminately offering deals to site visitors - in the form of discounts or coupons - is very often revenue sub-optimal. If we can simply identify users that are least likely to purchase, but most likely to respond to a promotion, and target them exclusively, and instantly upon their visiting your site, then we can maximize returns on promotional campaigns.
+									Maximize the effectiveness of your promotions. Identify customers who are least likely to 
+									purchase and most likely to respond to a promotion, and boost your revenue with strategically targeted discounts. 
 									<div class="more">
 										<a href="intelligent_promotions.php">Read more...</a>
 									</div>
@@ -126,7 +132,9 @@
 									</div>
 								</div>
 								<div class="module-content">
-									Classifies data according to quality, risk, or event likelihood. Know which users are at risk of quitting their subscription, or conversely, which users are completely loyal and price insensitive. Need to score your leads? It’s the same math. Simply put, the scoring system assigns a value to your data based on an estimated event likelihood, given a set of facts (or features). You can score anything from nutritional quality to lead quality.
+									Identifying promising leads can be a gamble. Without effective use of data, you may end up wasting 
+									valuable time and resources presenting your products and services to those who will never make 
+									it to the closing stage.
 									<div class="more">
 										<a href="scoring_systems.php">Read more...</a>
 									</div>
@@ -143,7 +151,8 @@
 									</div>
 								</div>
 								<div class="module-content">
-									Determines where users live, down to the zip code. Ever need to know where your users live, where they work, how far they commute, or have other location-based questions? Our geo-inference module not only infer the locations of users, but even identify their next travel destination!
+									Boost customer satisfaction by tailoring your services to their location. Using geo-inference, we track 
+									down the location data you need to offer personalized user experiences.
 									<div class="more">
 										<a href="geo_inference.php">Read more...</a>
 									</div>
