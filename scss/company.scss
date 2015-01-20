@@ -1,0 +1,107 @@
+@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_mixins.scss";
+@import "helper/mixins";
+@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/variables";
+@import "dark_inside_pages";
+
+body .side-nav {
+    // margin: 50px 0;
+
+    @include breakpoint(mobile){
+    	margin: 0 auto 50px;
+    }
+}
+
+.inside-page {
+    padding-top: 0;
+
+    &:before {
+        content: " ";
+        height: 63%;
+        width: 100%;
+        position: fixed;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-image: url("../images/customers_page/sf_bay.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .wrap {
+        @include clearfix;
+        display: block;
+        position: relative;
+        width: 100%;
+        background-color: $background-color;
+    }
+
+    .main-content {
+        background-color: $background-color;
+        padding: 20px 40px;
+
+        h1 {
+            margin-top: 0;
+            text-align: left;
+            text-transform: none;
+
+            @include breakpoint(phablet) {
+                text-align: center;
+            }
+        }
+
+        p {
+            font-size: 1.2em;
+        }
+    }
+
+    .content {
+        background-color: $background-color;
+        @include clearfix;
+        position: relative;
+
+        @include breakpoint(mobile) {
+            margin-top: 100px;
+        }
+    }
+
+    .gap {
+    	@include make-row();
+        height: 800px;
+        display: block;
+        position: relative;
+        @include breakpoint(mobile-xs){
+        	height: 1300px;
+        }
+    }
+
+    .team {
+        padding: 40px 0;
+        background-color: $background-color;
+        @include clearfix;
+        position: relative;
+
+        .list-unstyled {
+            li {
+                font-size: 1.2em;
+                line-height: 2em;
+            }
+        }
+    }
+
+    .full-width {
+        margin: 0 auto;
+        background-color: $background-color;
+        @include clearfix;
+        position: relative;
+        margin-bottom: -100px;
+    }
+
+    .curtain {
+        z-index: 2;
+        background-color: #2e2f2e;
+        position: relative;
+        padding: 60px 0;
+        height: 100%;
+        transform: translate3d(0, 0, 0);
+    }
+}

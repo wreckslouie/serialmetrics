@@ -1,138 +1,3 @@
-@import url(http://fonts.googleapis.com/css?family=Raleway:400,100);
-/**
-* Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
-* http://cssreset.com
-*/
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
-  -webkit-text-size-adjust: 100%; }
-
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-  display: block; }
-
-body {
-  line-height: 1; }
-
-ol, ul {
-  list-style: none; }
-
-blockquote, q {
-  quotes: none; }
-
-blockquote:before, blockquote:after,
-q:before, q:after {
-  content: '';
-  content: none; }
-
-table {
-  border-collapse: collapse;
-  border-spacing: 0; }
-
-/* Clearfix */
-.group:after {
-  content: "";
-  display: table;
-  clear: both; }
-
-/*------ Universal Styles -------*/
-a, a:visited, a:hover {
-  color: white;
-  text-decoration: none; }
-
-.inside-page {
-  margin: 0 auto; }
-  .inside-page .main-content {
-    margin: 0 auto; }
-  .inside-page footer {
-    margin: 0 auto; }
-
-body {
-  font-family: "Raleway", sans-serif; }
-
-nav {
-  position: absolute;
-  cursor: pointer; }
-  nav .drop-down {
-    background: url("../images/home_page/down-arrow.png") no-repeat 88% 45%;
-    text-align: left;
-    display: inline-block;
-    width: 100%; }
-  nav ul {
-    text-align: left;
-    display: none; }
-    nav ul li:hover {
-      font-weight: bold; }
-
-/*----- Desktop Styles -----*/
-html {
-  background-color: #2e2f2e; }
-
-.inside-page {
-  width: 1280px;
-  padding: 85px 0; }
-  .inside-page .main-content {
-    width: 625px; }
-    .inside-page #main-content .content {
-      margin-top:90px;}
-  .inside-page h1 {
-    font-size: 2em;
-    margin: 25px 0 10px; }
-  .inside-page img {
-    padding: 50px 0 25px; }
-  .inside-page p {
-    padding: 25px 0 0 0;
-    line-height: 2em;
-    text-align: justify; }
-  .inside-page p.description {
-    padding: 10px 0;}
-  .inside-page footer {
-    width: 960px; }
-    .inside-page footer p {
-      text-align: center;
-      padding: 0;
-      margin: 30px 0; }
-
-nav {
-  top: 60px;
-  left: 50px;
-  width: 130px;
-  font-size: .9em;
-  line-height: 1.8em; }
-
-footer {
-  padding: 40px; }
-  footer p {
-    margin: 40px 0;
-    font-size: .9em; }
-  footer p:nth-child(1) a {
-    margin: 0px 40px; }
-    footer p:nth-child(1) a:nth-child(1) {
-      margin-left: 0px; }
-    footer p:nth-child(1) a:nth-last-child(1) {
-      margin-right: 0px; }
-  footer p:nth-child(2) {
-    letter-spacing: .215em;
-    word-spacing: 7px; }
-
 body {
   background-color: #2e2f2e;
   font-weight: 100;
@@ -151,67 +16,135 @@ nav a {
 nav {
   padding: 5px 10px; }
 
-.inside-page #main-content .module .module-heading {
-  cursor: pointer;
-  vertical-align: middle;
-  position: relative; }
-  .inside-page #main-content .module .module-heading h1, .inside-page #main-content .module .module-heading img {
-    display: inline-block; }
-  .inside-page #main-content .module .module-heading img {
-    vertical-align: middle; }
-  .inside-page #main-content .module .module-heading h1 {
-    position: absolute;
-    -webkit-text-size-adjust: 100%; }
-.inside-page #main-content .module .module-content {
-  display: none; }
+.side-nav {
+  margin: 65px 0 0 10px; }
 
-/*----- Desktop Styles ------*/
-.inside-page #main-content {
-  width: 860px;
-  margin: 30px auto; }
-  .inside-page #main-content h1 {
-    margin: 10px 0 50px 0; }
-  .inside-page #main-content .module {
-    padding: 30px 20px;
-    margin: 30px 0;
+.main-content {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 30px;
+  padding-bottom: 30px; }
+  @media (min-width: 768px) {
+    .main-content {
+      float: left;
+      width: 83.33333%; } }
+  @media (min-width: 768px) {
+    .main-content {
+      margin-left: 8.33333%; } }
+  .main-content .page-icon {
+    width: 100px;
+    margin: 50px 0; }
+    .main-content .page-icon img {
+      padding-top: 50px;
+      display: block;
+      display: block;
+      max-width: 100%;
+      height: auto; }
+    @media (max-width: 639px) {
+      .main-content .page-icon {
+        width: 64px;
+        text-align: center;
+        margin: 50px auto; }
+        .main-content .page-icon img {
+          padding-top: 50px; } }
+  .main-content .page-title {
+    margin-top: 10px;
+    margin-bottom: 50px;
+    text-transform: none; }
+    @media (max-width: 768px) {
+      .main-content .page-title {
+        display: none; } }
+  .main-content .module {
+    position: relative;
+    float: left;
+    width: 100%;
+    min-height: 1px;
+    padding-left: 0;
+    padding-right: 0;
+    padding: 30px;
     border: 2px solid white;
-    border-radius: 5px;
-    -moz-border-radius: 5px; }
-    .inside-page #main-content .module .module-heading h1 {
-      font-size: 1.5em;
-      line-height: 1.5em;
-      margin: 0;
-      top: 9px;
-      left: 95px; }
-    .inside-page #main-content .module .module-heading img {
-      padding: 0 300px 0 0; }
-    .inside-page #main-content .module .module-content {
+    border-radius: 8px;
+    margin-bottom: 50px; }
+    @media (max-width: 640px) {
+      .main-content .module {
+        border-radius: 32px; } }
+    @media (max-width: 639px) {
+      .main-content .module {
+        padding: 15px;
+        border-radius: 24px; } }
+    .main-content .module-heading:before, .main-content .module-heading:after {
+      content: " ";
+      display: table; }
+    .main-content .module-heading:after {
+      clear: both; }
+    .main-content .module-content {
+      display: none;
       margin-top: 20px;
+      font-size: 1.2em;
       line-height: 1.5em; }
-    .inside-page #main-content .module .more{
-      margin: 12px 0 0;}
-
-/*----- icons -----*/
-img.ico-modules {
-  width:100px;}
-img.ico-share {
-  width: 54px;
-  height: 50px; }
-img.ico-pricing {
-  width: 60px;
-  height: 50px; }
-img.ico-recommend {
-    height: 50px;
-    width: 50px; }
-img.ico-gear {
-  width: 62px;
-  height: 60px; }
-img.ico-relations {
-  width: 60px;
-  height: 67px; }
-img.ico-abacus {
-  width: 65px;
-  height: 47px; }
-img.ico-geo-inference {
-  height: 48px;
-  width: 80px;}
+      .main-content .module-content .more {
+        margin-top: 20px; }
+    .main-content .module-img {
+      position: relative;
+      float: left;
+      width: 16.66667%;
+      min-height: 1px;
+      padding-left: 0;
+      padding-right: 0;
+      text-align: left; }
+      .main-content .module-img img {
+        display: inline-block;
+        vertical-align: bottom;
+        margin: 0 auto;
+        max-width: 54px; }
+        @media (max-width: 639px) {
+          .main-content .module-img img {
+            margin-top: 10px;
+            max-width: 24px; } }
+    .main-content .module-title {
+      position: relative;
+      float: left;
+      width: 83.33333%;
+      min-height: 1px;
+      padding-left: 0;
+      padding-right: 0;
+      text-align: left; }
+      .main-content .module-title h1 {
+        text-transform: none;
+        text-align: left;
+        margin-top: 0;
+        font-size: 1.8em;
+        line-height: 1.8em; }
+        @media (max-width: 640px) {
+          .main-content .module-title h1 {
+            margin-top: 4px;
+            font-size: 1.1em; } }
+        @media (max-width: 639px) {
+          .main-content .module-title h1 {
+            margin-top: 0;
+            font-size: .7em; } }
+  .main-content > .content {
+    margin-top: 90px; }
+    .main-content > .content > h1 {
+      font-size: 2em; }
+    .main-content > .content > h2 {
+      font-size: 1.6em;
+      text-transform: none;
+      margin-top: 30px; }
+    .main-content > .content > p {
+      font-size: 1.2em;
+      line-height: 1.5em;
+      padding-top: 25px; }
+      .main-content > .content > p:last-child {
+        margin-top: 30px; }
+    .main-content > .content > .list-unstyled {
+      padding-left: 80px; }
+      .main-content > .content > .list-unstyled li {
+        font-size: 1.2em;
+        line-height: 1.5em; }
+  .main-content > p {
+    padding-top: 25px;
+    line-height: 2em;
+    font-size: 1.2em; }

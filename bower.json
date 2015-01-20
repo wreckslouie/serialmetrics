@@ -1,0 +1,24 @@
+{
+  "name": "serialmetrics",
+  "version": "1",
+  "homepage": "",
+  "authors": [
+    ""
+  ],
+  "moduleType": [
+    "node"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "1.x",
+    "bootstrap-sass": "~3.3.1"
+  }
+}

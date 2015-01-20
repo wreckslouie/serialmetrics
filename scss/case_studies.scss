@@ -1,0 +1,198 @@
+@import "variables";
+@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_mixins.scss";
+@import "helper/mixins";
+@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/variables";
+@import "universal";
+
+html{
+	background-color: #fff;
+}
+body {
+    background-color: #fff;
+
+    &.white {
+        nav {
+            .dropdown ul.dropdown-menu {
+                z-index: -10;
+                margin-left: 0;
+                padding-top: 15px;
+                padding-left: 0;
+                padding-right: 0;
+                left: auto;
+                min-width: 158px;
+                margin-top: -16px;
+            }
+
+            .btn-group .dropdown-menu {
+                @include breakpoint(mobile-xs) {
+                    z-index: -10;
+                    margin-top: -24px;
+                    padding-top: 20px;
+                    padding-bottom: 10px;
+                }
+            }
+        }
+
+        .side-nav {
+            @include breakpoint(phablet-sm) {
+                left: 0;
+            }
+
+            @include breakpoint(mobile-xs) {
+                left: 18%;
+                margin: 0 auto 50px;
+            }
+        }
+    }
+}
+
+.inside-page {
+    .case-study {
+        ul {
+            list-style-type: disc;
+        }
+
+        ol {
+            list-style-type: decimal;
+        }
+
+        .case-study-intro {
+            cursor: pointer;
+
+            a {
+                color: $lighter-gray;
+
+                &.more, &.less {
+                    display: block;
+                }
+
+                &.less {
+                    display: none;
+                }
+            }
+        }
+
+        .case-study-content {
+            display: none;
+            padding-bottom: 30px;
+            border-bottom: 1px solid $medium-gray;
+
+            a {
+                color: $lighter-gray;
+            }
+        }
+
+        h2 {
+            font-size: 1.4em;
+            margin-top: 30px;
+        }
+
+        h3 {
+            font-size: 1.2em;
+            padding: 25px 0 0 0;
+        }
+
+        sub {
+            font-size: 0.8em;
+            vertical-align: sub;
+        }
+
+        #code-appendix {
+            div {
+                text-align: left;
+                line-height: 1.3em;
+
+                ul {
+                    font-family: Consolas, sans-serif;
+                    background-color: $lightest-gray;
+                    border: 1px solid $lighter-gray;
+                }
+            }
+        }
+    }
+
+    .main-content {
+    	background-color: #fff;
+    	img{
+    		@include img-responsive();
+    	}
+        .page-icon {
+            width: 140px;
+            margin: 50px 0;
+
+            img {
+                padding-top: 50px;
+                display: block;
+                @include img-responsive;
+            }
+
+            @include breakpoint(mobile-xs) {
+                width: 64px;
+                text-align: center;
+                margin: 50px auto;
+
+                img {
+                    padding-top: 50px;
+                }
+            }
+        }
+
+        .page-title {
+            margin-top: 10px;
+            margin-bottom: 50px;
+            text-align: left;
+
+            h1 {
+                font-size: 2.1em;
+                font-weight: 400;
+                text-transform: none;
+            }
+        }
+    }
+}
+
+/*-----
+	Desktop Styles
+				-----*/
+.inside-page {
+    .case-study {
+        margin: 30px 0 60px;
+
+        ul, ol {
+            margin: 20px 0;
+
+            li {
+                margin: 16px 0 16px 20px;
+                line-height: 1.5em;
+            }
+        }
+
+        .case-study-intro {
+            a {
+                margin: 10px 0 0 0;
+            }
+        }
+
+        #code-appendix {
+            margin-top: 30px;
+
+            div {
+                margin: 15px 0 30px;
+
+                ul {
+                    margin: 10px 0 20px;
+                    padding: 13px;
+
+                    li {
+                        list-style-type: none;
+                        margin: 0px;
+                        line-height: 1.3em;
+                    }
+                }
+            }
+        }
+    }
+}
+#footer{
+	background-color: #fff;
+}
