@@ -30,12 +30,13 @@
 				</div>
 			</div>
 		</section>
+
 		<section class="gap">
 		</section>
-		<section class="curtain">
+		
 		<div class="container-fluid">
 			<div class="row">
-				
+				<div class="curtain full-width">
 					<div class="main-content">
 						<h2><a href="module_products.php">Why reinvent the wheel?</a></h2>
 						<p>Serial Metrics offers sets of APIs that use your data. We leverage cutting edge machine learning techniques to solve your company&lsquo;s most complex problems.</p>
@@ -53,8 +54,8 @@
 						<ol class="step-process">
 							<li><span class="step-summary">
 								Meet the client to ascertain specific data needs.
-									<span class="more">Details &darr;</span>
-									<span class="less">Fewer details &uarr;</span>
+								<span class="more">Details &darr;</span>
+								<span class="less">Fewer details &uarr;</span>
 								</span>
 								<p class="step-details">
 								This involves a session where we listen to the client, learn their business objectives, and perform an inventory on their available data. The goal of the meeting is to identify what data the customer has already gathered, and what additional data (if any) we need to create a set of predictive models.
@@ -62,8 +63,8 @@
 							</li>
 							<li><span class="step-summary">
 								Determine the amount of firm-specific domain knowledge required to build a model.
-									<span class="more">Details &darr;</span>
-									<span class="less">Fewer details &uarr;</span>
+								<span class="more">Details &darr;</span>
+								<span class="less">Fewer details &uarr;</span>
 								</span>
 								<p class="step-details">
 								Just as users differ in behavior or demographics, clients among and within different verticals, too, differ in terms business complexity. The process of acquiring this firm-specific of domain knowledge, often requires a level of on-site, physical presence, where we meet with the customer point person and facilitate the transfer of "tacit" knowledge necessary for simulation and predictive modeling purposes. To help codify and visualize variable interdependencies, we build causal loop diagrams, to show how nodes within a system influence each other and the dependent variable (that which we are trying to predict) over time. The level of firm-specific knowledge dependency required to solve a problem, often dictates the degree to which the mathematical solution requires customization beyond route "textbook" methods.
@@ -71,8 +72,8 @@
 							</li>
 							<li><span class="step-summary">
 								Identify the best mathematical technique for the problem at hand.
-									<span class="more">Details &darr;</span>
-									<span class="less">Fewer details &uarr;</span>
+								<span class="more">Details &darr;</span>
+								<span class="less">Fewer details &uarr;</span>
 								</span>
 								<p class="step-details">
 								Identifying how best to mathematically tract a problem is, often, a relatively straightforward process, though it requires a thorough grasp of available statistical models, and how to abstract the business problem into a mathematical framework. Sometimes this process requires first analyzing data, but most often (about 80% of the time), we have a good understanding of how to approach the problem, mathematically, even before obtaining a dataset to analyze. For more complex problems, the process of fitting a solution can be iterative and depend on the dataset and subsequent data analysis.
@@ -80,8 +81,8 @@
 							</li>
 							<li><span class="step-summary">
 								Data Analysis.
-									<span class="more">Details &darr;</span>
-									<span class="less">Fewer details &uarr;</span>
+								<span class="more">Details &darr;</span>
+								<span class="less">Fewer details &uarr;</span>
 								</span>
 								<p class="step-details">
 								Like anything else, the process of finding value in data and surfacing key insights requires a step by step process. First, we request a dataset. Structure is helpful, but we do not always require structured data as we have developed topic modeling techniques to add structure to otherwise unstructured data. We can use structured tabular data, or blobs of text with latent (hidden) structure. Parsed or not,  it does not matter. We clean, normalize, and structure data; we can even apply semantic indexing algorithms (e.g., LDA) to extract themes from blobs of text, which we can then use to inform column names and table structure. Once we have a dataset with which to work, we apply statistical routines (generally in R, or Octave) to derive mathematical expressions, and iterate on results until model predictive value yields diminishing marginal returns and model variables are significant.
@@ -89,8 +90,8 @@
 							</li>
 							<li><span class="step-summary">
 								API Development.
-									<span class="more">Details &darr;</span>
-									<span class="less">Fewer details &uarr;</span>
+								<span class="more">Details &darr;</span>
+								<span class="less">Fewer details &uarr;</span>
 								</span>
 								<p class="step-details">
 								Once a model is developed and its predictive value yields measurable value,
@@ -102,8 +103,8 @@
 							</li>
 							<li><span class="step-summary">
 								Documentation.
-									<span class="more">Details &darr;</span>
-									<span class="less">Fewer details &uarr;</span>
+								<span class="more">Details &darr;</span>
+								<span class="less">Fewer details &uarr;</span>
 								</span>
 								<p class="step-details">
 								It goes without saying, the entire process described here is thoroughly, and
@@ -115,16 +116,16 @@
 						</ol>
 						<a class="g-started" href="contact.php" target="_parent">Get Started Today >></a>
 					</div>
-				
+
+				</div>
 			</div>
 		</div>
-		</section>
+
 		<div class="full-width">
 			<!-- $FOOTER SECTION -->
 			<?php include('includes/footer.php') ?>
 		</div>
 		<!-- JAVASCRIPT IMPORTS -->
 		<?php include('includes/scripts.php'); ?>
-		<script src="js/services.js"></script>
 	</body>
 </html>

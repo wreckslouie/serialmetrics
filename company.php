@@ -27,8 +27,10 @@
 				</div>
 			</div>
 		</section>
+
 		<section class="gap">
 		</section>
+		
 		<div class="container-fluid">
 			<div class="row">
 				<section class="curtain team">

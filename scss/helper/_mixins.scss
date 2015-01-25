@@ -73,7 +73,12 @@
     }
 
     @else if $point == mobile-xs {
-        @media (max-width: 639px) {
+        @media (max-width: 320px) {
+            @content;
+        }
+    }
+    @else {
+        @media (max-width: $point) {
             @content;
         }
     }

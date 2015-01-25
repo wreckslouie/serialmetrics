@@ -2374,7 +2374,7 @@
 		"outputAbbreviatedPath": "\/images\/case_studies\/aaa_1.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/case_studies\/aaa_2.png": {
 		"fileType": 32768,
@@ -2385,7 +2385,7 @@
 		"outputAbbreviatedPath": "\/images\/case_studies\/aaa_2.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/case_studies\/aaa_3.png": {
 		"fileType": 32768,
@@ -2396,7 +2396,7 @@
 		"outputAbbreviatedPath": "\/images\/case_studies\/aaa_3.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/case_studies\/aaa_4.png": {
 		"fileType": 32768,
@@ -2407,7 +2407,7 @@
 		"outputAbbreviatedPath": "\/images\/case_studies\/aaa_4.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/case_studies\/aaa_5.png": {
 		"fileType": 32768,
@@ -2418,7 +2418,7 @@
 		"outputAbbreviatedPath": "\/images\/case_studies\/aaa_5.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/case_studies\/aaa_6.png": {
 		"fileType": 32768,
@@ -2429,7 +2429,7 @@
 		"outputAbbreviatedPath": "\/images\/case_studies\/aaa_6.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/case_studies\/aaa_7.png": {
 		"fileType": 32768,
@@ -2440,7 +2440,7 @@
 		"outputAbbreviatedPath": "\/images\/case_studies\/aaa_7.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/case_studies\/aaa_8.png": {
 		"fileType": 32768,
@@ -2451,7 +2451,7 @@
 		"outputAbbreviatedPath": "\/images\/case_studies\/aaa_8.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/case_studies\/eventbrite_1.jpg": {
 		"fileType": 16384,
@@ -2462,7 +2462,7 @@
 		"outputAbbreviatedPath": "\/images\/case_studies\/eventbrite_1.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/case_studies\/pencil_icon.png": {
 		"fileType": 32768,
@@ -2484,7 +2484,7 @@
 		"outputAbbreviatedPath": "\/images\/case_studies\/sycle_1.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/case_studies\/sycle_1.png": {
 		"fileType": 32768,
@@ -2495,7 +2495,7 @@
 		"outputAbbreviatedPath": "\/images\/case_studies\/sycle_1.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/case_studies\/sycle_2.png": {
 		"fileType": 32768,
@@ -2506,7 +2506,7 @@
 		"outputAbbreviatedPath": "\/images\/case_studies\/sycle_2.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/case_studies\/sycle_3.jpg": {
 		"fileType": 16384,
@@ -2517,7 +2517,7 @@
 		"outputAbbreviatedPath": "\/images\/case_studies\/sycle_3.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/case_studies\/sycle_3.png": {
 		"fileType": 32768,
@@ -2550,7 +2550,7 @@
 		"outputAbbreviatedPath": "\/images\/case_studies\/sycle_5.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/case_studies\/sycle_5.png": {
 		"fileType": 32768,
@@ -2561,7 +2561,7 @@
 		"outputAbbreviatedPath": "\/images\/case_studies\/sycle_5.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/case_studies\/sycle_6.png": {
 		"fileType": 32768,
@@ -2572,7 +2572,7 @@
 		"outputAbbreviatedPath": "\/images\/case_studies\/sycle_6.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/case_studies\/sycle_7.png": {
 		"fileType": 32768,
@@ -2583,7 +2583,7 @@
 		"outputAbbreviatedPath": "\/images\/case_studies\/sycle_7.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/client_page\/aaa.png": {
 		"fileType": 32768,
@@ -2594,7 +2594,7 @@
 		"outputAbbreviatedPath": "\/images\/client_page\/aaa.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/client_page\/actiance.png": {
 		"fileType": 32768,
@@ -2605,7 +2605,7 @@
 		"outputAbbreviatedPath": "\/images\/client_page\/actiance.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/client_page\/bank-of-america.png": {
 		"fileType": 32768,
@@ -2616,7 +2616,7 @@
 		"outputAbbreviatedPath": "\/images\/client_page\/bank-of-america.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/client_page\/eventbrite.png": {
 		"fileType": 32768,
@@ -2627,7 +2627,7 @@
 		"outputAbbreviatedPath": "\/images\/client_page\/eventbrite.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/client_page\/hang.png": {
 		"fileType": 32768,
@@ -2638,7 +2638,7 @@
 		"outputAbbreviatedPath": "\/images\/client_page\/hang.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/client_page\/harvard-business.png": {
 		"fileType": 32768,
@@ -2649,7 +2649,7 @@
 		"outputAbbreviatedPath": "\/images\/client_page\/harvard-business.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/client_page\/ibm.png": {
 		"fileType": 32768,
@@ -2671,7 +2671,7 @@
 		"outputAbbreviatedPath": "\/images\/client_page\/message.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/client_page\/path-to.png": {
 		"fileType": 32768,
@@ -2682,7 +2682,7 @@
 		"outputAbbreviatedPath": "\/images\/client_page\/path-to.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/client_page\/sf_bay.jpg": {
 		"fileType": 16384,
@@ -2693,7 +2693,7 @@
 		"outputAbbreviatedPath": "\/images\/client_page\/sf_bay.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/client_page\/swaylo.png": {
 		"fileType": 32768,
@@ -2704,7 +2704,7 @@
 		"outputAbbreviatedPath": "\/images\/client_page\/swaylo.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/client_page\/sycle.png": {
 		"fileType": 32768,
@@ -2715,7 +2715,7 @@
 		"outputAbbreviatedPath": "\/images\/client_page\/sycle.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/client_page\/topica.png": {
 		"fileType": 32768,
@@ -2726,7 +2726,7 @@
 		"outputAbbreviatedPath": "\/images\/client_page\/topica.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/client_page\/waypoint.png": {
 		"fileType": 32768,
@@ -2737,7 +2737,7 @@
 		"outputAbbreviatedPath": "\/images\/client_page\/waypoint.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/client_page\/wells-fargo.png": {
 		"fileType": 32768,
@@ -2748,7 +2748,7 @@
 		"outputAbbreviatedPath": "\/images\/client_page\/wells-fargo.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/client_page\/zipongo.png": {
 		"fileType": 32768,
@@ -2814,7 +2814,7 @@
 		"outputAbbreviatedPath": "\/images\/customers_page\/bank-of-america.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/customers_page\/eventbrite.png": {
 		"fileType": 32768,
@@ -2825,7 +2825,7 @@
 		"outputAbbreviatedPath": "\/images\/customers_page\/eventbrite.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/customers_page\/facebook.png": {
 		"fileType": 32768,
@@ -2836,7 +2836,7 @@
 		"outputAbbreviatedPath": "\/images\/customers_page\/facebook.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/customers_page\/fractal-sciences.png": {
 		"fileType": 32768,
@@ -2858,7 +2858,7 @@
 		"outputAbbreviatedPath": "\/images\/customers_page\/hang.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/customers_page\/harvard-business.png": {
 		"fileType": 32768,
@@ -2869,7 +2869,7 @@
 		"outputAbbreviatedPath": "\/images\/customers_page\/harvard-business.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/customers_page\/ibm.png": {
 		"fileType": 32768,
@@ -2891,7 +2891,7 @@
 		"outputAbbreviatedPath": "\/images\/customers_page\/identified.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/customers_page\/message-inverse.png": {
 		"fileType": 32768,
@@ -2902,7 +2902,7 @@
 		"outputAbbreviatedPath": "\/images\/customers_page\/message-inverse.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/customers_page\/message.png": {
 		"fileType": 32768,
@@ -2924,7 +2924,7 @@
 		"outputAbbreviatedPath": "\/images\/customers_page\/path-to.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/customers_page\/sf_bay.jpg": {
 		"fileType": 16384,
@@ -2935,7 +2935,7 @@
 		"outputAbbreviatedPath": "\/images\/customers_page\/sf_bay.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/customers_page\/swaylo.png": {
 		"fileType": 32768,
@@ -2946,7 +2946,7 @@
 		"outputAbbreviatedPath": "\/images\/customers_page\/swaylo.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/customers_page\/sycle.png": {
 		"fileType": 32768,
@@ -2957,7 +2957,7 @@
 		"outputAbbreviatedPath": "\/images\/customers_page\/sycle.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/customers_page\/topica.png": {
 		"fileType": 32768,
@@ -2968,7 +2968,7 @@
 		"outputAbbreviatedPath": "\/images\/customers_page\/topica.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/customers_page\/waypoint.png": {
 		"fileType": 32768,
@@ -2979,7 +2979,7 @@
 		"outputAbbreviatedPath": "\/images\/customers_page\/waypoint.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/customers_page\/wells-fargo.png": {
 		"fileType": 32768,
@@ -2990,7 +2990,7 @@
 		"outputAbbreviatedPath": "\/images\/customers_page\/wells-fargo.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/customers_page\/zipongo.png": {
 		"fileType": 32768,
@@ -3001,7 +3001,7 @@
 		"outputAbbreviatedPath": "\/images\/customers_page\/zipongo.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/home_page\/abacus-icon.png": {
 		"fileType": 32768,
@@ -3012,7 +3012,7 @@
 		"outputAbbreviatedPath": "\/images\/home_page\/abacus-icon.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/home_page\/background-graph-v3-pre-gradient.png": {
 		"fileType": 32768,
@@ -3034,7 +3034,7 @@
 		"outputAbbreviatedPath": "\/images\/home_page\/background-graph.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/home_page\/data_stack\/layers\/access.png": {
 		"fileType": 32768,
@@ -3067,7 +3067,7 @@
 		"outputAbbreviatedPath": "\/images\/home_page\/data_stack\/layers\/etl.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/home_page\/data_stack\/layers\/infrastructure.png": {
 		"fileType": 32768,
@@ -3078,7 +3078,7 @@
 		"outputAbbreviatedPath": "\/images\/home_page\/data_stack\/layers\/infrastructure.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/home_page\/data_stack\/layers\/machine_learning.png": {
 		"fileType": 32768,
@@ -3089,7 +3089,7 @@
 		"outputAbbreviatedPath": "\/images\/home_page\/data_stack\/layers\/machine_learning.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/home_page\/data_stack\/transparent\/layer1.png": {
 		"fileType": 32768,
@@ -3100,7 +3100,7 @@
 		"outputAbbreviatedPath": "\/images\/home_page\/data_stack\/transparent\/layer1.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/home_page\/data_stack\/transparent\/layer2.png": {
 		"fileType": 32768,
@@ -3111,7 +3111,7 @@
 		"outputAbbreviatedPath": "\/images\/home_page\/data_stack\/transparent\/layer2.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/home_page\/data_stack\/transparent\/layer3.png": {
 		"fileType": 32768,
@@ -3144,7 +3144,7 @@
 		"outputAbbreviatedPath": "\/images\/home_page\/data_stack\/transparent\/layer5.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/home_page\/down-arrow.png": {
 		"fileType": 32768,
@@ -3155,7 +3155,7 @@
 		"outputAbbreviatedPath": "\/images\/home_page\/down-arrow.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/home_page\/gear-icon.png": {
 		"fileType": 32768,
@@ -3177,7 +3177,7 @@
 		"outputAbbreviatedPath": "\/images\/home_page\/navigation-icon.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/home_page\/network-orange-circles.png": {
 		"fileType": 32768,
@@ -3188,7 +3188,7 @@
 		"outputAbbreviatedPath": "\/images\/home_page\/network-orange-circles.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/home_page\/network.png": {
 		"fileType": 32768,
@@ -3199,7 +3199,7 @@
 		"outputAbbreviatedPath": "\/images\/home_page\/network.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/home_page\/networked-flipped.png": {
 		"fileType": 32768,
@@ -3221,7 +3221,7 @@
 		"outputAbbreviatedPath": "\/images\/home_page\/path-icon.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/home_page\/plug-icon.png": {
 		"fileType": 32768,
@@ -3232,7 +3232,7 @@
 		"outputAbbreviatedPath": "\/images\/home_page\/plug-icon.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/home_page\/pricing-icon.png": {
 		"fileType": 32768,
@@ -3243,7 +3243,7 @@
 		"outputAbbreviatedPath": "\/images\/home_page\/pricing-icon.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/home_page\/recommendations-icon.png": {
 		"fileType": 32768,
@@ -3254,7 +3254,7 @@
 		"outputAbbreviatedPath": "\/images\/home_page\/recommendations-icon.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/home_page\/relations-icon.png": {
 		"fileType": 32768,
@@ -3265,7 +3265,7 @@
 		"outputAbbreviatedPath": "\/images\/home_page\/relations-icon.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/home_page\/share-icon.png": {
 		"fileType": 32768,
@@ -3276,7 +3276,7 @@
 		"outputAbbreviatedPath": "\/images\/home_page\/share-icon.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/home_page\/top-layer.png": {
 		"fileType": 32768,
@@ -3287,7 +3287,7 @@
 		"outputAbbreviatedPath": "\/images\/home_page\/top-layer.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/modules_page\/modules_icon.png": {
 		"fileType": 32768,
@@ -3298,7 +3298,7 @@
 		"outputAbbreviatedPath": "\/images\/modules_page\/modules_icon.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/orion_page\/orion.png": {
 		"fileType": 32768,
@@ -3309,7 +3309,7 @@
 		"outputAbbreviatedPath": "\/images\/orion_page\/orion.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/products_page\/db_icon.png": {
 		"fileType": 32768,
@@ -3320,7 +3320,7 @@
 		"outputAbbreviatedPath": "\/images\/products_page\/db_icon.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/services_page\/ferry-building.jpg": {
 		"fileType": 16384,
@@ -3331,7 +3331,7 @@
 		"outputAbbreviatedPath": "\/images\/services_page\/ferry-building.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/services_page\/graph-inverse.png": {
 		"fileType": 32768,
@@ -3342,7 +3342,7 @@
 		"outputAbbreviatedPath": "\/images\/services_page\/graph-inverse.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/services_page\/graph.png": {
 		"fileType": 32768,
@@ -3353,7 +3353,7 @@
 		"outputAbbreviatedPath": "\/images\/services_page\/graph.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/includes\/footer.php": {
 		"fileType": 8192,
@@ -3464,6 +3464,17 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/js\/min\/script-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/min\/script-min.js",
+		"outputAbbreviatedPath": "\/js\/min\/min\/script-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/js\/min\/services-min.js": {
 		"fileType": 64,
 		"ignore": 1,
@@ -3503,6 +3514,17 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/services.js",
 		"outputAbbreviatedPath": "\/js\/min\/services-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/vendor\/bootstrap.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/vendor\/bootstrap.min.js",
+		"outputAbbreviatedPath": "\/js\/vendor\/min\/bootstrap.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -3847,101 +3869,11 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/styles\/blog.css": {
-		"fileType": 16,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/styles\/blog.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/styles\/case_studies.css": {
-		"fileType": 16,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/styles\/case_studies.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/styles\/clients.css": {
-		"fileType": 16,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/styles\/clients.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/styles\/company.css": {
-		"fileType": 16,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/styles\/company.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/styles\/contact.css": {
-		"fileType": 16,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/styles\/contact.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/styles\/customers.css": {
-		"fileType": 16,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/styles\/customers.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/styles\/home.css": {
-		"fileType": 16,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/styles\/home.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/styles\/ie.css": {
 		"fileType": 16,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/styles\/ie.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/styles\/main.css": {
-		"fileType": 16,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/styles\/main.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/styles\/modules.css": {
-		"fileType": 16,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/styles\/modules.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/styles\/orion.css": {
-		"fileType": 16,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/styles\/orion.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -3960,15 +3892,6 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/styles\/screen.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/styles\/services.css": {
-		"fileType": 16,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/styles\/services.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0

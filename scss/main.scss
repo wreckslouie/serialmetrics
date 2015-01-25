@@ -162,7 +162,7 @@ body.white nav .dropdown ul.dropdown-menu {
     background: #464c57;
     box-shadow: 0 0 0 0;
     border: 1px solid #464c57;
-    border-radius: 0 0 8px 8px;
+    border-radius: 0 4px 0 4px;
     margin-left: 15px;
 }
 
@@ -236,6 +236,16 @@ img.ico-geo-inference {
 /** Collapse Nav **/
 #footer .collapse-nav {
     display: none;
+
+    @include breakpoint(phablet) {
+        display: block;
+    }
+
+    .dropdown-menu {
+        @include breakpoint(phablet) {
+            left: 32.5%;
+        }
+    }
 }
 
 #footer .collapse-nav button {
@@ -251,6 +261,10 @@ img.ico-geo-inference {
     box-shadow: 0 0 0 0;
     border-radius: 0;
     margin-left: 34px;
+
+    @include breakpoint(480px) {
+        left: 30%;
+    }
 }
 
 #footer .collapse-nav .dropdown-menu li > a {
@@ -269,6 +283,10 @@ img.ico-geo-inference {
 /** Default Nav **/
 #footer .footer-nav {
     padding: 0;
+
+    @include breakpoint(phablet) {
+        display: none;
+    }
 }
 
 #footer .footer-nav ul > li {
@@ -299,13 +317,14 @@ img.ico-geo-inference {
 # 640X480 (IPAD) #
 ####################
 */
-@media (max-width: 660px) {
+@media (max-width: 640px) {
     /*************
       TOP SIDE-NAV
       *************/
     /** Default version **/
     body .nav-menu {
         // height: 85px;
+   
     }
 
     nav .dropdown {
@@ -333,7 +352,8 @@ img.ico-geo-inference {
 
     body.white nav .dropdown ul.dropdown-menu {
         margin-left: 49px;
-        border-radius: 0 0 20px 20px;
+        // border-radius: 0 0 20px 20px;
+   
     }
 
     body.white nav .dropdown ul.dropdown-menu li a {
@@ -392,24 +412,20 @@ img.ico-geo-inference {
     //   *******
     // #footer {}
 
-    // #footer .footer-nav ul {
-    //     text-align: center;
-    // }
+    #footer .footer-nav ul {
+        text-align: center;
+    }
 
-    // #footer .footer-nav ul > li {
-    //     display: inline-block;
-    //     margin: 0 5px;
-    // }
+    #footer .footer-nav ul > li {
+        display: inline-block;
+        margin: 0 5px;
+    }
 
-    // #footer .footer-company > div {
-    //     display: inline-block;
-    //     letter-spacing: 0.125em;
-    //     word-spacing: 0;
-    // }
-    /*******
-      FOOTER
-      ********/
-    #footer {}
+    #footer .footer-company > div {
+        display: inline-block;
+        letter-spacing: 0.125em;
+        word-spacing: 0;
+    }
 
     #footer .collapse-nav {
         display: block;
@@ -563,30 +579,25 @@ img.ico-geo-inference {
         }
     }
 
-    // #footer .footer-nav {
-    //     display: none;
-    // }
+    #footer .footer-company div {
+        border: none;
+        padding: 0;
+    }
 
-    // #footer .footer-company div {
-    //     border: none;
-    //     padding: 0;
-    // }
+    #footer .footer-company div:nth-child(1) {
+        font-size: 1.23em;
+        letter-spacing: 0.19em;
+        line-height: 0.8em;
+        text-transform: uppercase;
+        word-spacing: 0;
+    }
 
-    // #footer .footer-company div:nth-child(1) {
-    //     font-size: 1.23em;
-    //     letter-spacing: 0.19em;
-    //     line-height: 0.8em;
-    //     text-transform: uppercase;
-    //     word-spacing: 0;
-    // }
-
-    // #footer .footer-company div:nth-child(2) {
-    //     font-size: 0.8em;
-    //     letter-spacing: 0.1em;
-    //     line-height: 2.1em;
-    //     word-spacing: 0;
-    // }
-    body.white #footer {}
+    #footer .footer-company div:nth-child(2) {
+        font-size: 0.8em;
+        letter-spacing: 0.1em;
+        line-height: 2.1em;
+        word-spacing: 0;
+    }
 
     body.white #footer .collapse-nav button {
         color: #464c57;

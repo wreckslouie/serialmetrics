@@ -83,11 +83,11 @@
                 display: inline-block;
                 vertical-align: bottom;
                 margin: 0 auto;
-                max-width: 54px;
+                max-width: 62px;
 
                 @include breakpoint(mobile-xs) {
                     margin-top: 10px;
-                    max-width: 24px;
+                    max-width: 26px;
                 }
             }
         }
@@ -100,7 +100,7 @@
                 text-transform: none;
                 text-align: left;
                 margin-top: 0;
-                font-size: 1.8em;
+                font-size: 1.9em;
                 line-height: 1.8em;
 
                 @include breakpoint(phablet-sm) {
@@ -138,10 +138,14 @@
         	}
         }
         >.list-unstyled{
-        	padding-left: 80px;
+        	padding-left: 50px;
+            @include breakpoint(mobile){
+                padding-left: 10px;
+            }
         	li{
         		font-size: 1.2em;
         		line-height: 1.5em;
+                margin-bottom: 10px;
         	}
 
        }

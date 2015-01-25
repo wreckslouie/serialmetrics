@@ -15,7 +15,8 @@
 			</ul>
 		</div>
 		<div class="btn-group hidden-md hidden-lg">
-			<a href="index.php" class="btn btn-link">Serial Metrics</button>
+
+			<a href="index.php" class="btn">Serial Metrics</button>
 				<a href="#" class="btn btn-link dropdown-toggle drop-down" data-toggle="dropdown" aria-expanded="false">
 					<span class="sr-only">Toggle Dropdown</span>
 				</a>

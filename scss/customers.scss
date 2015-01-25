@@ -10,27 +10,27 @@ body {
 
 body {
     &.white {
-        nav {
-            .dropdown ul.dropdown-menu {
-                z-index: -10;
-                margin-left: 0;
-                padding-top: 15px;
-                padding-left: 0;
-                padding-right: 0;
-                left: auto;
-                min-width: 158px;
-                margin-top: -16px;
-            }
+    //     nav {
+    //         .dropdown ul.dropdown-menu {
+    //             z-index: -10;
+    //             margin-left: 0;
+    //             padding-top: 15px;
+    //             padding-left: 0;
+    //             padding-right: 0;
+    //             left: auto;
+    //             min-width: 158px;
+    //             margin-top: -16px;
+    //         }
 
-            .btn-group .dropdown-menu {
-                @include breakpoint(mobile-xs) {
-                    z-index: -10;
-                    margin-top: -24px;
-                    padding-top: 20px;
-                    padding-bottom: 10px;
-                }
-            }
-        }
+    //         .btn-group .dropdown-menu {
+    //             @include breakpoint(mobile-xs) {
+    //                 z-index: -10;
+    //                 margin-top: -24px;
+    //                 padding-top: 20px;
+    //                 padding-bottom: 10px;
+    //             }
+    //         }
+    //     }
 
         .side-nav {
             @include breakpoint(phablet-sm) {
@@ -50,8 +50,8 @@ body {
     padding: 60px 0;
 
     .main-content {
-        @include make-xs-column(8);
-        @include make-xs-column-offset(2);
+        @include make-sm-column(8);
+        @include make-sm-column-offset(2);
 
         .page-icon {
             width: 140px;
@@ -103,5 +103,9 @@ body {
 
     #footer {
         background-color: #fff;
+
+        @include breakpoint(phablet-sm){
+            left: 15%;
+        }
     }
 }

@@ -20,7 +20,7 @@
 					</div>
 				</div>
 
-				<div class="footer-nav col-sm-12">
+				<div class="footer-nav col-md-12">
 					<ul class="navbar-nav">
 						<li><a href="company.php">company</a></li>
 						<li>&bull;</li>
