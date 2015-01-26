@@ -198,8 +198,10 @@
 }
 
 #datastack .layers {
-    margin-left: 215px;
+    margin-left: 15%;
     height: 505px;
+
+    
 }
 
 #datastack .layers div {
@@ -243,6 +245,9 @@
 }
 
 #datastack .layers div > img {
+    display: block;
+    // margin-left: auto;
+    // margin-right: auto;
     width: 100%;
 }
 
@@ -396,7 +401,7 @@
     }
 
     #datastack .layers {
-        margin-left: 120px;
+        margin-left: 0;
         height: 300px;
     }
 
@@ -545,7 +550,7 @@
     }
 
     #datastack .layers {
-        margin-left: 55px;
+        margin-left: 0;
         height: 170px;
     }
 

@@ -28,7 +28,7 @@
                     <div class="page-icon">
                         <img src="images/home_page/share-icon.png" alt="">
                     </div>
-                    <h1 class="page-title">Matching Algorithms</h1>
+                   <h1 class="page-title">Matching Algorithms</h1>
                     <p>Whether your customers are looking for Mr. or Ms. Right or searching for a new job, 
                     they know that finding the right match can be costly and time-consuming. A dating app 
                     recommends a match based on superficial interests, but after an expensive evening out 

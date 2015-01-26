@@ -29,7 +29,6 @@
                         <img src="images/home_page/navigation-icon.png" alt="">
                     </div>
                     <h1 class="page-title">Geo Inference - Locate Users, Spot-on</h1>
-                    
                     <p>Optimize your users’ experience based on location as well as preferences. Knowing the location data of your customers helps you provide more tailored services. Whether you deliver fresh cuisine, offer a mobile app for travelers, or seek to bring more locals to your small town shop, locating users can give you a distinct advantage.</p>
                     <p>Orion finds key information about where your customers live and where they spend their time. We can tell you their zip codes, commute times, even their next travel destinations. With this data you can customize your offerings to meet their unique needs. Delight your customers with a more personalized experience of your brand.</p>
                     <div class="content">

@@ -29,7 +29,6 @@
                         <img src="images/home_page/relations-icon.png" alt="">
                     </div>
                     <h1 class="page-title">Intelligent Promotions</h1>
-
                     <p>Promotions and discounts are powerful tools, but you don’t need to offer discounts and deals to every customer to inspire sales. The key lies in knowing which customers to target with your promotions.</p>
                     <p>Orion reduces the cost of your promotional campaigns and increases their effectiveness. Our system scans user-specific data to find the customers most likely to respond to promotions, especially the ones who won’t make a purchase without a deal. By offering targeted promotions to the right customers, you’ll keep your margins high, avoid needless revenue losses, and keep your brand integrity intact.</p>
                     <div class="content">

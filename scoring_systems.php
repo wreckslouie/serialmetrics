@@ -22,14 +22,13 @@
     </section>
     <section>
         <div class="container">
-            <dic class="row">
+            <div class="row">
             <div class="center-block">
                 <div class="main-content">
                     <div class="page-icon">
                         <img src="images/home_page/abacus-icon.png" alt="">
                     </div>
-                    <h1 class="page-title">Scoring Systems</h1>
-                    
+                    <h1 class="page-title">Scoring Systems</h1>             
                     <p>Identifying promising leads can be a gamble. Without effective use of data, you may end up wasting valuable time and resources presenting your products and services to those who will never make it to the closing stage.</p>
                     <p>Minimize the risk with Orion. Orion uses the data collected from your leads to accurately predict which potential buyers are most likely to make a purchase. Orion also identifies the customers most loyal to your brand, which ones may stray to the competition, and what drives your buyers’ behavior. Plus, all of the value scores assigned to your leads and customers will be updated in real time, immediately tracking new data from new leads. You’ll know which leads to chase and which customers to prioritize, without any uncertainty.</p>
                     <div class="content">
@@ -50,7 +49,7 @@
                     </div>
                 </div>
             </div>
-            </dic>
+            </div>
         </div>
     </section>
     <!-- $FOOTER SECTION -->

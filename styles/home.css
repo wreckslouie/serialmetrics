@@ -80,7 +80,7 @@
             display: table; }
           #modules .modules-wrapper .module:after {
             clear: both; } }
-      @media (max-width: 639px) {
+      @media (max-width: 320px) {
         #modules .modules-wrapper .module {
           position: relative;
           float: left;
@@ -172,7 +172,7 @@
   padding-bottom: 10px; }
 
 #datastack .layers {
-  margin-left: 215px;
+  margin-left: 15%;
   height: 505px; }
 
 #datastack .layers div {
@@ -207,6 +207,7 @@
   width: 70.9%; }
 
 #datastack .layers div > img {
+  display: block;
   width: 100%; }
 
 /**************
@@ -301,7 +302,7 @@
     width: 36%; }
 
   #datastack .layers {
-    margin-left: 120px;
+    margin-left: 0;
     height: 300px; }
 
   #datastack .layers div .stack {
@@ -396,7 +397,7 @@
     width: inherit; }
 
   #datastack .layers {
-    margin-left: 55px;
+    margin-left: 0;
     height: 170px; }
 
   #datastack .layers div .stack {
