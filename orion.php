@@ -9,6 +9,7 @@
         <title>Modules</title>
         <?php include('includes/head_links.php'); ?>
         <link rel="stylesheet" type="text/css" href="styles/modules.css">
+        <script type="text/javascript">var _kmq = _kmq || []; var _kmk = _kmk || '01a16ed3239af3fe13f608ce33b60e13d5109d1e'; function _kms(u){ setTimeout(function(){ var d = document, f = d.getElementsByTagName('script')[0], s = d.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = u; f.parentNode.insertBefore(s, f); }, 1); } _kms('//i.kissmetrics.com/i.js'); _kms('//doug1izaerwt3.cloudfront.net/' + _kmk + '.1.js'); </script>
     </head>
     <body>
         <!-- $MAIN_NAV -->
@@ -36,6 +37,8 @@
                         <p>Orion is a layered analytics platform for businesses, which makes use of your data to offer various types of predictions. The Orion platform is a highly portable, real-time, analytics solution that takes your raw data and generates valuable, predictive, insights without the need for hiring a data scientist.</p>
 
                         <p>You can think of Orion as a virtual assembly line that processes your data in several steps (or layers), churning out - not just predictions from your data - but rather a well trained system that can make predictions from your data.</p>
+                        
+                        <img src = "images/orion_page/site_servers.png" class = "fit-img">
 
                         <h2>How Does it Work?</h2>
 
@@ -50,6 +53,8 @@
                             </ul>
                         <p>In three simple steps, you go from raw data to a predictive model.</p>
                         <p>Once additional data are written to your database, Orion will process the new rows of data and write a score to a final “probability” table.</p>
+
+                        <img src = "images/orion_page/intelligent_system.png" class = "fit-img">
 
                         <h2>How Complicated is It?</h2>
                         <p>The goal of Orion is to remove the complexities of Data Science from your development cycle. Interfacing with Orion, is as simple as writing a SELECT statement.</p>

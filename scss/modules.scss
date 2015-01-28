@@ -85,6 +85,11 @@
                 margin: 0 auto;
                 max-width: 62px;
 
+                @include breakpoint(mobile-sm) {
+                    margin-top: 10px;
+                    max-width: 85%;
+                }
+
                 @include breakpoint(mobile-xs) {
                     margin-top: 10px;
                     max-width: 26px;
@@ -156,4 +161,9 @@
         line-height: 2em;
         font-size: 1.2em;
     }
+}
+
+
+.fit-img{
+    width:100%
 }

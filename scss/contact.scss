@@ -1,3 +1,18 @@
+
+/* Bootstrap */
+@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap";
+
+// Variables
+@import "variables";
+
+/* END Bootstrap */
+
+//Mixins
+@import "helper/mixins";
+
+/* Common */
+@import "universal";
+
 @import 'dark_inside_pages';
 
 .response{
@@ -41,17 +56,14 @@
 	}
 
 	input{
-		width: 330px;
+		width: 100%;
 		margin-bottom:20px;
 		padding: 15px 25px;
-		font-size: 1em;
-		&:nth-child(2), &:nth-child(4){
-			margin-right: 80px;
-		}
+		font-size: 1em; 
 	}
-
+ 
 	textarea{
-		width: 330px;
+		width: 100%;
 		height: 200px;
 		font-size: 1em;
 		padding: 15px 25px;
@@ -66,5 +78,10 @@
 		margin: 20px 0 0 2px;
 		font-family: 'Raleway',sans-serif;
 		font-weight: 100;
+	}
+
+	@include breakpoint(mobile-sm){
+		width: 100%;
+		padding:5%;
 	}
 }

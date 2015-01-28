@@ -1,6 +1,19 @@
-@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_variables.scss";
-@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/*";
+/* Bootstrap */
+@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap";
+
+// Variables
+@import "variables";
+
+/* END Bootstrap */
+
+//Mixins
 @import "helper/mixins";
+
+/* Common */
+@import "universal";
+
+@import 'dark_inside_pages';
+
 
 /****************
     TITLE SECTION
@@ -80,13 +93,17 @@
             font-size: 0.9em;
             line-height: 1.7em;
             padding: 25px 0;
+            min-height: 300px;
 
             @include breakpoint(phablet-sm) {
-                @include make-xs-column(6);
-                @include clearfix;
+                position: relative;
+                float: none;
+                width: 45%;
+                display: inline-block;
+                vertical-align: top;
             }
 
-            @include breakpoint(mobile-xs) {
+            @include breakpoint(mobile-sm) {
                 @include make-xs-column(12);
             }
         }
@@ -255,12 +272,18 @@
     MAP SECTION
 **************/
 
-#map {}
-
-#map #map-canvas {
-    height: 100%;
-    min-height: 400px;
-}
+#map{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    #map-canvas {
+        height: 100%;
+        min-height: 400px;
+        width: 100%; 
+        margin: 0;
+        padding: 0;
+    }
+} 
 
 /*
 ####################
