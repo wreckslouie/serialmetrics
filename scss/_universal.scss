@@ -217,6 +217,12 @@ nav {
         padding-left: 15px;
         padding-right: 0;
         left: -28px;
+        @include breakpoint(phablet-sm){
+            a{
+                font-size: 20px;
+            }
+
+        }
     }
 
     @include breakpoint(tablet) {

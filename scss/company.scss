@@ -22,9 +22,6 @@ body .side-nav {
         left: 0;
         right: 0;
         bottom: 0;
-        background-image: url("../images/customers_page/sf_bay.jpg");
-        background-size: cover;
-        background-repeat: no-repeat;
     }
 
     .wrap {
@@ -69,6 +66,10 @@ body .side-nav {
         height: 600px;
         display: block;
         // position: relative;
+        background-image: url("../images/customers_page/sf_bay.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
 
         @include breakpoint(mobile) {
             height: 950px;
