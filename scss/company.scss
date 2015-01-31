@@ -71,6 +71,12 @@ body .side-nav {
         background-repeat: no-repeat;
         background-position: center;
 
+        @include breakpoint(phablet) {
+            background-image: url("../images/customers_page/sf_bay-768.jpg");
+            background-position: bottom;
+            background-size: contain;
+        }
+
         @include breakpoint(mobile) {
             height: 950px;
         }

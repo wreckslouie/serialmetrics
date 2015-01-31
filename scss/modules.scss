@@ -128,12 +128,12 @@
         >h1{
         	font-size: 2em;
         }
-        >h2{
+        >h2, .how-intro h2,  .how-content h2{
         	font-size: 1.6em;
         	text-transform: none;
         	margin-top: 30px;
         }
-        >p{
+        >p, .how-intro p, .how-content p{
         	font-size: 1.2em;
         	line-height: 1.5em;
         	padding-top: 25px;
@@ -157,7 +157,7 @@
        }
     }
 
-    > p {
+    > p, .how-intro p,  .how-content p{
         padding-top: 25px;
         line-height: 2em;
         font-size: 1.2em;
@@ -167,4 +167,26 @@
 
 .fit-img{
     width:100%
+}
+
+
+.how-intro {
+    cursor: pointer;
+
+    a {
+        color: $lighter-gray;
+
+        &.more, &.less {
+            display: block;
+        }
+
+        &.less {
+            display: none;
+        }
+    }
+}
+
+
+.how-content {
+    display: none;
 }

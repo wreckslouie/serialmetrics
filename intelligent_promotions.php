@@ -33,20 +33,28 @@
                     <p>Promotions and discounts are powerful tools, but you don’t need to offer discounts and deals to every customer to inspire sales. The key lies in knowing which customers to target with your promotions.</p>
                     <p>Orion reduces the cost of your promotional campaigns and increases their effectiveness. Our system scans user-specific data to find the customers most likely to respond to promotions, especially the ones who won’t make a purchase without a deal. By offering targeted promotions to the right customers, you’ll keep your margins high, avoid needless revenue losses, and keep your brand integrity intact.</p>
                     <div class="content">
-                        <h1>HOW TO WORK WITH SERIAL METRICS</h1>
-                        <p>Technology is most powerful when it’s easy to use. That’s why we’ve streamlined our process to make working with Serial Metrics truly effortless.</p>
-                        <h2>Integrating Orion</h2>
-                        <p>Integration simply requires loading our Java SDK, which scans your databases for relevant and predicatively valuable features.</p>
 
-                        <h2>Learning About Users</h2>
-                        <p>Next, our system develops a starting model based on the column variables taken straight from your database. Orion will build upon this foundation as it learns more from your data.</p>
+                        <div class="how-intro">
+                            <h1>HOW TO WORK WITH SERIAL METRICS</h1>
+                            <p>Technology is most powerful when it’s easy to use. That’s why we’ve streamlined our process to make working with Serial Metrics truly effortless.</p>
+                            <h2>Integrating Orion</h2>
+                            <p>Integration simply requires loading our Java SDK, which scans your databases for relevant and predicatively valuable features.</p>
+                            </p>
+                            <a class="more">Read on...</a>
+                            <a class="less">Show less...</a>
+                        </div>
 
-                        <h2>Fine-tuning Predictions</h2>
-                        <p>To make sure that our predictive models are as maximally effective, we hone the parameters of your starting model to minimize the occurrence of type-1 and type-2 statistical errors. Orion gives you only the most accurate, high quality results.</p>
+                        <div class="how-content">
+                            <h2>Learning About Users</h2>
+                            <p>Next, our system develops a starting model based on the column variables taken straight from your database. Orion will build upon this foundation as it learns more from your data.</p>
 
-                        <h2>Deploying Results</h2>
-                        <p>The newly perfected model will deploy an API that simultaneously checks your database for new users and looks back at the data of old users to see if their preferences or activity has changed. Based on this new information, Orion assigns scores and puts them into a ‘propensity’ table. This table will give you a clear view of Orion’s findings and your most important data at a glance. After creating the table, Orion allows you to easily search it for matches.</p>
-                        <p>For more information on how to make the most of your data with Orion, contact us today. Our team of friendly experts will be happy to guide you through the start-up process. You have the data: let Serial Metrics help you maximize your results.</p>
+                            <h2>Fine-tuning Predictions</h2>
+                            <p>To make sure that our predictive models are as maximally effective, we hone the parameters of your starting model to minimize the occurrence of type-1 and type-2 statistical errors. Orion gives you only the most accurate, high quality results.</p>
+
+                            <h2>Deploying Results</h2>
+                            <p>The newly perfected model will deploy an API that simultaneously checks your database for new users and looks back at the data of old users to see if their preferences or activity has changed. Based on this new information, Orion assigns scores and puts them into a ‘propensity’ table. This table will give you a clear view of Orion’s findings and your most important data at a glance. After creating the table, Orion allows you to easily search it for matches.</p>
+                            <p>For more information on how to make the most of your data with Orion, contact us today. Our team of friendly experts will be happy to guide you through the start-up process. You have the data: let Serial Metrics help you maximize your results.</p>
+                        </div>
                     </div>
                 </div>
             </div>

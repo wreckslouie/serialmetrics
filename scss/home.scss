@@ -269,6 +269,22 @@
 }
 
 /**************
+    Data layer replacement
+**************/
+.round-metric{
+    text-align: center;
+    img{
+        width: 60%;
+
+        @include breakpoint(tablet){
+            width: 80%;
+        }
+
+    }
+}
+
+
+/**************
     MAP SECTION
 **************/
 

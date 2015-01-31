@@ -40,7 +40,7 @@
 					<div class="modules-wrapper text-center">
 						<!-- Modules -->
 						<div class="col-xs-4 module">
-							<a href="modules.php#matching-algorithms">
+							<a href="matching_algorithms.php">
 								<div class="module-image">
 									<img src="images/home_page/share-icon.png" class="ico-share">
 								</div>
@@ -49,7 +49,7 @@
 							</a>
 						</div>
 						<div class="module">
-							<a href="modules.php#dynamic-pricing">
+							<a href="dynamic_pricing.php">
 								<div class="module-image">
 									<img src="images/home_page/pricing-icon.png" class="ico-pricing">
 								</div>
@@ -58,7 +58,7 @@
 							</a>
 						</div>
 						<div class="module">
-							<a href="modules.php#recommendation-systems">
+							<a href="recommendation_systems.php">
 								<div class="module-image">
 									<img src="images/home_page/recommendations-icon.png" class="ico-recommend">
 								</div>
@@ -68,7 +68,7 @@
 						</div>
 						
 						<div class="module">
-							<a href="modules.php#text-classification">
+							<a href="text_classification.php">
 								<div class="module-image">
 									<img src="images/home_page/gear-icon.png" class="ico-gear">
 								</div>
@@ -77,7 +77,7 @@
 							</a>
 						</div>
 						<div class="module">
-							<a href="modules.php#intelligent-promotions">
+							<a href="intelligent_promotions.php">
 								<div class="module-image">
 									<img src="images/home_page/relations-icon.png" class="ico-relations">
 								</div>
@@ -87,7 +87,7 @@
 							</a>
 						</div>
 						<div class="module">
-							<a href="modules.php#scoring-systems">
+							<a href="scoring_systems.php">
 								<div class="module-image">
 									<img src="images/home_page/abacus-icon.png" class="ico-abacus">
 								</div>
@@ -160,27 +160,8 @@
 									<h1>A Packaged Solution Custom to Your Data</h1>
 								</div>
 							</div>
-							<div class="layers col-md-10 col-md-offset-2">
-								<div>
-									<img src="images/home_page/data_stack/transparent/layer5.png" class="transparent"/>
-									<img src="images/home_page/data_stack/layers/api.png" class="stack" />
-								</div>
-								<div>
-									<img src="images/home_page/data_stack/transparent/layer4.png" class="transparent" />
-									<img src="images/home_page/data_stack/layers/machine_learning.png" class="stack">
-								</div>
-								<div>
-									<img src="images/home_page/data_stack/transparent/layer3.png" class="transparent" />
-									<img src="images/home_page/data_stack/layers/access.png" class="stack">
-								</div>
-								<div>
-									<img src="images/home_page/data_stack/transparent/layer2.png" class="transparent" />
-									<img src="images/home_page/data_stack/layers/machine_learning.png" class="stack">
-								</div>
-								<div>
-									<img src="images/home_page/data_stack/transparent/layer1.png" class="transparent" />
-									<img src="images/home_page/data_stack/layers/machine_learning.png" class="stack">
-								</div>
+							<div class="round-metric">
+								<img src="images/home_page/sm_home_page_graphic.png" class="">
 							</div>
 						</div>
 					</div>

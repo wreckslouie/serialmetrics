@@ -38,7 +38,7 @@
 
                         <p>You can think of Orion as a virtual assembly line that processes your data in several steps (or layers), churning out - not just predictions from your data - but rather a well trained system that can make predictions from your data.</p>
                         
-                        <img src = "images/orion_page/site_servers.png" class = "fit-img">
+                        <img src = "images/orion_page/orion_graphic_1.png" class = "fit-img">
 
                         <h2>How Does it Work?</h2>
 
@@ -54,7 +54,7 @@
                         <p>In three simple steps, you go from raw data to a predictive model.</p>
                         <p>Once additional data are written to your database, Orion will process the new rows of data and write a score to a final “probability” table.</p>
 
-                        <img src = "images/orion_page/intelligent_system.png" class = "fit-img">
+                        <img src = "images/orion_page/orion_graphic_2.png" class = "fit-img">
 
                         <h2>How Complicated is It?</h2>
                         <p>The goal of Orion is to remove the complexities of Data Science from your development cycle. Interfacing with Orion, is as simple as writing a SELECT statement.</p>
