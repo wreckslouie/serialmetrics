@@ -162,6 +162,49 @@
         line-height: 2em;
         font-size: 1.2em;
     }
+
+    .tab-table {
+        margin-top: 90px;
+        .nav-tabs{
+            border: 2px solid white;
+            border-radius: 8px;
+            >li{            
+                width: 25%;
+                text-align: center;
+                >a{
+                    background:none;
+                    border: none;
+                    color: #fff;
+                    padding: 25px;
+
+                    &:hover{
+                        background:none;
+                        border: none;
+                        color: #fff;
+                    }
+
+                }
+
+                &.active{
+                    a{
+                        background:none;
+                        border: none;
+                        color: #fff;
+                        text-transform: uppercase;
+
+                    }
+                }
+            }
+        }
+
+        .tab-content{
+            width: 50%;
+            margin: 45px auto 0;
+            text-align: left;
+            font-size: 1.2em;
+            line-height: 1.5em;
+        }
+    }
 }
 
 
@@ -176,7 +219,7 @@
     a {
         color: $lighter-gray;
 
-        &.more, &.less {
+        &.more, &.less { 
             display: block;
         }
 
